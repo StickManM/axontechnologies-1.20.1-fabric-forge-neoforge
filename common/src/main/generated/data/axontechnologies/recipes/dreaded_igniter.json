@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:mimicarium_igniter"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "V": {
+      "item": "axontechnologies:voidstone"
+    }
+  },
+  "pattern": [
+    "FVF",
+    "V#V",
+    "FVF"
+  ],
+  "result": {
+    "item": "axontechnologies:dreaded_igniter"
+  },
+  "show_notification": true
+}

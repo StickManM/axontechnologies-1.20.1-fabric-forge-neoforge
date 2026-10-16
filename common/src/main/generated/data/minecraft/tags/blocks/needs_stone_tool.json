@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:thundered_stone",
+    "axontechnologies:corrupted_stone",
+    "axontechnologies:fakestone_iron_ore",
+    "axontechnologies:fakeslate_iron_ore",
+    "axontechnologies:octuple_compressed_cobblestone"
+  ]
+}

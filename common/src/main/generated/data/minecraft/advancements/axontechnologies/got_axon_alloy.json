@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:axontechnologies/got_dark_essence",
+  "criteria": {
+    "got_axon_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:axon_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.axontechnologies.get_axon_alloy.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_axon_alloy.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_axon_alloy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

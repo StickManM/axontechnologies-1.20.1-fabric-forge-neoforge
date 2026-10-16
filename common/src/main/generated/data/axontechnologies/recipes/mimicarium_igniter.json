@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:mimicarium"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " F#",
+    " SF",
+    "S  "
+  ],
+  "result": {
+    "item": "axontechnologies:mimicarium_igniter"
+  },
+  "show_notification": true
+}

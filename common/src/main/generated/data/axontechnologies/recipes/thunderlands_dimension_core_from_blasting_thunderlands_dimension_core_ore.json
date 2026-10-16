@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 2000.0,
+  "group": "dimension_core",
+  "ingredient": {
+    "item": "axontechnologies:thunderlands_dimension_core_ore"
+  },
+  "result": "axontechnologies:thunderlands_dimension_core"
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:axontechnologies/got_axon_alloy",
+  "criteria": {
+    "got_axon_alloy_dark_thunderanium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:dark_thunderanium_axon_alloy_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_axon_alloy_dark_thunderanium_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:dark_thunderanium_axon_alloy_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_axon_alloy_dark_thunderanium_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:dark_thunderanium_axon_alloy_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_axon_alloy_dark_thunderanium_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:dark_thunderanium_axon_alloy_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.axontechnologies.get_dark_thunderanium_axon_alloy_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:dark_thunderanium_axon_alloy_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_dark_thunderanium_axon_alloy_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_axon_alloy_dark_thunderanium_helmet"
+    ],
+    [
+      "got_axon_alloy_dark_thunderanium_chestplate"
+    ],
+    [
+      "got_axon_alloy_dark_thunderanium_leggings"
+    ],
+    [
+      "got_axon_alloy_dark_thunderanium_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

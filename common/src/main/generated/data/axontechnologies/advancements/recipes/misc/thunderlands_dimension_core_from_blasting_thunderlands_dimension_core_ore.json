@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thunderlands_dimension_core_from_blasting_thunderlands_dimension_core_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thunderlands_dimension_core_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:thunderlands_dimension_core_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thunderlands_dimension_core_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thunderlands_dimension_core_from_blasting_thunderlands_dimension_core_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

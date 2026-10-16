@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_decuple_compressed_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:decuple_compressed_stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "axontechnologies:undecuple_compressed_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_decuple_compressed_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "axontechnologies:undecuple_compressed_stick"
+    ]
+  },
+  "sends_telemetry_event": false
+}

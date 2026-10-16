@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "axontechnologies:block/dread_caverns_dimension_core_ore"
+  }
+}

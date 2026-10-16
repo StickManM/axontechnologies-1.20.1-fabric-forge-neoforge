@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:red_thunderanium_sword"
+    },
+    "E": {
+      "item": "axontechnologies:dark_essence"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "E#E",
+    "EEE"
+  ],
+  "result": {
+    "item": "axontechnologies:antiglitch_sword"
+  },
+  "show_notification": true
+}

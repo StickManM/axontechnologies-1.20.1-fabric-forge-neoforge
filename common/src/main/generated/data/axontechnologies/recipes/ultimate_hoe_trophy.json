@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axontechnologies:vanilla_hoe"
+    },
+    {
+      "item": "axontechnologies:thunderanium_hoe"
+    },
+    {
+      "item": "axontechnologies:red_thunderanium_hoe"
+    },
+    {
+      "item": "axontechnologies:dark_thunderanium_hoe"
+    },
+    {
+      "item": "axontechnologies:corruptinite_hoe"
+    },
+    {
+      "item": "axontechnologies:corruptinite_axon_alloy_hoe"
+    },
+    {
+      "item": "axontechnologies:dark_thunderanium_axon_alloy_hoe"
+    },
+    {
+      "item": "axontechnologies:axon_alloy_hoe"
+    }
+  ],
+  "result": {
+    "item": "axontechnologies:ultimate_hoe_trophy"
+  }
+}

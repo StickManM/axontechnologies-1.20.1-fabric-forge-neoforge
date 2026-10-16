@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_corruptinite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:axon_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dark_thunderanium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:axon_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:axon_alloy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_corruptinite",
+      "has_dark_thunderanium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:axon_alloy"
+    ]
+  },
+  "sends_telemetry_event": false
+}

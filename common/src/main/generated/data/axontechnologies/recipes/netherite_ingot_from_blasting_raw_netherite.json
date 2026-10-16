@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 3.0,
+  "group": "netherite",
+  "ingredient": {
+    "item": "axontechnologies:raw_netherite"
+  },
+  "result": "minecraft:netherite_ingot"
+}

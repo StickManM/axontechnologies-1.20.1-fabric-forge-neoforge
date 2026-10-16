@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 5.0,
+  "group": "corruptinite",
+  "ingredient": {
+    "item": "axontechnologies:corruptinite_ore"
+  },
+  "result": "axontechnologies:unstable_corruptinite"
+}

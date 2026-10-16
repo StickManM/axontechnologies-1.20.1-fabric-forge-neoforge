@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thundered_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thundered_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:thundered_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thundered_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thundered_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

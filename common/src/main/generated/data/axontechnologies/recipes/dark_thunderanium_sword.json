@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:dark_thunderanium_ingot"
+    },
+    "E": {
+      "item": "axontechnologies:dark_essence"
+    },
+    "S": {
+      "item": "axontechnologies:antiglitch_sword"
+    }
+  },
+  "pattern": [
+    "E#E",
+    "E#E",
+    "ESE"
+  ],
+  "result": {
+    "item": "axontechnologies:dark_thunderanium_sword"
+  },
+  "show_notification": true
+}
