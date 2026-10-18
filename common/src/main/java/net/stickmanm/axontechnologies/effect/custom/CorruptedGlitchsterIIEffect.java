@@ -22,7 +22,7 @@ public class CorruptedGlitchsterIIEffect extends StatusEffect {
     // This method is called when it applies the status effect. We implement custom functionality here.
     @Override
     public void applyUpdateEffect(LivingEntity entity, int Amplifier) {
-        if(entity.hasStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER)) {
+        if(entity.hasStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get())) {
             if (!entity.getWorld().isClient()) {
                 addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, "91AEAA56-376B-4498-935B-2F7F68070635", 2f, EntityAttributeModifier.Operation.MULTIPLY_TOTAL)
                         .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_DAMAGE, "648D7064-6A60-4F59-8ABE-C2C23A6DD7A9", 10f, EntityAttributeModifier.Operation.ADDITION)

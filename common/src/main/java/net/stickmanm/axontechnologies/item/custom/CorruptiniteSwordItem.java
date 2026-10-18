@@ -14,17 +14,17 @@ public class CorruptiniteSwordItem extends SwordItem {
 
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 
-        if(attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER)) {
-            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER, 1200));
+        if(attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER.get())) {
+            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER.get(), 1200));
 
 
         }
-        else if (attacker.hasStatusEffect(ModEffects.GLITCHSTER) ||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERII)||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERIII)||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERIV) ||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERV)) {
-            attacker.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER, 900, 2));
+        else if (attacker.hasStatusEffect(ModEffects.GLITCHSTER.get()) ||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERII.get())||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERIII.get())||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERIV.get()) ||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERV.get())) {
+            attacker.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER.get(), 900, 2));
         }
 
         return true;

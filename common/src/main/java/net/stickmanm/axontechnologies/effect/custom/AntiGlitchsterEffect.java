@@ -20,24 +20,24 @@ public class AntiGlitchsterEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int Amplifier) {
         if (!entity.getWorld().isClient()) {
 
-            if (entity.hasStatusEffect(ModEffects.GLITCHSTER)) {
-                entity.removeStatusEffect(ModEffects.GLITCHSTER);
-            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERII)) {
-                entity.removeStatusEffect(ModEffects.GLITCHSTERII);
-            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIII)) {
-                entity.removeStatusEffect(ModEffects.GLITCHSTERIII);
-                entity.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER, 40));
-            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIV)) {
-                entity.removeStatusEffect(ModEffects.GLITCHSTERIV);
-                entity.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER, 40));
-            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER)) {
-                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER);
-            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIV)) {
-                entity.removeStatusEffect(ModEffects.GLITCHSTERIV);
-            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERII)) {
-                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER);
-            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII)) {
-                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER);
+            if (entity.hasStatusEffect(ModEffects.GLITCHSTER.get())) {
+                entity.removeStatusEffect(ModEffects.GLITCHSTER.get());
+            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERII.get())) {
+                entity.removeStatusEffect(ModEffects.GLITCHSTERII.get());
+            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIII.get())) {
+                entity.removeStatusEffect(ModEffects.GLITCHSTERIII.get());
+                entity.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER.get(), 40));
+            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIV.get())) {
+                entity.removeStatusEffect(ModEffects.GLITCHSTERIV.get());
+                entity.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER.get(), 40));
+            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER.get())) {
+                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER.get());
+            } else if (entity.hasStatusEffect(ModEffects.GLITCHSTERIV.get())) {
+                entity.removeStatusEffect(ModEffects.GLITCHSTERIV.get());
+            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERII.get())) {
+                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER.get());
+            } else if (entity.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII.get())) {
+                entity.removeStatusEffect(ModEffects.ANTIGLITCHSTER.get());
             }
         }
 

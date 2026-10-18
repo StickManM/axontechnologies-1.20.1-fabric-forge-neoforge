@@ -37,7 +37,7 @@ dependencies {
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 
     //GeckoLib
-    modImplementation 'software.bernie.geckolib:geckolib-fabric-1.20:4.2'
+    modImplementation 'software.bernie.geckolib:geckolib-fabric-1.20.1:4.4.4'
 
     //CustomPortalAPI
 
@@ -63,3 +63,20 @@ shadowJar {
 remapJar {
     inputFile.set shadowJar.archiveFile
 }
+
+loom {
+    runs {
+        // This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+        datagen {
+            inherit server
+            name "Data Generation"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+            vmArg "-Dfabric-api.datagen.modid=axontechnologies"
+
+            runDir "build/datagen"
+        }
+    }
+}
+
+

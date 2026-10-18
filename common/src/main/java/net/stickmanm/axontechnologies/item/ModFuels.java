@@ -1,14 +1,15 @@
 package net.stickmanm.axontechnologies.item;
 
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
+
+
+import dev.architectury.registry.fuel.FuelRegistry;
 import net.stickmanm.axontechnologies.block.ModBlocks;
 
 public class ModFuels {
     public static void registerModFuels(){
-        FuelRegistry.INSTANCE.add(ModItems.THUNDER_FUEL, 34560000);
-        FuelRegistry.INSTANCE.add(ModItems.VOID_COAL, 1728000);
-        FuelRegistry.INSTANCE.add(ModBlocks.VOID_COAL_BLOCK, 17280000);
+        FuelRegistry.register(34560000, ModItems.THUNDER_FUEL.get());
+        FuelRegistry.register(1728000, ModItems.VOID_COAL.get());
+        FuelRegistry.register(17280000, ModBlocks.VOID_COAL_BLOCK.get());
 
     }
 }

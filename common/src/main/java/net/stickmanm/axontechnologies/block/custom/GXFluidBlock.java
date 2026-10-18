@@ -28,12 +28,12 @@ public class GXFluidBlock extends FluidBlock {
                 if (!livingEntity.isInvulnerableTo(world.getDamageSources().lightningBolt())) {
                      if(overDose == 1){
                          livingEntity.setHealth(Float.MIN_EXPONENT);
-                         livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.OVERDOSE, -1, 255, false, true));
+                         livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.OVERDOSE.get(), -1, 255, false, true));
                          overDose = 0;
-                     } else if (!livingEntity.hasStatusEffect(ModEffects.OVERDOSE)) {
-                         livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERX, 450));
-                         livingEntity.removeStatusEffect(ModEffects.ANTIGLITCHSTER);
-                         livingEntity.removeStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER);
+                     } else if (!livingEntity.hasStatusEffect(ModEffects.OVERDOSE.get())) {
+                         livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERX.get(), 450));
+                         livingEntity.removeStatusEffect(ModEffects.ANTIGLITCHSTER.get());
+                         livingEntity.removeStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get());
                          overDose = random.nextInt(200);
                      }
                 }

@@ -4,9 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
-import net.stickmanm.axontechnologies.data.*;
 import net.stickmanm.axontechnologies.world.ModConfiguredFeatures;
 import net.stickmanm.axontechnologies.world.ModPlacedFeatures;
+import net.stickmanm.fabric.data.*;
 
 public class AxonTechnologiesFabricDataGenerator implements DataGeneratorEntrypoint {
 	@Override

@@ -23,7 +23,7 @@ public class GlitchsterXEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int Amplifier) {
 
-            if (!entity.getWorld().isClient() && !entity.hasStatusEffect(ModEffects.OVERDOSE)) {
+            if (!entity.getWorld().isClient() && !entity.hasStatusEffect(ModEffects.OVERDOSE.get())) {
 
                 if(entity.isPlayer()){
                     ((PlayerEntity) entity).getHungerManager().add(Amplifier + 1, 1.0f);

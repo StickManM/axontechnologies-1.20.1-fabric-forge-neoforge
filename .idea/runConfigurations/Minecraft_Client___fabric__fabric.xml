@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" factoryName="Application" name="Minecraft Client (:fabric)" type="Application">
+    <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime"/>
+    <module name="axontechnologies.fabric.main"/>
+    <shortenClasspath name="ARGS_FILE"/>
+    <option name="VM_PARAMETERS" value="&quot;-Darchitectury.main.class=C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.main_class&quot; &quot;-Darchitectury.runtime.transformer=C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.transforms&quot; &quot;-Darchitectury.properties=C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.properties&quot; -Djdk.attach.allowAttachSelf=true &quot;-javaagent:C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\architectury\architectury-transformer-agent.jar&quot; -Dfabric.dli.config=C:\Users\Daniel\OneDrive\Documents\axontechnologies@@00201.20.1@@0020fabric-forge-neoforge\.gradle\loom-cache\projects\fabric\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient -XX:StackShadowPages=32"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fabric/run/"/>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+    </method>
+  <classpathModifications/></configuration>
+</component>

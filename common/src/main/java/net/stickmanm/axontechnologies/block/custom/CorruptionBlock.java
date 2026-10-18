@@ -40,15 +40,15 @@ public class CorruptionBlock extends Block {
         BlockState targetState = world.getBlockState(targetPos);
 
         if (targetState.isIn(BlockTags.STONE_ORE_REPLACEABLES) || targetState.isIn(BlockTags.DEEPSLATE_ORE_REPLACEABLES) || targetState.getBlock().equals(ModBlocks.THUNDERED_STONE)) {
-            world.setBlockState(targetPos, ModBlocks.CORRUPTED_STONE.getDefaultState(), 3);
+            world.setBlockState(targetPos, ModBlocks.CORRUPTED_STONE.get().getDefaultState(), 3);
         } else if (targetState.isIn(BlockTags.DIRT)) {
-            world.setBlockState(targetPos, ModBlocks.CORRUPTED_DIRT.getDefaultState(), 3);
+            world.setBlockState(targetPos, ModBlocks.CORRUPTED_DIRT.get().getDefaultState(), 3);
         } else if (targetState.getBlock().equals(ModBlocks.THUNDERANIUM_ORE)) {
-            world.setBlockState(targetPos, ModBlocks.CORRUPTINITE_ORE.getDefaultState(), 3);
-        } else if (targetState.getBlock().equals(ModFluids.LIQUID_THUNDER_BLOCK)) {
-            world.setBlockState(targetPos, ModFluids.LIQUID_CORRUPTION_BLOCK.getDefaultState(), 3);
+            world.setBlockState(targetPos, ModBlocks.CORRUPTINITE_ORE.get().getDefaultState(), 3);
+        } else if (targetState.getBlock().equals(ModFluids.LIQUID_THUNDER_BLOCK.get())) {
+            world.setBlockState(targetPos, ModFluids.LIQUID_CORRUPTION_BLOCK.get().getDefaultState(), 3);
         } else if (targetState.getBlock().equals(ModBlocks.RENDERIUM_ORE)) {
-            world.setBlockState(targetPos, ModBlocks.DENDERIUM_ORE.getDefaultState(), 3);
+            world.setBlockState(targetPos, ModBlocks.DENDERIUM_ORE.get().getDefaultState(), 3);
         }
         else if (!targetState.isIn(ModBlockTags.CORRUPTION)){
             // Place the custom block at the target position

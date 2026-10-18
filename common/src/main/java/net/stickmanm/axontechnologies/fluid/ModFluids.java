@@ -1,13 +1,14 @@
 package net.stickmanm.axontechnologies.fluid;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import dev.architectury.registry.registries.DeferredRegister;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowableFluid;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.registry.RegistryKeys;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.custom.GXFluidBlock;
 import net.stickmanm.axontechnologies.block.custom.LiquidCorruptionFluidBlock;
 import net.stickmanm.axontechnologies.block.custom.LiquidThunderFluidBlock;
@@ -15,46 +16,40 @@ import net.stickmanm.axontechnologies.fluid.custom.GXFluid;
 import net.stickmanm.axontechnologies.fluid.custom.LiquidCorruptionFluid;
 import net.stickmanm.axontechnologies.fluid.custom.LiquidThunderFluid;
 
+import java.util.function.Supplier;
+
 public class ModFluids {
-    public static FlowableFluid STILL_LIQUID_THUNDER;
-    public static FlowableFluid FLOWING_LIQUID_THUNDER;
-    public static Block LIQUID_THUNDER_BLOCK;
+    public static final DeferredRegister<Fluid> FLUIDS =
+            DeferredRegister.create(AxonTechnologiesConstants.MOD_ID, RegistryKeys.FLUID);
+    public static final DeferredRegister<Block> FLUID_BLOCKS =
+            DeferredRegister.create(AxonTechnologiesConstants.MOD_ID, RegistryKeys.BLOCK);
 
-    public static FlowableFluid STILL_LIQUID_CORRUPTION;
-    public static FlowableFluid FLOWING_LIQUID_CORRUPTION;
-    public static Block LIQUID_CORRUPTION_BLOCK;
+    public static final RegistrySupplier<Fluid> STILL_LIQUID_THUNDER = FLUIDS.register("liquid_thunder",
+            () -> new LiquidThunderFluid.Still());
+    public static final RegistrySupplier<Fluid> FLOWING_LIQUID_THUNDER = FLUIDS.register("flowing_liquid_thunder",
+            () -> new LiquidThunderFluid.Flowing());
+    public static final RegistrySupplier<Block> LIQUID_THUNDER_BLOCK = registerFluidBlock("liquid_thunder_block",
+            () -> new LiquidThunderFluidBlock((FlowableFluid) STILL_LIQUID_THUNDER.get(), Block.Settings.copy(Blocks.LAVA).liquid().pistonBehavior(PistonBehavior.DESTROY).replaceable()));
 
+    public static final RegistrySupplier<Fluid> STILL_LIQUID_CORRUPTION = FLUIDS.register("liquid_corruption",
+            () -> new LiquidCorruptionFluid.Still());
+    public static final RegistrySupplier<Fluid> FLOWING_LIQUID_CORRUPTION = FLUIDS.register("flowing_liquid_corruption",
+            () -> new LiquidCorruptionFluid.Flowing());
+    public static final RegistrySupplier<Block> LIQUID_CORRUPTION_BLOCK = registerFluidBlock("liquid_corruption_block",
+            () -> new LiquidCorruptionFluidBlock((FlowableFluid) STILL_LIQUID_CORRUPTION.get(), Block.Settings.copy(Blocks.LAVA).liquid().pistonBehavior(PistonBehavior.DESTROY).replaceable()));
 
-    public static FlowableFluid STILL_GX;
-    public static FlowableFluid FLOWING_GX;
-    public static Block GX_BLOCK;
+    public static final RegistrySupplier<Fluid> STILL_GX = FLUIDS.register("gx",
+            () -> new GXFluid.Still());
+    public static final RegistrySupplier<Fluid> FLOWING_GX = FLUIDS.register("flowing_gx",
+            () -> new GXFluid.Flowing());
+    public static final RegistrySupplier<Block> GX_BLOCK = registerFluidBlock("gx_block",
+            () -> new GXFluidBlock((FlowableFluid) STILL_GX.get(), Block.Settings.copy(Blocks.WATER).replaceable().pistonBehavior(PistonBehavior.DESTROY)));
 
-    public static void register(){
-        STILL_LIQUID_THUNDER = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "liquid_thunder"), new LiquidThunderFluid.Still());
-        FLOWING_LIQUID_THUNDER = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "flowing_liquid_thunder"), new LiquidThunderFluid.Flowing());
+    private static <T extends Block> RegistrySupplier<T> registerFluidBlock(String name, Supplier<T> block) {
+        return FLUID_BLOCKS.register(name, block);
+    }
 
-        LIQUID_THUNDER_BLOCK = Registry.register(Registries.BLOCK, new Identifier(AxonTechnologies.MOD_ID, "liquid_thunder_block"),
-                new LiquidThunderFluidBlock(ModFluids.STILL_LIQUID_THUNDER, FabricBlockSettings.copyOf(Blocks.LAVA).liquid().pistonBehavior(PistonBehavior.DESTROY).replaceable()));
-
-        STILL_LIQUID_CORRUPTION = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "liquid_corruption"), new LiquidCorruptionFluid.Still());
-        FLOWING_LIQUID_CORRUPTION = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "flowing_liquid_corruption"), new LiquidCorruptionFluid.Flowing());
-        LIQUID_CORRUPTION_BLOCK = Registry.register(Registries.BLOCK, new Identifier(AxonTechnologies.MOD_ID, "liquid_corruption_block"),
-                new LiquidCorruptionFluidBlock(STILL_LIQUID_CORRUPTION, FabricBlockSettings.copyOf(Blocks.LAVA).liquid().pistonBehavior(PistonBehavior.DESTROY).replaceable()));
-
-        STILL_GX = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "gx"), new GXFluid.Still());
-        FLOWING_GX = Registry.register(Registries.FLUID,
-                new Identifier(AxonTechnologies.MOD_ID, "flowing_gx"), new GXFluid.Flowing());
-
-        GX_BLOCK = Registry.register(Registries.BLOCK, new Identifier(AxonTechnologies.MOD_ID, "gx_block"),
-                new GXFluidBlock(ModFluids.STILL_GX, FabricBlockSettings.copyOf(Blocks.WATER).replaceable().pistonBehavior(PistonBehavior.DESTROY)));
-
-
-
+    public static void register() {
     }
 
 

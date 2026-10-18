@@ -20,11 +20,11 @@ public class AntiCorruptedGlitchsterEffect extends StatusEffect {
 
 
        if (!entity.getWorld().isClient()) {
-           if(entity.hasStatusEffect(ModEffects.GLITCHSTER) ||
-                   entity.hasStatusEffect(ModEffects.GLITCHSTERII) ||
-                   entity.hasStatusEffect(ModEffects.GLITCHSTERIII) ||
-                   entity.hasStatusEffect(ModEffects.GLITCHSTERIV) ||
-                   entity.hasStatusEffect(ModEffects.GLITCHSTERV)) {
+           if(entity.hasStatusEffect(ModEffects.GLITCHSTER.get()) ||
+                   entity.hasStatusEffect(ModEffects.GLITCHSTERII.get()) ||
+                   entity.hasStatusEffect(ModEffects.GLITCHSTERIII.get()) ||
+                   entity.hasStatusEffect(ModEffects.GLITCHSTERIV.get()) ||
+                   entity.hasStatusEffect(ModEffects.GLITCHSTERV.get())) {
                entity.removeStatusEffect(this);
            }
            entity.damage(entity.getDamageSources().lightningBolt(), 0.5f);

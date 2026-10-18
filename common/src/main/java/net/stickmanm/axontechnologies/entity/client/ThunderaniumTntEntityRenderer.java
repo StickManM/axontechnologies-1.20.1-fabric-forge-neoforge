@@ -55,7 +55,7 @@ public class ThunderaniumTntEntityRenderer extends EntityRenderer<ThunderaniumTn
         //
         // We call the static method 'renderFlashingBlock' (found in TntMinecartEntityRenderer)
         // and pass in OUR custom block's default state instead of Blocks.TNT.
-        TntMinecartEntityRenderer.renderFlashingBlock(this.blockRenderManager, ModBlocks.THUNDERANIUM_TNT.getDefaultState(), matrixStack, vertexConsumerProvider, i, j / 5 % 2 == 0);
+        TntMinecartEntityRenderer.renderFlashingBlock(this.blockRenderManager, ModBlocks.THUNDERANIUM_TNT.get().getDefaultState(), matrixStack, vertexConsumerProvider, i, j / 5 % 2 == 0);
 
         matrixStack.pop();
         super.render(myTntEntity, f, g, matrixStack, vertexConsumerProvider, i);

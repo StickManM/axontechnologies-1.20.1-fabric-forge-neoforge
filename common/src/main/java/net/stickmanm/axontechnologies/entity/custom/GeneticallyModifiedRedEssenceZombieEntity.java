@@ -25,7 +25,7 @@ import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache
 import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.shadowed.eliotlash.mclib.math.functions.classic.Mod;
+//import software.bernie.shadowed.eliotlash.mclib.math.functions.classic.Mod;
 
 public class GeneticallyModifiedRedEssenceZombieEntity extends PathAwareEntity implements GeoEntity {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
@@ -100,7 +100,7 @@ public class GeneticallyModifiedRedEssenceZombieEntity extends PathAwareEntity i
             return false;
         } else {
             if (target instanceof LivingEntity) {
-                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER, 1200), this);
+                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get(), 1200), this);
             }
 
             return true;

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="INITIAL COMMIT LOTS OF BUGS">
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/architectury/architectury-transformer-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/common/source_mappings/bdabb3aae428a445cc672352a152dfc3dd92120e.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/launch.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/remapClasspath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/source_mappings/933cdbe23f950cd15a1f7fa14b7471df28c2f14d.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/source_mappings/d919479c6f4318701d88843f43ca3246db595db4.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/forge_minecraft_classpath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/launch.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/remapClasspath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___fabric__fabric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionFabric.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionForge.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/client/AxonTechnologiesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroupOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury-cache/projectID" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.main_class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury-cache/projectID" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.main_class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/net/stickmanm/forge/AxonTechnologiesForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/axontechnologies.fabric.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/axontechnologies.fabric.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/axontechnologies.forge.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/axontechnologies.forge.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.0.0-transformProductionFabric.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.0.0-transformProductionForge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModStrippableBlockRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/block/ModStrippableBlockRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/GXFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/GXFluidBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModAdvancementGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModAdvancementGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModWorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModWorldGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/ModEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/ModEffects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/ModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/ModEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/GXFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/GXFluid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModArmorMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModArmorMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModFuels.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModFuels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModToolMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModToolMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModAdvancements.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModAdvancements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModLootTableModifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/util/ModLootTableModifiers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModPotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModPotions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModPlacedFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModPlacedFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/biome/ModBiomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/biome/ModBiomes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModOreGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModOreGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModTreeGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModTreeGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModWorldGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModWorldGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/axontechnologies.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/axontechnologies.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabricDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabricDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/client/AxonTechnologiesFabricClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/client/AxonTechnologiesFabricClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="1107" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="architectury" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="loom" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="forge" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="forge" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;StickManM&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/StickManM/axontechnologies-1.20.1-fabric-forge-neoforge.git&quot;,
+    &quot;accountId&quot;: &quot;1220a965-12b9-41a4-9397-f8ed914a4f6a&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar!/net/fabricmc/fabric/api/item/v1/FabricItemSettings.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000419877293" />
+      <entry key="S60" value="1.0006972945935537" />
+      <entry key="M2" value="1.1099608883994605" />
+      <entry key="M5" value="3.57023233313343" />
+      <entry key="M10" value="8.765752997946802" />
+      <entry key="M15" value="13.056520166571879" />
+      <entry key="M30" value="26.00374337053128" />
+      <entry key="H1" value="53.17653195480619" />
+      <entry key="H2" value="91.88643524193769" />
+      <entry key="H4" value="128.82220047853446" />
+      <entry key="D1" value="204.14661828965856" />
+      <entry key="W1" value="243.17246616147781" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.8127930473834905E-150" />
+      <entry key="S10" value="1.3464000324507906E-75" />
+      <entry key="S30" value="1.1042261755158732E-25" />
+      <entry key="S60" value="3.3229898818932926E-13" />
+      <entry key="M2" value="5.764541865374241E-7" />
+      <entry key="M5" value="0.003218799309984758" />
+      <entry key="M10" value="0.07431640656015515" />
+      <entry key="M15" value="0.3279597673593089" />
+      <entry key="M30" value="2.4305196746024955" />
+      <entry key="H1" value="8.110099231934555" />
+      <entry key="H2" value="15.715046585211281" />
+      <entry key="H4" value="22.44132825053107" />
+      <entry key="D1" value="40.251022942710655" />
+      <entry key="W1" value="52.184861226151206" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.033974676046986E-11" />
+      <entry key="MS500" value="0.007877753553864025" />
+      <entry key="S2" value="0.29792064364351156" />
+      <entry key="S5" value="0.6160844382414298" />
+      <entry key="S10" value="0.7849104651114226" />
+      <entry key="S30" value="0.9224441046062902" />
+      <entry key="S60" value="0.9611367736319578" />
+      <entry key="M2" value="1.0899785938493363" />
+      <entry key="M5" value="3.565309822978189" />
+      <entry key="M10" value="8.834736635490756" />
+      <entry key="M15" value="13.378014719882591" />
+      <entry key="M30" value="28.41983372526352" />
+      <entry key="H1" value="61.26375226304835" />
+      <entry key="H2" value="107.57890453088477" />
+      <entry key="H4" value="151.24717733199887" />
+      <entry key="D1" value="244.39346574129428" />
+      <entry key="W1" value="295.35663778464425" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3KkhxeUdhWmXPA7qWvkQhyZn96S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Minecraft Client (:fabric).executor": "Run",
+    "Gradle.Build axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient].executor": "Run",
+    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen].executor": "Run",
+    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.stickmanm.axontechnologies" />
+      <recent name="net.stickmanm.axontechnologies.client" />
+      <recent name="net.stickmanm.fabric" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/fabric" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDatagen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:runDatagen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]" />
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="" />
+      <created>1792107720654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792107720654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INITIAL COMMIT LOTS OF BUGS" />
+    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT LOTS OF BUGS" />
+  </component>
+</project>

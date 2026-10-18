@@ -90,20 +90,20 @@ public class CorruptiniteAxonAlloyArmorItem extends ArmorItem implements GeoItem
 
 
 
-                if (headPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_HELMET) &&
-                        chestPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_CHESTPLATE) &&
-                        legPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_LEGGINGS) &&
-                        footPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_BOOTS)) {
+                if (headPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_HELMET.get()) &&
+                        chestPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_CHESTPLATE.get()) &&
+                        legPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_LEGGINGS.get()) &&
+                        footPiece.isOf(ModItems.CORRUPTINITE_AXON_ALLOY_BOOTS.get())) {
 
-                    if(player.hasStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER)) {
-                        player.removeStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII);
+                    if(player.hasStatusEffect(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get())) {
+                        player.removeStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 2, false, false, false));
-                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX)) {
-                        player.removeStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII);
+                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX.get())) {
+                        player.removeStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 1, false, false, false));
                     } else {
-                        player.addStatusEffect(new StatusEffectInstance(ModEffects.CORRUPTED_GLITCHSTERIII, 200, 0, false, false, true));
+                        player.addStatusEffect(new StatusEffectInstance(ModEffects.CORRUPTED_GLITCHSTERIII.get(), 200, 0, false, false, true));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
 
                         }

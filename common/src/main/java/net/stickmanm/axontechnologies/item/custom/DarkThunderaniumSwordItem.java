@@ -16,17 +16,17 @@ public class DarkThunderaniumSwordItem extends SwordItem {
 
 
 
-        if (attacker.hasStatusEffect(ModEffects.GLITCHSTERIII) ||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERIV) ||
-                attacker.hasStatusEffect(ModEffects.GLITCHSTERV)) {
-            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER, 900));
+        if (attacker.hasStatusEffect(ModEffects.GLITCHSTERIII.get()) ||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERIV.get()) ||
+                attacker.hasStatusEffect(ModEffects.GLITCHSTERV.get())) {
+            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get(), 900));
 
 
 
-        } else if (attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER) ||
-                attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERII) ||
-                attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII)) {
-            attacker.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER, 900, 0));
+        } else if (attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTER.get()) ||
+                attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERII.get()) ||
+                attacker.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII.get())) {
+            attacker.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get(), 900, 0));
         }
 
         return true;

@@ -72,22 +72,22 @@ public abstract class LiquidThunderFluid extends FlowableFluid {
 
     @Override
     public Fluid getStill() {
-        return ModFluids.STILL_LIQUID_THUNDER;
+        return ModFluids.STILL_LIQUID_THUNDER.get();
     }
 
     @Override
     public Fluid getFlowing() {
-        return ModFluids.FLOWING_LIQUID_THUNDER;
+        return ModFluids.FLOWING_LIQUID_THUNDER.get();
     }
 
     @Override
     public Item getBucketItem() {
-        return ModItems.LIQUID_THUNDER_BUCKET;
+        return ModItems.LIQUID_THUNDER_BUCKET.get();
     }
 
     @Override
     protected BlockState toBlockState(FluidState state) {
-        return ModFluids.LIQUID_THUNDER_BLOCK.getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
+        return ModFluids.LIQUID_THUNDER_BLOCK.get().getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
     }
 
     @Override
@@ -149,7 +149,7 @@ public abstract class LiquidThunderFluid extends FlowableFluid {
             FluidState fluidState2 = world.getFluidState(pos);
             if (this.isIn(FluidTags.LAVA) && fluidState2.isIn(FluidTags.WATER)) {
                 if (state.getBlock() instanceof FluidBlock) {
-                    world.setBlockState(pos, ModBlocks.THUNDERED_STONE.getDefaultState(), Block.NOTIFY_ALL);
+                    world.setBlockState(pos, ModBlocks.THUNDERED_STONE.get().getDefaultState(), Block.NOTIFY_ALL);
                 }
                 this.playExtinguishEvent(world, pos);
                 return;
@@ -159,7 +159,7 @@ public abstract class LiquidThunderFluid extends FlowableFluid {
             FluidState fluidState2 = world.getFluidState(pos);
             if (this.isIn(FluidTags.LAVA) && fluidState2.isIn(FluidTags.WATER)) {
                 if (state.getBlock() instanceof FluidBlock) {
-                    world.setBlockState(pos, ModBlocks.VOIDSTONE.getDefaultState(), Block.NOTIFY_ALL);
+                    world.setBlockState(pos, ModBlocks.VOIDSTONE.get().getDefaultState(), Block.NOTIFY_ALL);
                 }
                 this.playExtinguishEvent(world, pos);
                 return;

@@ -14,10 +14,10 @@ public class AxonAlloySwordItem extends SwordItem {
 
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 
-        if (target.hasStatusEffect(ModEffects.GLITCHSTERV)) {
-            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER, 1200, 2));
-        } else if (target.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII)) {
-            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER, 1200, 2));
+        if (target.hasStatusEffect(ModEffects.GLITCHSTERV.get())) {
+            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER.get(), 1200, 2));
+        } else if (target.hasStatusEffect(ModEffects.CORRUPTED_GLITCHSTERIII.get())) {
+            target.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get(), 1200, 2));
         }
 
 

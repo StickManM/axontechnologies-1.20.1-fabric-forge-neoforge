@@ -19,7 +19,7 @@ public class RedThunderaniumTntEntity extends TntEntity {
 
     // Constructor used when the block is primed
     public RedThunderaniumTntEntity(World world, double x, double y, double z, @Nullable LivingEntity igniter) {
-        this(ModEntities.RED_THUNDERANIUM_TNT_ENTITY_TYPE, world); // Use your registered entity type
+        this(ModEntities.RED_THUNDERANIUM_TNT_ENTITY_TYPE.get(), world); // Use your registered entity type
         this.setPosition(x, y, z);
         float f = this.getWorld().random.nextFloat() * (float)Math.PI * 2.0F; // 6.2831855F
         this.setVelocity(-((float)MathHelper.sin(f)) * 0.02F, 0.2F, -((float)MathHelper.cos(f)) * 0.02F);

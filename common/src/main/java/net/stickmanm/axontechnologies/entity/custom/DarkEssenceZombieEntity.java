@@ -79,7 +79,7 @@ public class DarkEssenceZombieEntity extends PathAwareEntity implements GeoEntit
     @Nullable
 
     public MobEntity createChild(ServerWorld world, MobEntity entity) {
-        return ModEntities.DARK_ESSENCE_ZOMBIE.create(world);
+        return ModEntities.DARK_ESSENCE_ZOMBIE.get().create(world);
     }
 
     public boolean tryAttack(Entity target) {
@@ -87,7 +87,7 @@ public class DarkEssenceZombieEntity extends PathAwareEntity implements GeoEntit
             return false;
         } else {
             if (target instanceof LivingEntity) {
-                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER, 1200), this);
+                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER.get(), 1200), this);
             }
 
             return true;

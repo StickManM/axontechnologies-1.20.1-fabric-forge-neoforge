@@ -91,21 +91,21 @@ public class DarkThunderaniumArmorItem extends ArmorItem implements GeoItem {
 
 
 
-                if (headPiece.isOf(ModItems.DARK_THUNDERANIUM_HELMET) &&
-                        chestPiece.isOf(ModItems.DARK_THUNDERANIUM_CHESTPLATE) &&
-                        legPiece.isOf(ModItems.DARK_THUNDERANIUM_LEGGINGS) &&
-                        footPiece.isOf(ModItems.DARK_THUNDERANIUM_BOOTS)) {
+                if (headPiece.isOf(ModItems.DARK_THUNDERANIUM_HELMET.get()) &&
+                        chestPiece.isOf(ModItems.DARK_THUNDERANIUM_CHESTPLATE.get()) &&
+                        legPiece.isOf(ModItems.DARK_THUNDERANIUM_LEGGINGS.get()) &&
+                        footPiece.isOf(ModItems.DARK_THUNDERANIUM_BOOTS.get())) {
 
-                    if(player.hasStatusEffect(ModEffects.ANTIGLITCHSTER)) {
-                        player.removeStatusEffect(ModEffects.GLITCHSTERIII);
+                    if(player.hasStatusEffect(ModEffects.ANTIGLITCHSTER.get())) {
+                        player.removeStatusEffect(ModEffects.GLITCHSTERIII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
-                        player.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER, 200, 0, false, false, true));
+                        player.addStatusEffect(new StatusEffectInstance(ModEffects.NEUTRALIZED_GLITCHSTER.get(), 200, 0, false, false, true));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 1, false, false, false));
-                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX)) {
-                        player.removeStatusEffect(ModEffects.GLITCHSTERIII);
+                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX.get())) {
+                        player.removeStatusEffect(ModEffects.GLITCHSTERIII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 1, false, false, false));
                     } else {
-                        player.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERIII, 200, 0, false, false, true));
+                        player.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERIII.get(), 200, 0, false, false, true));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
 
                     }

@@ -2,6 +2,7 @@ package net.stickmanm.axontechnologies.entity.client;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.entity.custom.DarkEssenceZombieEntity;
 import software.bernie.geckolib.constant.DataTickets;
 import software.bernie.geckolib.core.animatable.model.CoreGeoBone;
@@ -12,16 +13,16 @@ import software.bernie.geckolib.model.data.EntityModelData;
 public class DarkEssenceZombieModel extends GeoModel<DarkEssenceZombieEntity> {
     @Override
     public Identifier getModelResource(DarkEssenceZombieEntity animatable) {
-        return new Identifier(AxonTechnologies.MOD_ID,"geo/dark_essence_zombie.geo.json");
+        return new Identifier(AxonTechnologiesConstants.MOD_ID,"geo/dark_essence_zombie.geo.json");
     }
 
     @Override
     public Identifier getTextureResource(DarkEssenceZombieEntity animatable) {
-        return new Identifier(AxonTechnologies.MOD_ID,"textures/entity/dark_essence_zombie.png");    }
+        return new Identifier(AxonTechnologiesConstants.MOD_ID,"textures/entity/dark_essence_zombie.png");    }
 
     @Override
     public Identifier getAnimationResource(DarkEssenceZombieEntity animatable) {
-        return new Identifier(AxonTechnologies.MOD_ID,"animations/red_essence_zombie.animation.json");
+        return new Identifier(AxonTechnologiesConstants.MOD_ID,"animations/red_essence_zombie.animation.json");
     }
     @Override
     public void setCustomAnimations(DarkEssenceZombieEntity animatable, long instanceId, AnimationState<DarkEssenceZombieEntity> animationState) {

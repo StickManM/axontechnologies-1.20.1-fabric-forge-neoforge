@@ -12,6 +12,7 @@ import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.ModBlockTags;
 import net.stickmanm.axontechnologies.block.ModBlocks;
 import net.stickmanm.axontechnologies.fluid.ModFluids;
@@ -50,17 +51,17 @@ public class ModConfiguredFeatures {
         RuleTest voidstoneReplaceable = new TagMatchRuleTest(ModBlockTags.VOIDSTONE_REPLACEABLE);
 
         List<OreFeatureConfig.Target> overworldMimicariumOres =
-                List.of(OreFeatureConfig.createTarget(mimicariumStoneReplaceables, ModBlocks.MIMICARIUM_ORE.getDefaultState()),
-                       OreFeatureConfig.createTarget(mimicariumDeepslateReplaceables, ModBlocks.DEEPSLATE_MIMICARIUM_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(mimicariumStoneReplaceables, ModBlocks.MIMICARIUM_ORE.get().getDefaultState()),
+                       OreFeatureConfig.createTarget(mimicariumDeepslateReplaceables, ModBlocks.DEEPSLATE_MIMICARIUM_ORE.get().getDefaultState()));
 
         //Mimic World
-        List<OreFeatureConfig.Target> fakestonesIronOre = List.of(OreFeatureConfig.createTarget(fakestone, ModBlocks.FAKESTONE_IRON_ORE.getDefaultState()),
-                OreFeatureConfig.createTarget(fakeslate, ModBlocks.FAKESLATE_IRON_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> fakestonesIronOre = List.of(OreFeatureConfig.createTarget(fakestone, ModBlocks.FAKESTONE_IRON_ORE.get().getDefaultState()),
+                OreFeatureConfig.createTarget(fakeslate, ModBlocks.FAKESLATE_IRON_ORE.get().getDefaultState()));
 
-        List<OreFeatureConfig.Target> fakestonesGoldOre = List.of(OreFeatureConfig.createTarget(fakestone, ModBlocks.FAKESTONE_GOLD_ORE.getDefaultState()),
-                OreFeatureConfig.createTarget(fakeslate, ModBlocks.FAKESLATE_GOLD_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> fakestonesGoldOre = List.of(OreFeatureConfig.createTarget(fakestone, ModBlocks.FAKESTONE_GOLD_ORE.get().getDefaultState()),
+                OreFeatureConfig.createTarget(fakeslate, ModBlocks.FAKESLATE_GOLD_ORE.get().getDefaultState()));
 
-        List<OreFeatureConfig.Target> voidstoneOre = List.of(OreFeatureConfig.createTarget(voidstoneReplaceable, ModBlocks.VOIDSTONE.getDefaultState()));
+        List<OreFeatureConfig.Target> voidstoneOre = List.of(OreFeatureConfig.createTarget(voidstoneReplaceable, ModBlocks.VOIDSTONE.get().getDefaultState()));
 
 
 
@@ -68,27 +69,27 @@ public class ModConfiguredFeatures {
 
         //Dimension Cores
         List<OreFeatureConfig.Target> dimensionCoreOres =
-                List.of(OreFeatureConfig.createTarget(fakeslate, ModBlocks.MWDC_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DCDC_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(thunderlands, ModBlocks.TLDC_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(corruptionlands, ModBlocks.CLDC_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(fakeslate, ModBlocks.MWDC_ORE.get().getDefaultState()),
+                        OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DCDC_ORE.get().getDefaultState()),
+                        OreFeatureConfig.createTarget(thunderlands, ModBlocks.TLDC_ORE.get().getDefaultState()),
+                        OreFeatureConfig.createTarget(corruptionlands, ModBlocks.CLDC_ORE.get().getDefaultState()));
 
         //Dreadstone Ores
-        List<OreFeatureConfig.Target> dreadstoneDiamondOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_DIAMOND_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> dreadstoneThunderaniumOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_THUNDERANIUM_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> dreadstoneNetheriteOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_NETHERITE_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> voidCoalOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.VOID_COAL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> dreadstoneDiamondOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_DIAMOND_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> dreadstoneThunderaniumOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_THUNDERANIUM_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> dreadstoneNetheriteOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.DREADSTONE_NETHERITE_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> voidCoalOres = List.of(OreFeatureConfig.createTarget(dreadCaverns, ModBlocks.VOID_COAL_ORE.get().getDefaultState()));
 
         //Thunderlands
-        List<OreFeatureConfig.Target> renderiumOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.RENDERIUM_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> thunderaniumOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.THUNDERANIUM_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> corruptionBlockOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.CORRUPTION_BLOCK.getDefaultState()));
-        List<OreFeatureConfig.Target> oreLiquidThunder = List.of(OreFeatureConfig.createTarget(thunderlands, ModFluids.LIQUID_THUNDER_BLOCK.getDefaultState()));
+        List<OreFeatureConfig.Target> renderiumOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.RENDERIUM_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> thunderaniumOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.THUNDERANIUM_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> corruptionBlockOres = List.of(OreFeatureConfig.createTarget(thunderlands, ModBlocks.CORRUPTION_BLOCK.get().getDefaultState()));
+        List<OreFeatureConfig.Target> oreLiquidThunder = List.of(OreFeatureConfig.createTarget(thunderlands, ModFluids.LIQUID_THUNDER_BLOCK.get().getDefaultState()));
 
         //Corruptionlands
-        List<OreFeatureConfig.Target> denderiumOres = List.of(OreFeatureConfig.createTarget(corruptionlands, ModBlocks.DENDERIUM_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> corruptiniteOres = List.of(OreFeatureConfig.createTarget(corruptionlands, ModBlocks.CORRUPTINITE_ORE.getDefaultState()));
-        List<OreFeatureConfig.Target> oreLiquidCorruption = List.of(OreFeatureConfig.createTarget(corruptionlands, ModFluids.LIQUID_CORRUPTION_BLOCK.getDefaultState()));
+        List<OreFeatureConfig.Target> denderiumOres = List.of(OreFeatureConfig.createTarget(corruptionlands, ModBlocks.DENDERIUM_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> corruptiniteOres = List.of(OreFeatureConfig.createTarget(corruptionlands, ModBlocks.CORRUPTINITE_ORE.get().getDefaultState()));
+        List<OreFeatureConfig.Target> oreLiquidCorruption = List.of(OreFeatureConfig.createTarget(corruptionlands, ModFluids.LIQUID_CORRUPTION_BLOCK.get().getDefaultState()));
 
 
 
@@ -99,9 +100,9 @@ public class ModConfiguredFeatures {
 
         //Thundered Tree
         register(context, THUNDERED_SAPLING_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(ModBlocks.THUNDERED_LOG),
+                BlockStateProvider.of(ModBlocks.THUNDERED_LOG.get()),
                 new StraightTrunkPlacer(5, 6, 3),
-                BlockStateProvider.of(ModBlocks.THUNDERED_LEAVES),
+                BlockStateProvider.of(ModBlocks.THUNDERED_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
 
@@ -128,7 +129,7 @@ public class ModConfiguredFeatures {
 
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(AxonTechnologies.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(AxonTechnologiesConstants.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,

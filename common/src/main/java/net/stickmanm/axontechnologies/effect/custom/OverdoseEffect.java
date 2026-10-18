@@ -39,8 +39,8 @@ public class OverdoseEffect extends StatusEffect {
                 entity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, -1, 255, false, false, false));
                 entity.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, -1, 255, false, false, false));
                 entity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, -1, 255, false, false, false));
-                entity.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER, -1, 255, false, false, false));
-                entity.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER, -1, 255, false, false, false));
+                entity.addStatusEffect(new StatusEffectInstance(ModEffects.ANTIGLITCHSTER.get(), -1, 255, false, false, false));
+                entity.addStatusEffect(new StatusEffectInstance(ModEffects.ANTI_CORRUPTED_GLITCHSTER.get(), -1, 255, false, false, false));
                 entity.damage(entity.getDamageSources().lightningBolt(), Float.MAX_VALUE);
 
             }

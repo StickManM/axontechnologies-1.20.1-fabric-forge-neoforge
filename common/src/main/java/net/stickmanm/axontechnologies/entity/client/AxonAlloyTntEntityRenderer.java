@@ -56,7 +56,7 @@ public class AxonAlloyTntEntityRenderer extends EntityRenderer<AxonAlloyTntEntit
         //
         // We call the static method 'renderFlashingBlock' (found in TntMinecartEntityRenderer)
         // and pass in OUR custom block's default state instead of Blocks.TNT.
-        TntMinecartEntityRenderer.renderFlashingBlock(this.blockRenderManager, ModBlocks.AXON_ALLOY_TNT.getDefaultState(), matrixStack, vertexConsumerProvider, i, j / 5 % 2 == 0);
+        TntMinecartEntityRenderer.renderFlashingBlock(this.blockRenderManager, ModBlocks.AXON_ALLOY_TNT.get().getDefaultState(), matrixStack, vertexConsumerProvider, i, j / 5 % 2 == 0);
 
         matrixStack.pop();
         super.render(myTntEntity, f, g, matrixStack, vertexConsumerProvider, i);

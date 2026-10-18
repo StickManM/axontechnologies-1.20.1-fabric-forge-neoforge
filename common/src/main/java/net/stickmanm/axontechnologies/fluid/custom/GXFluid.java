@@ -67,22 +67,22 @@ public abstract class GXFluid extends FlowableFluid {
 
     @Override
     public Fluid getStill() {
-        return ModFluids.STILL_GX;
+        return ModFluids.STILL_GX.get();
     }
 
     @Override
     public Fluid getFlowing() {
-        return ModFluids.FLOWING_GX;
+        return ModFluids.FLOWING_GX.get();
     }
 
     @Override
     public Item getBucketItem() {
-        return ModItems.GX_BUCKET;
+        return ModItems.GX_BUCKET.get();
     }
 
     @Override
     protected BlockState toBlockState(FluidState state) {
-        return ModFluids.GX_BLOCK.getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
+        return ModFluids.GX_BLOCK.get().getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
     }
 
 

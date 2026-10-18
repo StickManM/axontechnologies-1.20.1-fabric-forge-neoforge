@@ -22,7 +22,7 @@ public class GlitchsterVEffect extends StatusEffect {
     // This method is called when it applies the status effect. We implement custom functionality here.
     @Override
     public void applyUpdateEffect(LivingEntity entity, int Amplifier) {
-        if(entity.hasStatusEffect(ModEffects.ANTIGLITCHSTER)) {
+        if(entity.hasStatusEffect(ModEffects.ANTIGLITCHSTER.get())) {
             if (!entity.getWorld().isClient()) {
                 addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, "91AEAA56-376B-4498-935B-2F7F68070635", 0f, EntityAttributeModifier.Operation.MULTIPLY_TOTAL);
                 entity.removeStatusEffect(this);

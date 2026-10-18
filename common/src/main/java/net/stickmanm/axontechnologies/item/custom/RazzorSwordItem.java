@@ -16,7 +16,7 @@ public class RazzorSwordItem extends SwordItem{
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 
         target.setHealth(Float.MIN_EXPONENT);
-        target.addStatusEffect(new StatusEffectInstance(ModEffects.OVERDOSE, -1, 255, false,true));
+        target.addStatusEffect(new StatusEffectInstance(ModEffects.OVERDOSE.get(), -1, 255, false,true));
         return super.postHit(stack, target, attacker);
     }
 }

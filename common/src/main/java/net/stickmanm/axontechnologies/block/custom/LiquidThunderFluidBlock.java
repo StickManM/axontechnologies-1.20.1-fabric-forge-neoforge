@@ -21,8 +21,8 @@ public class LiquidThunderFluidBlock extends FluidBlock {
             if (entity instanceof LivingEntity) {
                 LivingEntity livingEntity = (LivingEntity)entity;
                 if (!livingEntity.isInvulnerableTo(world.getDamageSources().lightningBolt())) {
-                    livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.THUNDER_POISONING, 2));
-                    livingEntity.removeStatusEffect(ModEffects.ANTIGLITCHSTER);
+                    livingEntity.addStatusEffect(new StatusEffectInstance(ModEffects.THUNDER_POISONING.get(), 2));
+                    livingEntity.removeStatusEffect(ModEffects.ANTIGLITCHSTER.get());
                 }
             }
 

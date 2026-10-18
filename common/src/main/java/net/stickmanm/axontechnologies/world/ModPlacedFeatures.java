@@ -9,6 +9,7 @@ import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.ModBlocks;
 
 import java.util.List;
@@ -108,11 +109,11 @@ public class ModPlacedFeatures {
 
 
         register(context, THUNDERED_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.THUNDERED_SAPLING_KEY),
-                PlacedFeatures.createCountExtraModifier(1, 0.1f,2), PlacedFeatures.wouldSurvive(ModBlocks.THUNDERED_SAPLING));
+                PlacedFeatures.createCountExtraModifier(1, 0.1f,2), PlacedFeatures.wouldSurvive(ModBlocks.THUNDERED_SAPLING.get()));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(AxonTechnologies.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(AxonTechnologiesConstants.MOD_ID, name));
     }
 
     private static void register(Registerable<PlacedFeature> context, RegistryKey<PlacedFeature> key, RegistryEntry<ConfiguredFeature<?, ?>> configuration,

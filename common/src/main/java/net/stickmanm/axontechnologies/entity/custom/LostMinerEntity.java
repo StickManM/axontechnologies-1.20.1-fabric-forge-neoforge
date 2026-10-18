@@ -83,7 +83,7 @@ public class LostMinerEntity extends PathAwareEntity implements GeoEntity {
     @Nullable
 
     public MobEntity createChild(ServerWorld world, MobEntity entity) {
-        return ModEntities.LOST_MINER.create(world);
+        return ModEntities.LOST_MINER.get().create(world);
     }
 
     @Override

@@ -4,6 +4,7 @@ import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.entity.custom.RedEssenceZombieEntity;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
@@ -14,7 +15,7 @@ public class RedEssenceZombieRenderer extends GeoEntityRenderer<RedEssenceZombie
 
     @Override
     public Identifier getTextureLocation(RedEssenceZombieEntity animatable) {
-        return new Identifier(AxonTechnologies.MOD_ID, "textures/entity/red_essence_zombie.png");
+        return new Identifier(AxonTechnologiesConstants.MOD_ID, "textures/entity/red_essence_zombie.png");
     }
 
     @Override

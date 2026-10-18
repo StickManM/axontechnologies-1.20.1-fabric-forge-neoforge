@@ -80,7 +80,7 @@ public class RedEssenceZombieEntity extends PathAwareEntity implements GeoEntity
     @Nullable
 
     public MobEntity createChild(ServerWorld world, MobEntity entity) {
-        return ModEntities.RED_ESSENCE_ZOMBIE.create(world);
+        return ModEntities.RED_ESSENCE_ZOMBIE.get().create(world);
     }
 
     @Override
@@ -117,7 +117,7 @@ public class RedEssenceZombieEntity extends PathAwareEntity implements GeoEntity
         // Check for transformation logic every tick
         BlockPos currentPos = this.getBlockPos();
 
-        if (this.hasStatusEffect(ModEffects.GLITCHSTERX)) {
+        if (this.hasStatusEffect(ModEffects.GLITCHSTERX.get())) {
             convertEntity();
 
         }
@@ -143,7 +143,7 @@ public class RedEssenceZombieEntity extends PathAwareEntity implements GeoEntity
         BlockState state = this.getWorld().getBlockState(pos);
 
         // Check if the block at the given position is the trigger block (Cobblestone)
-        if (state.isOf(ModBlocks.CORRUPTION_BLOCK)) {
+        if (state.isOf(ModBlocks.CORRUPTION_BLOCK.get())) {
 
             corruptEntity();
             // Tell the tick loop that the transformation happened
@@ -161,7 +161,7 @@ public class RedEssenceZombieEntity extends PathAwareEntity implements GeoEntity
         }
 
         // 1. Get the target entity type (e.g., a vanilla Zombie)
-        EntityType<GeneticallyModifiedRedEssenceZombieEntity> targetType = ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE; // Change to your desired entity type
+        EntityType<GeneticallyModifiedRedEssenceZombieEntity> targetType = ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(); // Change to your desired entity type
 
         // 2. Create the new entity at the current location
         MobEntity newEntity = targetType.create(serverWorld);
@@ -192,7 +192,7 @@ public class RedEssenceZombieEntity extends PathAwareEntity implements GeoEntity
         }
 
         // 1. Get the target entity type (e.g., a vanilla Zombie)
-        EntityType<DarkEssenceZombieEntity> targetType = ModEntities.DARK_ESSENCE_ZOMBIE; // Change to your desired entity type
+        EntityType<DarkEssenceZombieEntity> targetType = ModEntities.DARK_ESSENCE_ZOMBIE.get(); // Change to your desired entity type
 
         // 2. Create the new entity at the current location
         MobEntity newEntity = targetType.create(serverWorld);

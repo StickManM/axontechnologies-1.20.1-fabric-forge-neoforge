@@ -1,102 +1,68 @@
 package net.stickmanm.axontechnologies.entity;
 
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
-import net.fabricmc.fabric.impl.object.builder.FabricEntityType;
+import dev.architectury.registry.registries.DeferredRegister;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
-import net.stickmanm.axontechnologies.block.ModBlocks;
+import net.minecraft.registry.RegistryKeys;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.entity.custom.*;
+
+import java.util.function.Supplier;
 
 public class ModEntities {
 
-    public static final EntityType<RedEssenceZombieEntity> RED_ESSENCE_ZOMBIE = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(AxonTechnologies.MOD_ID,"red_essence_zombie"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, RedEssenceZombieEntity::new)
-                    .fireImmune()
-                    .specificSpawnBlocks(ModBlocks.CHARGED_DIRT)
-                    .specificSpawnBlocks(ModBlocks.THUNDERED_STONE)
-                    .trackRangeChunks(32)
-                    .dimensions(EntityDimensions.fixed(0.6f,2f)).build());
+    public static final DeferredRegister<EntityType<?>> ENTITIES =
+            DeferredRegister.create(AxonTechnologiesConstants.MOD_ID, RegistryKeys.ENTITY_TYPE);
 
-    public static final EntityType<DarkEssenceZombieEntity> DARK_ESSENCE_ZOMBIE = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(AxonTechnologies.MOD_ID,"dark_essence_zombie"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, DarkEssenceZombieEntity::new)
-                    .fireImmune()
-                    .specificSpawnBlocks(ModBlocks.CORRUPTED_DIRT)
-                    .specificSpawnBlocks(ModBlocks.CORRUPTED_STONE)
-                    .trackRangeChunks(48)
-                    .dimensions(EntityDimensions.fixed(0.6f,2f)).build());
+    public static final RegistrySupplier<EntityType<RedEssenceZombieEntity>> RED_ESSENCE_ZOMBIE = registerEntity("red_essence_zombie",
+            () -> EntityType.Builder.create(RedEssenceZombieEntity::new, SpawnGroup.MONSTER)
+                    .makeFireImmune()
+                    .setDimensions(0.6f,2f)
+                    .build("red_essence_zombie"));
 
-    public static final EntityType<LostMinerEntity> LOST_MINER = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(AxonTechnologies.MOD_ID,"lost_miner"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, LostMinerEntity::new)
-                    .specificSpawnBlocks(ModBlocks.DREADSTONE)
-                    .trackRangeChunks(15)
-                    .dimensions(EntityDimensions.fixed(0.6f,2f)).build());
+    public static final RegistrySupplier<EntityType<DarkEssenceZombieEntity>> DARK_ESSENCE_ZOMBIE = registerEntity("dark_essence_zombie",
+            () -> EntityType.Builder.create(DarkEssenceZombieEntity::new, SpawnGroup.MONSTER)
+                    .makeFireImmune()
+                    .setDimensions(0.6f,2f)
+                    .build("dark_essence_zombie"));
 
-    public static final EntityType<GeneticallyModifiedRedEssenceZombieEntity> GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(AxonTechnologies.MOD_ID,"genetically_modified_red_essence_zombie"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GeneticallyModifiedRedEssenceZombieEntity::new)
-                    .fireImmune()
-                    .specificSpawnBlocks(ModBlocks.CHARGED_DIRT)
-                    .specificSpawnBlocks(ModBlocks.THUNDERED_STONE)
-                    .trackRangeChunks(64)
-                    .dimensions(EntityDimensions.fixed(0.6f,2f)).build());
+    public static final RegistrySupplier<EntityType<LostMinerEntity>> LOST_MINER = registerEntity("lost_miner",
+            () -> EntityType.Builder.create(LostMinerEntity::new, SpawnGroup.MONSTER)
+                    .setDimensions(0.6f,2f)
+                    .build("lost_miner"));
 
+    public static final RegistrySupplier<EntityType<GeneticallyModifiedRedEssenceZombieEntity>> GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE = registerEntity("genetically_modified_red_essence_zombie",
+            () -> EntityType.Builder.create(GeneticallyModifiedRedEssenceZombieEntity::new, SpawnGroup.MONSTER)
+                    .makeFireImmune()
+                    .setDimensions(0.6f,2f)
+                    .build("genetically_modified_red_essence_zombie"));
 
-    /*public static final EntityType<ThunderaniumTntEntity> THUNDERANIUM_TNT_ENTITY_ENTITY_TYPE = Registry.register(
-                    Registries.ENTITY_TYPE, new Identifier(AxonTechnologies.MOD_ID, "thunderanium_tnt_entity"),
-                    FabricEntityTypeBuilder.create(SpawnGroup.MISC, ThunderaniumTntEntity::new)
-                            .dimensions(EntityDimensions.fixed(0.6f,2f))
-                            .build());*/
-    public static final EntityType<ThunderaniumTntEntity> THUNDERANIUM_TNT_ENTITY_TYPE =
-            Registry.register(
-                    Registries.ENTITY_TYPE,
-                    new Identifier(AxonTechnologies.MOD_ID, "primed_thunderanium_tnt"),
+    public static final RegistrySupplier<EntityType<ThunderaniumTntEntity>> THUNDERANIUM_TNT_ENTITY_TYPE = registerEntity("primed_thunderanium_tnt",
+            () -> EntityType.Builder.<ThunderaniumTntEntity>create(ThunderaniumTntEntity::new, SpawnGroup.MISC)
+                    .setDimensions(0.98F, 0.98F)
+                    .maxTrackingRange(10)
+                    .build("primed_thunderanium_tnt"));
 
-                    // 🟢 The builder creates an EntityType that links to the two-arg constructor.
-                    // Explicitly defining the generic types here can sometimes resolve IDE issues.
-                    EntityType.Builder.<ThunderaniumTntEntity>create(ThunderaniumTntEntity::new, SpawnGroup.MISC)
-                            .setDimensions(0.98F, 0.98F)
-                            .maxTrackingRange(10)
-                            .build("primed_thunderanium_tnt"));
+    public static final RegistrySupplier<EntityType<RedThunderaniumTntEntity>> RED_THUNDERANIUM_TNT_ENTITY_TYPE = registerEntity("primed_red_thunderanium_tnt",
+            () -> EntityType.Builder.<RedThunderaniumTntEntity>create(RedThunderaniumTntEntity::new, SpawnGroup.MISC)
+                    .setDimensions(0.98F, 0.98F)
+                    .maxTrackingRange(10)
+                    .build("primed_red_thunderanium_tnt"));
 
-    public static final EntityType<RedThunderaniumTntEntity> RED_THUNDERANIUM_TNT_ENTITY_TYPE =
-            Registry.register(
-                    Registries.ENTITY_TYPE,
-                    new Identifier(AxonTechnologies.MOD_ID, "primed_red_thunderanium_tnt"),
+    public static final RegistrySupplier<EntityType<AxonAlloyTntEntity>> AXON_ALLOY_TNT_ENTITY_TYPE = registerEntity("primed_axon_alloy_tnt",
+            () -> EntityType.Builder.<AxonAlloyTntEntity>create(AxonAlloyTntEntity::new, SpawnGroup.MISC)
+                    .setDimensions(0.98F, 0.98F)
+                    .maxTrackingRange(10)
+                    .build("primed_axon_alloy_tnt"));
 
-                    // 🟢 The builder creates an EntityType that links to the two-arg constructor.
-                    // Explicitly defining the generic types here can sometimes resolve IDE issues.
-                    EntityType.Builder.<RedThunderaniumTntEntity>create(RedThunderaniumTntEntity::new, SpawnGroup.MISC)
-                            .setDimensions(0.98F, 0.98F)
-                            .maxTrackingRange(10)
-                            .build("primed_red_thunderanium_tnt"));
-
-    public static final EntityType<AxonAlloyTntEntity> AXON_ALLOY_TNT_ENTITY_TYPE =
-            Registry.register(
-                    Registries.ENTITY_TYPE,
-                    new Identifier(AxonTechnologies.MOD_ID, "primed_axon_alloy_tnt"),
-
-                    // 🟢 The builder creates an EntityType that links to the two-arg constructor.
-                    // Explicitly defining the generic types here can sometimes resolve IDE issues.
-                    EntityType.Builder.<AxonAlloyTntEntity>create(AxonAlloyTntEntity::new, SpawnGroup.MISC)
-                            .setDimensions(0.98F, 0.98F)
-                            .maxTrackingRange(10)
-                            .build("primed_axon_alloy_tnt"));
+    private static <T extends EntityType<?>> RegistrySupplier<T> registerEntity(String name, Supplier<T> entity) {
+        return ENTITIES.register(name, entity);
+    }
 
     public static void registerModEntities(){
-        FabricDefaultAttributeRegistry.register(ModEntities.RED_ESSENCE_ZOMBIE, RedEssenceZombieEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE, GeneticallyModifiedRedEssenceZombieEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.DARK_ESSENCE_ZOMBIE, DarkEssenceZombieEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.LOST_MINER, LostMinerEntity.setAttributes());
-
+        // Attribute registration is handled in platform-specific code
     }
 }
 

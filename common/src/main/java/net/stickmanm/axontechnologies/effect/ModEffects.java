@@ -1,48 +1,37 @@
 package net.stickmanm.axontechnologies.effect;
 
+import dev.architectury.registry.registries.DeferredRegister;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.registry.RegistryKeys;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.effect.custom.*;
+
+import java.util.function.Supplier;
 
 public class ModEffects {
 
-    public static final StatusEffect GLITCHSTER = new GlitchsterEffect();
-    public static final StatusEffect GLITCHSTERII = new GlitchsterIIEffect();
-    public static final StatusEffect GLITCHSTERIII = new GlitchsterIIIEffect();
-    public static final StatusEffect GLITCHSTERIV = new GlitchsterIVEffect();
-    public static final StatusEffect GLITCHSTERV = new GlitchsterVEffect();
-    public static final StatusEffect GLITCHSTERX = new GlitchsterXEffect();
-    public static final StatusEffect OVERDOSE = new OverdoseEffect();
-    public static final StatusEffect NEUTRALIZED_GLITCHSTER = new NeutralizedGlitchsterEffect();
-    public static final StatusEffect THUNDER_POISONING = new ThunderPoisoningEffect();
+    public static final DeferredRegister<StatusEffect> EFFECTS =
+            DeferredRegister.create(AxonTechnologiesConstants.MOD_ID, RegistryKeys.STATUS_EFFECT);
 
-    public static final StatusEffect ANTIGLITCHSTER = new AntiGlitchsterEffect();
-    public static final StatusEffect CORRUPTED_GLITCHSTER = new CorruptedGlitchsterEffect();
-    public static final StatusEffect CORRUPTED_GLITCHSTERII = new CorruptedGlitchsterIIEffect();
-    public static final StatusEffect CORRUPTED_GLITCHSTERIII = new CorruptedGlitchsterIIIEffect();
-    public static final StatusEffect ANTI_CORRUPTED_GLITCHSTER = new AntiCorruptedGlitchsterEffect();
+    public static final RegistrySupplier<StatusEffect> GLITCHSTER = EFFECTS.register("glitchster", GlitchsterEffect::new);
+    public static final RegistrySupplier<StatusEffect> GLITCHSTERII = EFFECTS.register("glitchster2", GlitchsterIIEffect::new);
+    public static final RegistrySupplier<StatusEffect> GLITCHSTERIII = EFFECTS.register("glitchster3", GlitchsterIIIEffect::new);
+    public static final RegistrySupplier<StatusEffect> GLITCHSTERIV = EFFECTS.register("glitchster4", GlitchsterIVEffect::new);
+    public static final RegistrySupplier<StatusEffect> GLITCHSTERV = EFFECTS.register("glitchster5", GlitchsterVEffect::new);
+    public static final RegistrySupplier<StatusEffect> GLITCHSTERX = EFFECTS.register("glitchx", GlitchsterXEffect::new);
+    public static final RegistrySupplier<StatusEffect> OVERDOSE = EFFECTS.register("overdose", OverdoseEffect::new);
+    public static final RegistrySupplier<StatusEffect> NEUTRALIZED_GLITCHSTER = EFFECTS.register("neutralized_glitchster", NeutralizedGlitchsterEffect::new);
+    public static final RegistrySupplier<StatusEffect> THUNDER_POISONING = EFFECTS.register("thunder_poisoning", ThunderPoisoningEffect::new);
 
-    public static final StatusEffect UNKILLABLE = new UnkillableEffect();
+    public static final RegistrySupplier<StatusEffect> ANTIGLITCHSTER = EFFECTS.register("antiglitchster", AntiGlitchsterEffect::new);
+    public static final RegistrySupplier<StatusEffect> CORRUPTED_GLITCHSTER = EFFECTS.register("corrupted_glitchster", CorruptedGlitchsterEffect::new);
+    public static final RegistrySupplier<StatusEffect> CORRUPTED_GLITCHSTERII = EFFECTS.register("corrupted_glitchster2", CorruptedGlitchsterIIEffect::new);
+    public static final RegistrySupplier<StatusEffect> CORRUPTED_GLITCHSTERIII = EFFECTS.register("corrupted_glitchster3", CorruptedGlitchsterIIIEffect::new);
+    public static final RegistrySupplier<StatusEffect> ANTI_CORRUPTED_GLITCHSTER = EFFECTS.register("anti_corrupted_glitchster", AntiCorruptedGlitchsterEffect::new);
+
+    public static final RegistrySupplier<StatusEffect> UNKILLABLE = EFFECTS.register("unkillable", UnkillableEffect::new);
 
     public static void registerModEffects() {
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchster"), GLITCHSTER);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchster2"), GLITCHSTERII);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchster3"), GLITCHSTERIII);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchster4"), GLITCHSTERIV);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchster5"), GLITCHSTERV);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "glitchx"), GLITCHSTERX);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "overdose"), OVERDOSE);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "neutralized_glitchster"), NEUTRALIZED_GLITCHSTER);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "corrupted_glitchster"), CORRUPTED_GLITCHSTER);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "corrupted_glitchster2"), CORRUPTED_GLITCHSTERII);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "corrupted_glitchster3"), CORRUPTED_GLITCHSTERIII);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "thunder_poisoning"), THUNDER_POISONING);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "antiglitchster"), ANTIGLITCHSTER);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "anti_corrupted_glitchster"), ANTI_CORRUPTED_GLITCHSTER);
-        Registry.register(Registries.STATUS_EFFECT, new Identifier(AxonTechnologies.MOD_ID, "unkillable"), UNKILLABLE);
-
-        AxonTechnologies.LOGGER.info("Registering ModEffects for " + AxonTechnologies.MOD_ID);
     }
 }

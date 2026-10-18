@@ -7,7 +7,7 @@ license = "Insert License Here"
 modId = "axontechnologies"
 version = "${version}"
 displayName = "Axon Technologies"
-authors = "Me!"
+authors = "StickManM"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''

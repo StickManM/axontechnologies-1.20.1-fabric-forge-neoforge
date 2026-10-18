@@ -89,20 +89,20 @@ public class RedThunderaniumArmorItem extends ArmorItem implements GeoItem {
 
 
 
-                if (headPiece.isOf(ModItems.RED_THUNDERANIUM_HELMET) &&
-                        chestPiece.isOf(ModItems.RED_THUNDERANIUM_CHESTPLATE) &&
-                        legPiece.isOf(ModItems.RED_THUNDERANIUM_LEGGINGS) &&
-                        footPiece.isOf(ModItems.RED_THUNDERANIUM_BOOTS)) {
+                if (headPiece.isOf(ModItems.RED_THUNDERANIUM_HELMET.get()) &&
+                        chestPiece.isOf(ModItems.RED_THUNDERANIUM_CHESTPLATE.get()) &&
+                        legPiece.isOf(ModItems.RED_THUNDERANIUM_LEGGINGS.get()) &&
+                        footPiece.isOf(ModItems.RED_THUNDERANIUM_BOOTS.get())) {
 
-                    if(player.hasStatusEffect(ModEffects.ANTIGLITCHSTER)) {
-                        player.removeStatusEffect(ModEffects.GLITCHSTERII);
+                    if(player.hasStatusEffect(ModEffects.ANTIGLITCHSTER.get())) {
+                        player.removeStatusEffect(ModEffects.GLITCHSTERII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 1, false, false, false));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 1, false, false, true));
-                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX)) {
-                        player.removeStatusEffect(ModEffects.GLITCHSTERII);
+                    } else if (player.hasStatusEffect(ModEffects.GLITCHSTERX.get())) {
+                        player.removeStatusEffect(ModEffects.GLITCHSTERII.get());
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 10, 1, false, false, false));
                     } else {
-                        player.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERII, 200, 0, false, false, true));
+                        player.addStatusEffect(new StatusEffectInstance(ModEffects.GLITCHSTERII.get(), 200, 0, false, false, true));
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 1, false, false, true));
                     }
 

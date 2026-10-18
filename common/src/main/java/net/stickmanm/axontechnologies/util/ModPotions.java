@@ -1,27 +1,21 @@
 package net.stickmanm.axontechnologies.util;
 
+import dev.architectury.registry.registries.DeferredRegister;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.potion.Potion;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.effect.ModEffects;
+
+import java.util.function.Supplier;
 
 public class ModPotions {
 
-    public static final Potion GLITCHSTERX;
+    public static final DeferredRegister<Potion> POTIONS =
+            DeferredRegister.create(AxonTechnologiesConstants.MOD_ID, RegistryKeys.POTION);
 
-    private static Potion register(String name, Potion potion) {
-        return (Potion) Registry.register(Registries.POTION, name, potion);
-    }
-
-    private static Potion register(RegistryKey<Potion> key, Potion potion) {
-        return (Potion)Registry.register(Registries.POTION, key, potion);
-    }
-
-    static {
-        GLITCHSTERX = register("glitchsterx", new Potion(new StatusEffectInstance[]{new StatusEffectInstance(ModEffects.GLITCHSTERX, 3600)}));
-    }
+    public static final RegistrySupplier<Potion> GLITCHSTERX = POTIONS.register("glitchsterx",
+            () -> new Potion(new StatusEffectInstance(ModEffects.GLITCHSTERX.get(), 3600)));
 
 }
