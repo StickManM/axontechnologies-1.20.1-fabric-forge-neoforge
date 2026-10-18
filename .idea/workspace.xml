@@ -4,293 +4,714 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="INITIAL COMMIT LOTS OF BUGS">
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/9.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/architectury/architectury-transformer-agent.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/common/source_mappings/bdabb3aae428a445cc672352a152dfc3dd92120e.tiny" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/launch.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/remapClasspath.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/source_mappings/933cdbe23f950cd15a1f7fa14b7471df28c2f14d.tiny" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/source_mappings/d919479c6f4318701d88843f43ca3246db595db4.tiny" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/forge_minecraft_classpath.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/launch.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/remapClasspath.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-0c6ac5fc/9.2.14/architectury-0c6ac5fc-9.2.14.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-forge-c202a452/9.2.14/architectury-forge-c202a452-9.2.14.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20-0c6ac5fc/4.2/geckolib-fabric-1.20-0c6ac5fc-4.2.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___fabric__fabric.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionFabric.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionForge.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologiesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/client/AxonTechnologiesClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroupOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury-cache/projectID" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.main_class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury-cache/projectID" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.main_class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/net/stickmanm/forge/AxonTechnologiesForge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/axontechnologies.common.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/axontechnologies.fabric.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/axontechnologies.fabric.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/axontechnologies.forge.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/axontechnologies.forge.test.iml" beforeDir="false" />
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Managed to make the game launch, but creating a new world leads to it crashing.">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.0.0-transformProductionFabric.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.0.0-transformProductionForge.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModStrippableBlockRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/block/ModStrippableBlockRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/GXFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/GXFluidBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModAdvancementGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModAdvancementGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/data/ModWorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModWorldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/ModEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/ModEffects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/ModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/ModEntities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/GXFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/GXFluid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModArmorMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModArmorMaterials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModFuels.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModFuels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionFabric.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-A17-BETA-transformProductionForge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/78fac5093041579cb55671262e293dfc7f1e18df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/charged_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corrupted_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corrupted_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corruption_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakeslate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakeslate_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakeslate_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakestone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakestone_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/fakestone_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/reinforced_dreadstone_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/stripped_thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/stripped_thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_planks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_sapling.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/blockstates/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/charged_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corrupted_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corrupted_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corruption_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakeslate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakeslate_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakeslate_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakestone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakestone_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/fakestone_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_bottom_left.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_bottom_left_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_bottom_right.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_bottom_right_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_top_left.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_top_left_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_top_right.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_door_top_right_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_slab_top.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_stairs_inner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_stairs_outer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_trapdoor_bottom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_trapdoor_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_trapdoor_top.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_wall_inventory.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/reinforced_dreadstone_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/stripped_thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/stripped_thundered_log_horizontal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/stripped_thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_log_horizontal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_planks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_sapling.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/block/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/antiglitch_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/charged_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corrupted_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corrupted_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptinite_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruption_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruption_gateway.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptionlands_dimension_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_essence_zombie_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dark_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/decuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/denderium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/double_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dread_caverns_dimension_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dreaded_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/duodecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakeslate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakeslate_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakeslate_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakestone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakestone_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/fakestone_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/genetically_modified_red_essence_zombie_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/gx_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/liquid_corruption_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/liquid_thunder_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/lost_miner_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimic_world_dimension_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimicarium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimicarium_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/nonuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/octuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/quadruple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/quattuordecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/quintuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/raw_netherite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/raw_thunderanium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/razzor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/razzorium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/razzorium_miner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_essence_zombie_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/refined_thunderanium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/reinforced_dreadstone_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/renderium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/septuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/sextuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/stripped_thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/stripped_thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunder_fuel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_planks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_sapling.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderlands_dimension_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/tickle_travis_tickler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/tredecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/triple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/ultimate_hoe_trophy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/undecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/unstable_corruptinite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/vanilla_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/void_coal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/assets/axontechnologies/models/item/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/brick_from_blasting_clay_ball.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/cracked_deepslate_bricks_from_blasting_deepslate_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/cracked_deepslate_tiles_from_blasting_deepslate_tiles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/cracked_nether_bricks_from_blasting_nether_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/cracked_polished_blackstone_bricks_from_blasting_polished_blackstone_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/cracked_stone_bricks_from_blasting_stone_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/glass_from_blasting_red_sand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/glass_from_blasting_sand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/nether_brick_from_blasting_netherrack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/building_blocks/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/antiglitch_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptinite_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruption_gateway.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/corruptionlands_dimension_core_from_blasting_corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_ingot_from_blasting_dark_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dark_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/decuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/denderium_from_smelting_denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/diamond_from_smelting_dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/double_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dread_caverns_dimension_core_from_blasting_dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/dreaded_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/duodecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/gx_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/mimic_world_dimension_core_from_blasting_mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/mimicarium_from_smelting_deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/mimicarium_from_smelting_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/mimicarium_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/netherite_ingot_from_blasting_raw_netherite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/netherite_ingot_from_smelting_dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/netherite_upgrade_smithing_template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/nonuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/octuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/quadruple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/quattuordecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/quintuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/razzor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/razzorium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/razzorium_miner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_ingot_from_blasting_red_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/refined_thunderanium_from_blasting_raw_thunderanium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/refined_thunderanium_from_smelting_dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/refined_thunderanium_from_smelting_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/reinforced_dreadstone_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/reinforced_dreadstone_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/renderium_from_smelting_renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/septuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/sextuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunder_fuel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_ingot_from_blasting_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/thunderlands_dimension_core_from_blasting_thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/tickle_travis_tickler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/tredecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/triple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/ultimate_hoe_trophy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/undecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/unstable_corruptinite_from_smelting_corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/vanilla_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/misc/void_coal_from_smelting_void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/redstone/hopper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/redstone/reinforced_dreadstone_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/advancements/recipes/redstone/reinforced_dreadstone_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/charged_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corrupted_dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corrupted_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corruption_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakeslate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakeslate_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakeslate_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakestone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakestone_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/fakestone_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/stripped_thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/stripped_thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_planks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_sapling.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_stone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/antiglitch_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/axon_alloy_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/brick_from_blasting_clay_ball.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptinite_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruption_gateway.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruption_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/corruptionlands_dimension_core_from_blasting_corruptionlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/cracked_deepslate_bricks_from_blasting_deepslate_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/cracked_deepslate_tiles_from_blasting_deepslate_tiles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/cracked_nether_bricks_from_blasting_nether_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/cracked_polished_blackstone_bricks_from_blasting_polished_blackstone_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/cracked_stone_bricks_from_blasting_stone_bricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_axon_alloy_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_ingot_from_blasting_dark_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/decuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/denderium_from_smelting_denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/diamond_from_smelting_dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/double_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dread_caverns_dimension_core_from_blasting_dread_caverns_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dreaded_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/duodecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/glass_from_blasting_red_sand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/glass_from_blasting_sand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/gx_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/hopper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/mimic_world_dimension_core_from_blasting_mimic_world_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/mimicarium_from_smelting_deepslate_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/mimicarium_from_smelting_mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/mimicarium_igniter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/mimicarium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/nether_brick_from_blasting_netherrack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/netherite_ingot_from_blasting_raw_netherite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/netherite_ingot_from_smelting_dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/netherite_upgrade_smithing_template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/nonuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/octuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/quadruple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/quattuordecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/quintuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/razzor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/razzorium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/razzorium_miner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_ingot_from_blasting_red_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/refined_thunderanium_from_blasting_raw_thunderanium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/refined_thunderanium_from_smelting_dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/refined_thunderanium_from_smelting_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_glass.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/reinforced_dreadstone_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/renderium_from_smelting_renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/septuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/sextuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunder_fuel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_ingot_from_blasting_thunderanium_cluster.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_portal_frame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderanium_tnt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thundered_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/thunderlands_dimension_core_from_blasting_thunderlands_dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/tickle_travis_tickler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/tredecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/triple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/ultimate_hoe_trophy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/undecuple_compressed_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/unstable_corruptinite_from_smelting_corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/vanilla_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/void_coal_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/void_coal_from_smelting_void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/tags/blocks/reinforced_dreadstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/corruption_block_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/fakestones_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/fakestones_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/mimicarium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/ore_liquid_corruption.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/ore_liquid_thunder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/thundered_tree.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/configured_feature/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/corruptinite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/corruption_block_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/denderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/dimension_core_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/dreadstone_diamond_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/dreadstone_netherite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/dreadstone_thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/fakestones_gold_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/fakestones_iron_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/mimicarium_ore_placed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/ore_liquid_corruption.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/ore_liquid_thunder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/renderium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/thunderanium_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/thundered_tree_placed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/void_coal_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/worldgen/placed_feature/voidstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/fabric/tags/blocks/needs_tool_level_10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/fabric/tags/blocks/needs_tool_level_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/fabric/tags/blocks/needs_tool_level_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/fabric/tags/blocks/needs_tool_level_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_axon_alloy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_corruptinite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_dark_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_dark_thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_mimicarium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_razzor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_razzorium.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_razzorium_miner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_red_essence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_red_thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_thunderanium_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/got_ultimate_hoe_trophy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_axon_alloy_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_axon_alloy_corruptinite_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_axon_alloy_dark_thunderanium_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_corruptinite_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_dark_thunderanium_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_red_thunderanium_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/advancements/axontechnologies/has_thunderanium_armor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/dirt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/dragon_immune.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/needs_stone_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/sword_efficient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/walls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wither_immune.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModToolMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModToolMaterials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModAdvancements.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModAdvancements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModLootTableModifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/util/ModLootTableModifiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModPotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModPotions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/util/ModTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModPlacedFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/ModPlacedFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/biome/ModBiomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/biome/ModBiomes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModOreGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModOreGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModTreeGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModTreeGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModWorldGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/gen/ModWorldGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/axontechnologies.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/axontechnologies.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroupOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/corrupted_plains.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/corrupted_plains.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/dread_wastes.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/dread_wastes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/thundered_plains.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/data/axontechnologies/worldgen/biome/thundered_plains.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabricDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/AxonTechnologiesFabricDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/client/AxonTechnologiesFabricClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/client/AxonTechnologiesFabricClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,13 +742,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="architectury" type="c8890929:TasksNode$1" />
+                <item name="loom" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -346,17 +774,6 @@
                 <item name="fabric" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="loom" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="axontechnologies" type="f1a62948:ProjectNode" />
-                <item name="forge" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="axontechnologies" type="f1a62948:ProjectNode" />
-                <item name="forge" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -396,61 +813,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000419877293" />
-      <entry key="S60" value="1.0006972945935537" />
-      <entry key="M2" value="1.1099608883994605" />
-      <entry key="M5" value="3.57023233313343" />
-      <entry key="M10" value="8.765752997946802" />
-      <entry key="M15" value="13.056520166571879" />
-      <entry key="M30" value="26.00374337053128" />
-      <entry key="H1" value="53.17653195480619" />
-      <entry key="H2" value="91.88643524193769" />
-      <entry key="H4" value="128.82220047853446" />
-      <entry key="D1" value="204.14661828965856" />
-      <entry key="W1" value="243.17246616147781" />
+      <entry key="MS100" value="1.0019675976153497" />
+      <entry key="MS500" value="1.597223150921068" />
+      <entry key="S2" value="5.432427894975721" />
+      <entry key="S5" value="10.724544225941282" />
+      <entry key="S10" value="14.837719636457013" />
+      <entry key="S30" value="19.131809228386444" />
+      <entry key="S60" value="20.4935803130252" />
+      <entry key="M2" value="21.234127368631743" />
+      <entry key="M5" value="22.144044064060967" />
+      <entry key="M10" value="24.98110252832315" />
+      <entry key="M15" value="28.478468409505478" />
+      <entry key="M30" value="40.41267810960108" />
+      <entry key="H1" value="66.78429456354237" />
+      <entry key="H2" value="106.33623593749793" />
+      <entry key="H4" value="145.41924191332555" />
+      <entry key="D1" value="224.69470205341864" />
+      <entry key="W1" value="264.92467338796257" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.8127930473834905E-150" />
-      <entry key="S10" value="1.3464000324507906E-75" />
-      <entry key="S30" value="1.1042261755158732E-25" />
-      <entry key="S60" value="3.3229898818932926E-13" />
-      <entry key="M2" value="5.764541865374241E-7" />
-      <entry key="M5" value="0.003218799309984758" />
-      <entry key="M10" value="0.07431640656015515" />
-      <entry key="M15" value="0.3279597673593089" />
-      <entry key="M30" value="2.4305196746024955" />
-      <entry key="H1" value="8.110099231934555" />
-      <entry key="H2" value="15.715046585211281" />
-      <entry key="H4" value="22.44132825053107" />
-      <entry key="D1" value="40.251022942710655" />
-      <entry key="W1" value="52.184861226151206" />
+      <entry key="S5" value="5.4284162741657726E-204" />
+      <entry key="S10" value="2.3298961938605252E-102" />
+      <entry key="S30" value="1.3257008171290132E-34" />
+      <entry key="S60" value="1.1513908185884533E-17" />
+      <entry key="M2" value="3.3932172735851605E-9" />
+      <entry key="M5" value="4.1269826982835885E-4" />
+      <entry key="M10" value="0.026610563810584922" />
+      <entry key="M15" value="0.16537384316911843" />
+      <entry key="M30" value="1.7259263757762235" />
+      <entry key="H1" value="6.834200729966167" />
+      <entry key="H2" value="14.426017475632024" />
+      <entry key="H4" value="21.50126188056301" />
+      <entry key="D1" value="39.96496961704553" />
+      <entry key="W1" value="52.131718584048215" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.033974676046986E-11" />
-      <entry key="MS500" value="0.007877753553864025" />
-      <entry key="S2" value="0.29792064364351156" />
-      <entry key="S5" value="0.6160844382414298" />
-      <entry key="S10" value="0.7849104651114226" />
-      <entry key="S30" value="0.9224441046062902" />
-      <entry key="S60" value="0.9611367736319578" />
-      <entry key="M2" value="1.0899785938493363" />
-      <entry key="M5" value="3.565309822978189" />
-      <entry key="M10" value="8.834736635490756" />
-      <entry key="M15" value="13.378014719882591" />
-      <entry key="M30" value="28.41983372526352" />
-      <entry key="H1" value="61.26375226304835" />
-      <entry key="H2" value="107.57890453088477" />
-      <entry key="H4" value="151.24717733199887" />
-      <entry key="D1" value="244.39346574129428" />
-      <entry key="W1" value="295.35663778464425" />
+      <entry key="MS100" value="0.9544880941823456" />
+      <entry key="MS500" value="1.5817674196763325" />
+      <entry key="S2" value="5.408126747482218" />
+      <entry key="S5" value="10.691694434660265" />
+      <entry key="S10" value="14.811306697733137" />
+      <entry key="S30" value="19.119545081838375" />
+      <entry key="S60" value="20.486905880210628" />
+      <entry key="M2" value="21.230528296341852" />
+      <entry key="M5" value="22.141984252373007" />
+      <entry key="M10" value="25.00508311712671" />
+      <entry key="M15" value="28.64010048629535" />
+      <entry key="M30" value="42.128116613061756" />
+      <entry key="H1" value="73.59909479625985" />
+      <entry key="H2" value="120.74146751208741" />
+      <entry key="H4" value="166.90480708994292" />
+      <entry key="D1" value="264.6555208076189" />
+      <entry key="W1" value="317.0557023504096" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -481,6 +898,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Daniel/OneDrive/Documents/axontechnologies 1.20.1 fabric-forge-neoforge/common/src/main/resources/data/minecraft/tags/fluids",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -495,13 +913,24 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\common\src\main\resources\data\minecraft\tags\fluids" />
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\common\src\main" />
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\fabric" />
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\common\src\main" />
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\common" />
+      <recent name="C:\Users\Daniel\OneDrive\Documents\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\src\main\java\net\stickmanm" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.stickmanm.axontechnologies" />
       <recent name="net.stickmanm.axontechnologies.client" />
       <recent name="net.stickmanm.fabric" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]">
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -618,6 +1047,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT LOTS OF BUGS" />
-    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT LOTS OF BUGS" />
+    <MESSAGE value="Managed to make the game launch, but creating a new world leads to it crashing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Managed to make the game launch, but creating a new world leads to it crashing." />
   </component>
 </project>
