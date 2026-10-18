@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "axontechnologies:block/thunderanium_tnt_top",
-    "side": "axontechnologies:block/thunderanium_tnt"
-  }
-}

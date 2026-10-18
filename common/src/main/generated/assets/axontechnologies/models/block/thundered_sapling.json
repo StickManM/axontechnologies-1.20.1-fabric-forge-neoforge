@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "axontechnologies:block/thundered_sapling"
-  }
-}

@@ -19,14 +19,27 @@
     ]
   },
   "spawn_costs": {},
-  "carvers": {"air": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ]},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
   "features": [
-    "axontechnologies:lake_liquid_thunder",
-    "axontechnologies:ore_liquid_thunder",
-    "axontechnologies:thunderanium_ore"
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "axontechnologies:thunderanium_ore",
+      "axontechnologies:ore_liquid_thunder"
+    ],
+    [],
+    [],
+    [],
+    []
   ]
 }

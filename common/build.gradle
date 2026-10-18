@@ -15,3 +15,12 @@ dependencies {
     // GeckoLib - add to common for cross-platform support
     modCompileOnly "software.bernie.geckolib:geckolib-fabric-1.20.1:4.4.4"
 }
+
+// Fabric datagen output lives here; ship it as part of the common resources so both loaders load it
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/generated'
+        }
+    }
+}

@@ -28,7 +28,7 @@
   },
   "spawners": {
     "ambient": [],
-    "axolotls":[],
+    "axolotls": [],
     "creature": [],
     "misc": [],
     "monster": [
@@ -80,7 +80,6 @@
         "minCount": 4,
         "maxCount": 4
       }
-
     ],
     "underground_water_creature": [],
     "water_ambient": [],
@@ -91,12 +90,21 @@
     "air": "minecraft:cave"
   },
   "features": [
-
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
       "axontechnologies:dreadstone_diamond_ore",
       "axontechnologies:dreadstone_thunderanium_ore",
       "axontechnologies:void_coal_ore",
       "axontechnologies:dreadstone_netherite_ore"
-    ]
+    ],
+    [],
+    [],
+    [],
+    []
   ]
 }

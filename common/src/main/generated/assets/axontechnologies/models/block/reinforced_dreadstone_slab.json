@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "axontechnologies:block/reinforced_dreadstone",
-    "side": "axontechnologies:block/reinforced_dreadstone",
-    "top": "axontechnologies:block/reinforced_dreadstone"
-  }
-}
