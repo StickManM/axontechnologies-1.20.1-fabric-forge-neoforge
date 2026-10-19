@@ -9,6 +9,7 @@ import net.stickmanm.axontechnologies.block.ModBlocks;
 import net.stickmanm.axontechnologies.effect.ModEffects;
 import net.stickmanm.axontechnologies.entity.ModEntities;
 import net.stickmanm.axontechnologies.fluid.ModFluids;
+import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.util.ModPotions;
 
@@ -24,6 +25,7 @@ public final class AxonTechnologiesForge {
         ModFluids.FLUIDS.register();
         ModFluids.FLUID_BLOCKS.register();
         ModItems.ITEMS.register();
+        //ModFuels.registerModFuels();
         ModEffects.EFFECTS.register();
         ModPotions.POTIONS.register();
 

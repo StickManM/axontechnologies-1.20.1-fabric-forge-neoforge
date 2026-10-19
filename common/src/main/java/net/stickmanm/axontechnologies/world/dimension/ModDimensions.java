@@ -34,6 +34,7 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> DAWN_OF_TIME_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, DAWN_OF_TIME_KEY.getValue());
 
     public static void registerModDimensions() {
-        // Portal registration moved to platform-specific modules
+        // Portal registration moved to platform-specific modulees
+
     }
 }

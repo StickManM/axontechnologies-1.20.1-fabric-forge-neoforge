@@ -1,5 +1,13 @@
+
+buildscript {
+    repositories {
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+    }
+}
+
 plugins {
     id 'com.gradleup.shadow'
+
 }
 
 loom {
@@ -43,6 +51,7 @@ dependencies {
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }
+
 
 processResources {
     inputs.property 'version', project.version

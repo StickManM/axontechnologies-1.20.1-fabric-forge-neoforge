@@ -11,7 +11,7 @@ public class AxonTechnologies {
 	public static final Logger LOGGER = LoggerFactory.getLogger("axontechnologies");
 
 	public static void init() {
-		ModFuels.registerModFuels();
+		//ModFuels.registerModFuels();
 		ModItemGroup.initItemGroups();
 		LOGGER.info("Axon Technologies initialized!");
 	}

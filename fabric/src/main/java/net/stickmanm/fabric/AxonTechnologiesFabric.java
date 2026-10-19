@@ -6,6 +6,8 @@ import net.stickmanm.axontechnologies.AxonTechnologies;
 import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.ModBlocks;
 import net.stickmanm.axontechnologies.effect.ModEffects;
+import net.stickmanm.axontechnologies.item.ModFuels;
+import net.stickmanm.axontechnologies.world.dimension.ModDimensions;
 import net.stickmanm.fabric.block.ModStrippableBlockRegistry;
 import net.stickmanm.axontechnologies.entity.ModEntities;
 import net.stickmanm.axontechnologies.entity.custom.DarkEssenceZombieEntity;
@@ -16,6 +18,7 @@ import net.stickmanm.axontechnologies.fluid.ModFluids;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.util.ModPotions;
 import net.stickmanm.fabric.util.ModLootTableModifiers;
+import net.stickmanm.fabric.world.ModPortalsFabric;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,6 +37,7 @@ public class AxonTechnologiesFabric implements ModInitializer {
 		ModFluids.FLUIDS.register();
 		ModFluids.FLUID_BLOCKS.register();
 		ModItems.ITEMS.register();
+		//ModFuels.registerModFuels();
 		ModEffects.EFFECTS.register();
 		ModPotions.POTIONS.register();
 		ModLootTableModifiers.modifyLootTables();
@@ -49,5 +53,8 @@ public class AxonTechnologiesFabric implements ModInitializer {
 		FabricDefaultAttributeRegistry.register(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), GeneticallyModifiedRedEssenceZombieEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.DARK_ESSENCE_ZOMBIE.get(), DarkEssenceZombieEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.LOST_MINER.get(), LostMinerEntity.setAttributes());
+
+		// Register Portals
+		ModPortalsFabric.registerModPortalsFabric();
 	}
 }
