@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "axontechnologies:block/thundered_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "axontechnologies:block/thundered_wood"
+    },
+    "axis=z": {
+      "model": "axontechnologies:block/thundered_wood",
+      "x": 90
+    }
+  }
+}

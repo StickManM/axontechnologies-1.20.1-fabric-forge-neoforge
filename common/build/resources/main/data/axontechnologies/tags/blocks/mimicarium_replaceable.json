@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ore",
+    "minecraft:coal_ore",
+    "minecraft:diamond_ore",
+    "minecraft:copper_ore",
+    "minecraft:lapis_ore",
+    "minecraft:emerald_ore",
+    "minecraft:andesite",
+    "minecraft:gravel",
+    "minecraft:diorite",
+    "minecraft:granite",
+    "minecraft:budding_amethyst",
+    "minecraft:amethyst_block",
+    "axontechnologies:fakestone"
+
+  ]
+}

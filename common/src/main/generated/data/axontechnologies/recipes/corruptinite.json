@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:dark_essence"
+    },
+    "U": {
+      "item": "axontechnologies:unstable_corruptinite"
+    }
+  },
+  "pattern": [
+    "###",
+    "UUU",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:corruptinite"
+  },
+  "show_notification": true
+}

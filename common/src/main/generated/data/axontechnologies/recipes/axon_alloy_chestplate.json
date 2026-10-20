@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "A": {
+      "item": "axontechnologies:dark_thunderanium_chestplate"
+    },
+    "M": {
+      "item": "axontechnologies:corruptinite_chestplate"
+    }
+  },
+  "pattern": [
+    "###",
+    "A#M",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:axon_alloy_chestplate"
+  },
+  "show_notification": true
+}

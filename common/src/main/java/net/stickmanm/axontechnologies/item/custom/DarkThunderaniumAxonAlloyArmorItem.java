@@ -15,6 +15,7 @@ import net.stickmanm.axontechnologies.effect.ModEffects;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.item.client.DarkThunderaniumArmorRenderer;
 import net.stickmanm.axontechnologies.item.client.DarkThunderaniumAxonAlloyArmorRenderer;
+import net.stickmanm.axontechnologies.item.client.ArmorClientHooks;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.RenderProvider;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
@@ -28,12 +29,23 @@ import java.util.function.Supplier;
 public class DarkThunderaniumAxonAlloyArmorItem extends ArmorItem implements GeoItem {
 
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-    private final Supplier<Object> renderProvider = GeoItem.makeRenderer(this);
+    // Fabric GeckoLib only (GeoItem.makeRenderer does not exist in the Forge build of GeckoLib)
+    private Object renderProvider;
 
 
     public DarkThunderaniumAxonAlloyArmorItem(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
     }
+    /**
+     * Forge hook. Same erasure as Forge's Item#initializeClient(Consumer<IClientItemExtensions>), so Forge calls it on the client;
+     * on Fabric nothing ever calls it. The Forge-only object is built in the forge module.
+     */
+    public void initializeClient(Consumer<Object> consumer) {
+        Object extensions = ArmorClientHooks.createClientExtensions(() -> new DarkThunderaniumAxonAlloyArmorRenderer());
+        if (extensions != null)
+            consumer.accept(extensions);
+    }
+
     @Override
     public void createRenderer(Consumer<Object> consumer) {
         consumer.accept(new RenderProvider() {
@@ -58,7 +70,11 @@ public class DarkThunderaniumAxonAlloyArmorItem extends ArmorItem implements Geo
 
     @Override
     public Supplier<Object> getRenderProvider() {
-        return this.renderProvider;
+        return () -> {
+            if (this.renderProvider == null)
+                createRenderer(provider -> this.renderProvider = provider);
+            return this.renderProvider;
+        };
     }
 
     @Override

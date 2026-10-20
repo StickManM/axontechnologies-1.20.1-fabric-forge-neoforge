@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "axontechnologies:item/corruptinite_axon_alloy_helmet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:corruptinite_ore",
+    "axontechnologies:denderium_ore",
+    "axontechnologies:corruption_portal_frame",
+    "axontechnologies:corruption_block",
+    "#axontechnologies:reinforced_dreadstone"
+  ]
+}

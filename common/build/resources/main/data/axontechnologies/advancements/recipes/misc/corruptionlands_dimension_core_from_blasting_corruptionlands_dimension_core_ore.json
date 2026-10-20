@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_corruptionlands_dimension_core_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:corruptionlands_dimension_core_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:corruptionlands_dimension_core_from_blasting_corruptionlands_dimension_core_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_corruptionlands_dimension_core_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:corruptionlands_dimension_core_from_blasting_corruptionlands_dimension_core_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:mimicarium_ore",
+    "axontechnologies:deepslate_mimicarium_ore",
+    "axontechnologies:voidstone",
+    "axontechnologies:fakestone_gold_ore",
+    "axontechnologies:fakeslate_gold_ore",
+    "axontechnologies:mimicarium_portal_frame"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:axontechnologies/got_corruptinite",
+  "criteria": {
+    "got_corruptinite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:corruptinite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_corruptinite_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:corruptinite_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_corruptinite_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:corruptinite_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_corruptinite_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:corruptinite_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.axontechnologies.get_corruptinite_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:corruptinite_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_corruptinite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_corruptinite_helmet"
+    ],
+    [
+      "got_corruptinite_chestplate"
+    ],
+    [
+      "got_corruptinite_leggings"
+    ],
+    [
+      "got_corruptinite_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

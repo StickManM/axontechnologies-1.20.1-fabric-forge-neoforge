@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:red_essence"
+    },
+    "D": {
+      "item": "axontechnologies:corruption_block"
+    },
+    "F": {
+      "item": "axontechnologies:thunderanium_portal_frame"
+    },
+    "R": {
+      "item": "axontechnologies:red_thunderanium_ingot"
+    },
+    "T": {
+      "item": "axontechnologies:thunderanium_ingot"
+    }
+  },
+  "pattern": [
+    "DRD",
+    "#F#",
+    "DTD"
+  ],
+  "result": {
+    "item": "axontechnologies:corruption_portal_frame"
+  },
+  "show_notification": true
+}

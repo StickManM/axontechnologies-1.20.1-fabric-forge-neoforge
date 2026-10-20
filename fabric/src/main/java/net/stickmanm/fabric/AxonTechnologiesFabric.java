@@ -48,11 +48,6 @@ public class AxonTechnologiesFabric implements ModInitializer {
 		// Fabric-specific registrations
 		ModStrippableBlockRegistry.registerStrippableBlocks();
 
-		// Register entity attributes (Fabric-specific)
-		FabricDefaultAttributeRegistry.register(ModEntities.RED_ESSENCE_ZOMBIE.get(), RedEssenceZombieEntity.setAttributes());
-		FabricDefaultAttributeRegistry.register(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), GeneticallyModifiedRedEssenceZombieEntity.setAttributes());
-		FabricDefaultAttributeRegistry.register(ModEntities.DARK_ESSENCE_ZOMBIE.get(), DarkEssenceZombieEntity.setAttributes());
-		FabricDefaultAttributeRegistry.register(ModEntities.LOST_MINER.get(), LostMinerEntity.setAttributes());
 
 		// Register Portals
 		ModPortalsFabric.registerModPortalsFabric();

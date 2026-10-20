@@ -1,5 +1,6 @@
 package net.stickmanm.axontechnologies.entity;
 
+import dev.architectury.registry.level.entity.EntityAttributeRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.EntityDimensions;
@@ -62,7 +63,11 @@ public class ModEntities {
     }
 
     public static void registerModEntities(){
-        // Attribute registration is handled in platform-specific code
+        // Default attributes through Architectury, so it works on both Fabric and Forge
+        EntityAttributeRegistry.register(RED_ESSENCE_ZOMBIE, RedEssenceZombieEntity::setAttributes);
+        EntityAttributeRegistry.register(GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE, GeneticallyModifiedRedEssenceZombieEntity::setAttributes);
+        EntityAttributeRegistry.register(DARK_ESSENCE_ZOMBIE, DarkEssenceZombieEntity::setAttributes);
+        EntityAttributeRegistry.register(LOST_MINER, LostMinerEntity::setAttributes);
     }
 }
 

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:septuple_compressed_stick"
+    }
+  ],
+  "result": {
+    "item": "axontechnologies:octuple_compressed_stick"
+  }
+}

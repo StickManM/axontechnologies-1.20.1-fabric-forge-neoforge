@@ -32,7 +32,7 @@ import org.jetbrains.annotations.Nullable;
 public class ThunderaniumTntBlock extends Block {
     public static final BooleanProperty UNSTABLE;
 
-    public ThunderaniumTntBlock(AbstractBlock.Settings settings) {
+    public ThunderaniumTntBlock(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)this.getDefaultState().with(UNSTABLE, false));
     }

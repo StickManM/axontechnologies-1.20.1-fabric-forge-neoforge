@@ -1,5 +1,6 @@
 package net.stickmanm.axontechnologies.item;
 
+import dev.architectury.core.item.ArchitecturySpawnEggItem;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.item.*;
@@ -143,19 +144,19 @@ public class ModItems {
 
     //SPAWN EGGS
     public static final RegistrySupplier<Item> RED_ESSENCE_ZOMBIE_SPAWN_EGG = registerItem("red_essence_zombie_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.RED_ESSENCE_ZOMBIE.get(), 0xFF0000, 0x000000,
+            () -> new ArchitecturySpawnEggItem(ModEntities.RED_ESSENCE_ZOMBIE, 0xFF0000, 0x000000,
                     new Item.Settings()));
 
     public static final RegistrySupplier<Item> GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE_SPAWN_EGG = registerItem("genetically_modified_red_essence_zombie_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), 0xFF0000, 0x00FF00,
+            () -> new ArchitecturySpawnEggItem(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE, 0xFF0000, 0x00FF00,
                     new Item.Settings()));
 
     public static final RegistrySupplier<Item> DARK_ESSENCE_ZOMBIE_SPAWN_EGG = registerItem("dark_essence_zombie_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.DARK_ESSENCE_ZOMBIE.get(), 0x301934, 0x000000,
+            () -> new ArchitecturySpawnEggItem(ModEntities.DARK_ESSENCE_ZOMBIE, 0x301934, 0x000000,
                     new Item.Settings()));
 
     public static final RegistrySupplier<Item> LOST_MINER_SPAWN_EGG = registerItem("lost_miner_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.LOST_MINER.get(), 0x301934, 0xFFD700,
+            () -> new ArchitecturySpawnEggItem(ModEntities.LOST_MINER, 0x301934, 0xFFD700,
                     new Item.Settings()));
 
     //Lighters

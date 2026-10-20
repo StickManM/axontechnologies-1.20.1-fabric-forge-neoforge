@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:dark_thunderanium_ingot"
+    },
+    "B": {
+      "item": "axontechnologies:red_thunderanium_hoe"
+    },
+    "E": {
+      "item": "axontechnologies:dark_essence"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "##E",
+    "ESE",
+    "EBE"
+  ],
+  "result": {
+    "item": "axontechnologies:dark_thunderanium_hoe"
+  },
+  "show_notification": true
+}

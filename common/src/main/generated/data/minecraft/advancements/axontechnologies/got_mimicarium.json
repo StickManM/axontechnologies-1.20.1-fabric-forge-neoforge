@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_mimicarium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:mimicarium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancement.axontechnologies.get_mimicarium.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:mimicarium"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_mimicarium.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_mimicarium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

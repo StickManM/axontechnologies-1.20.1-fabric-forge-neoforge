@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 5.0,
+  "group": "denderium",
+  "ingredient": {
+    "item": "axontechnologies:denderium_ore"
+  },
+  "result": "axontechnologies:denderium"
+}

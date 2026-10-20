@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "C": {
+      "item": "axontechnologies:corruptionlands_dimension_core"
+    },
+    "D": {
+      "item": "axontechnologies:dread_caverns_dimension_core"
+    },
+    "G": {
+      "item": "axontechnologies:gx_bucket"
+    },
+    "H": {
+      "item": "axontechnologies:ultimate_hoe_trophy"
+    },
+    "M": {
+      "item": "axontechnologies:mimic_world_dimension_core"
+    },
+    "T": {
+      "item": "axontechnologies:thunderlands_dimension_core"
+    }
+  },
+  "pattern": [
+    "MAD",
+    "GHG",
+    "TAC"
+  ],
+  "result": {
+    "item": "axontechnologies:razzorium"
+  },
+  "show_notification": true
+}

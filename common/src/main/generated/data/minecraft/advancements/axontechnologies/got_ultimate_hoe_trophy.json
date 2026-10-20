@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:axontechnologies/got_axon_alloy",
+  "criteria": {
+    "got_ultimate_hoe_trophy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:ultimate_hoe_trophy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.axontechnologies.get_ultimate_hoe_trophy.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:ultimate_hoe_trophy"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_ultimate_hoe_trophy.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_ultimate_hoe_trophy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

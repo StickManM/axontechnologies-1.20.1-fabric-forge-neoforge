@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "axontechnologies:block/thundered_log_top",
+    "side": "axontechnologies:block/thundered_log"
+  }
+}

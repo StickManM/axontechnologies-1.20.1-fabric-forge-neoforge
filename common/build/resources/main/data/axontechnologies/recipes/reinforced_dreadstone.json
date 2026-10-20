@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:dreadstone"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:reinforced_dreadstone"
+  },
+  "show_notification": true
+}

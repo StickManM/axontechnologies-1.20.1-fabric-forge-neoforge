@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:mimicarium"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "I#I",
+    "#C#",
+    "I#I"
+  ],
+  "result": {
+    "item": "axontechnologies:mimicarium_portal_frame"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:thunderanium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " S "
+  ],
+  "result": {
+    "item": "axontechnologies:thunderanium_sword"
+  },
+  "show_notification": true
+}

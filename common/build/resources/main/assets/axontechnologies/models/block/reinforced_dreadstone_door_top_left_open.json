@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "axontechnologies:block/reinforced_dreadstone_door_bottom",
+    "top": "axontechnologies:block/reinforced_dreadstone_door_top"
+  }
+}

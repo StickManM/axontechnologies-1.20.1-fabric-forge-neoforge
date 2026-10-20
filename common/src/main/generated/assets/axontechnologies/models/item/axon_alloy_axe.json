@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "axontechnologies:item/axon_alloy_axe"
+  }
+}

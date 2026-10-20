@@ -1,0 +1,12 @@
+{
+  "type": "axontechnologies:mimicworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "axontechnologies:mimicworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "axontechnologies:mimic_plains"
+    }
+  }
+}
+

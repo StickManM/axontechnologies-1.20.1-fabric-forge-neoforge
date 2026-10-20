@@ -1,0 +1,321 @@
+{
+  "item.axontechnologies.mimicarium": "Mimicarium",
+  "item.axontechnologies.raw_netherite": "Raw Netherite",
+
+  "item.axontechnologies.thunderanium_ingot": "Thunderanium Ingot",
+  "item.axontechnologies.raw_thunderanium": "Raw Thunderanium",
+  "item.axontechnologies.refined_thunderanium": "Refined Thunderanium",
+  "item.axontechnologies.thunderanium_cluster": "Thunderanium Cluster",
+
+  "item.axontechnologies.red_thunderanium_ingot": "Red Thunderanium Ingot",
+  "item.axontechnologies.red_thunderanium_cluster": "Red Thunderanium Cluster",
+
+  "item.axontechnologies.corruptinite": "Corruptinite",
+  "item.axontechnologies.unstable_corruptinite": "Unstable Corruptinite",
+
+  "item.axontechnologies.dark_thunderanium_ingot": "Dark Thunderanium Ingot",
+  "item.axontechnologies.dark_thunderanium_cluster": "Dark Thunderanium Cluster",
+
+  "item.axontechnologies.axon_alloy": "Axon Alloy",
+  "item.axontechnologies.razzorium": "Razzorium",
+  "item.axontechnologies.natey_gift": "Natey's Gift",
+  "item.axontechnologies.natey_balls": "NateyNight's Balls",
+
+  "item.axontechnologies.red_essence": "Red Essence",
+  "item.axontechnologies.renderium": "Renderium",
+  "item.axontechnologies.denderium": "Denderium",
+  "item.axontechnologies.dark_essence": "Dark Essence",
+
+  "item.axontechnologies.thunder_fuel": "Thunder Fuel",
+  "item.axontechnologies.void_coal": "Void Coal",
+
+  "item.axontechnologies.compressed_stick": "Compressed Stick",
+  "item.axontechnologies.double_compressed_stick": "Double Compressed Stick",
+  "item.axontechnologies.triple_compressed_stick": "Triple Compressed Stick",
+  "item.axontechnologies.quadruple_compressed_stick": "Quadruple Compressed Stick",
+  "item.axontechnologies.quintuple_compressed_stick": "Quintuple Compressed Stick",
+  "item.axontechnologies.sextuple_compressed_stick": "Sextuple Compressed Stick",
+  "item.axontechnologies.septuple_compressed_stick": "Septuple Compressed Stick",
+  "item.axontechnologies.octuple_compressed_stick": "Octuple Compressed Stick",
+  "item.axontechnologies.nonuple_compressed_stick": "Nonuple Compressed Stick",
+  "item.axontechnologies.decuple_compressed_stick": "Decuple Compressed Stick",
+  "item.axontechnologies.undecuple_compressed_stick": "Undecuple Compressed Stick",
+  "item.axontechnologies.duodecuple_compressed_stick": "Duodecuple Compressed Stick",
+  "item.axontechnologies.tredecuple_compressed_stick": "Tredecuple Compressed Stick",
+  "item.axontechnologies.quattuordecuple_compressed_stick": "Quattuordecuple Compressed Stick",
+
+  "item.axontechnologies.mimicarium_igniter": "Flint N' Mimicarium",
+  "item.axontechnologies.dreaded_igniter": "Dread Igniter",
+  "item.axontechnologies.thunderanium_key": "Thunderanium Key",
+  "item.axontechnologies.corruption_gateway": "Corruption Gateway",
+
+  "item.axontechnologies.liquid_thunder_bucket": "Bucket of Liquid Thunder",
+  "item.axontechnologies.liquid_corruption_bucket": "Bucket of Liquid Corruption",
+  "item.axontechnologies.liquid_life_essence_bucket": "Bucket of Liquid Life Essence",
+  "item.axontechnologies.gx_bucket": "Bucket of Glitch X Formula",
+  "item.axontechnologies.thunderic_glitching_acid_bucket": "Bucket of Thunderic Glitching Acid",
+  "item.axontechnologies.infinite_water_bucket": "Bucket of Infinite Water",
+
+  "item.axontechnologies.antiglitch_sword": "Antiglitch Sword",
+  "item.axontechnologies.vanilla_hoe": "Vanilla Hoe",
+  "item.axontechnologies.ultimate_hoe_trophy": "Ultimate Hoe Trophy",
+  "item.axontechnologies.tickle_travis_tickler": "Tickle Travis Tickler",
+  "item.axontechnologies.nokia_hammer": "Nokia Hammer",
+  "item.axontechnologies.nemesis_commando_blade": "Nemesis Commando Blade",
+  "item.axontechnologies.razzor": "Razzor",
+  "item.axontechnologies.razzorium_miner": "Razzorium Miner",
+
+  "item.axontechnologies.armor_test_helmet": "Armor Test Helmet",
+  "item.axontechnologies.armor_test_chestplate": "Armor Test Chestplate",
+  "item.axontechnologies.armor_test_leggings": "Armor Test Leggings",
+  "item.axontechnologies.armor_test_boots": "Armor Test Boots",
+
+  "item.axontechnologies.thunderanium_helmet": "Thunderanium Helmet",
+  "item.axontechnologies.thunderanium_chestplate": "Thunderanium Chestplate",
+  "item.axontechnologies.thunderanium_leggings": "Thunderanium Leggings",
+  "item.axontechnologies.thunderanium_boots": "Thunderanium Boots",
+
+  "item.axontechnologies.red_thunderanium_helmet": "Red Thunderanium Helmet",
+  "item.axontechnologies.red_thunderanium_chestplate": "Red Thunderanium Chestplate",
+  "item.axontechnologies.red_thunderanium_leggings": "Red Thunderanium Leggings",
+  "item.axontechnologies.red_thunderanium_boots": "Red Thunderanium Boots",
+
+  "item.axontechnologies.dark_thunderanium_helmet": "Dark Thunderanium Helmet",
+  "item.axontechnologies.dark_thunderanium_chestplate": "Dark Thunderanium Chestplate",
+  "item.axontechnologies.dark_thunderanium_leggings": "Dark Thunderanium Leggings",
+  "item.axontechnologies.dark_thunderanium_boots": "Dark Thunderanium Boots",
+
+  "item.axontechnologies.corruptinite_helmet": "Corruptinite Helmet",
+  "item.axontechnologies.corruptinite_chestplate": "Corruptinite Chestplate",
+  "item.axontechnologies.corruptinite_leggings": "Corruptinite Leggings",
+  "item.axontechnologies.corruptinite_boots": "Corruptinite Boots",
+
+  "item.axontechnologies.dark_thunderanium_axon_alloy_helmet": "Axon Alloy Helmet Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_chestplate": "Axon Alloy Chestplate Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_leggings": "Axon Alloy Leggings Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_boots": "Axon Alloy Boots Type G",
+
+  "item.axontechnologies.corruptinite_axon_alloy_helmet": "Axon Alloy Helmet Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_chestplate": "Axon Alloy Chestplate Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_leggings": "Axon Alloy Leggings Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_boots": "Axon Alloy Boots Type C",
+
+  "item.axontechnologies.axon_alloy_helmet": "Axon Alloy Helmet Type A",
+  "item.axontechnologies.axon_alloy_chestplate": "Axon Alloy Chestplate Type A",
+  "item.axontechnologies.axon_alloy_leggings": "Axon Alloy Leggings Type A",
+  "item.axontechnologies.axon_alloy_boots": "Axon Alloy Boots Type A",
+
+  "item.axontechnologies.red_essence_zombie_spawn_egg": "Red Essence Zombie Spawn Egg",
+  "item.axontechnologies.genetically_modified_red_essence_zombie_spawn_egg": "Genetically Modified Red Essence Zombie Spawn Egg",
+  "item.axontechnologies.dark_essence_zombie_spawn_egg": "Dark Essence Zombie Spawn Egg",
+  "item.axontechnologies.lost_miner_spawn_egg": "Lost Miner Spawn Egg",
+
+  "item.axontechnologies.thunderanium_sword": "Thunderanium Sword",
+  "item.axontechnologies.thunderanium_axe": "Thunderanium Axe",
+  "item.axontechnologies.thunderanium_pickaxe": "Thunderanium Pickaxe",
+  "item.axontechnologies.thunderanium_shovel": "Thunderanium Shovel",
+  "item.axontechnologies.thunderanium_hoe": "Thunderanium Hoe",
+
+  "item.axontechnologies.red_thunderanium_sword": "Red Thunderanium Sword",
+  "item.axontechnologies.red_thunderanium_axe": "Red Thunderanium Axe",
+  "item.axontechnologies.red_thunderanium_pickaxe": "Red Thunderanium Pickaxe",
+  "item.axontechnologies.red_thunderanium_shovel": "Red Thunderanium Shovel",
+  "item.axontechnologies.red_thunderanium_hoe": "Red Thunderanium Hoe",
+
+  "item.axontechnologies.dark_thunderanium_sword": "Dark Thunderanium Sword",
+  "item.axontechnologies.dark_thunderanium_axe": "Dark Thunderanium Axe",
+  "item.axontechnologies.dark_thunderanium_pickaxe": "Dark Thunderanium Pickaxe",
+  "item.axontechnologies.dark_thunderanium_shovel": "Dark Thunderanium Shovel",
+  "item.axontechnologies.dark_thunderanium_hoe": "Dark Thunderanium Hoe",
+
+  "item.axontechnologies.corruptinite_sword": "Corruptinite Sword",
+  "item.axontechnologies.corruptinite_axe": "Corruptinite Axe",
+  "item.axontechnologies.corruptinite_pickaxe": "Corruptinite Pickaxe",
+  "item.axontechnologies.corruptinite_shovel": "Corruptinite Shovel",
+  "item.axontechnologies.corruptinite_hoe": "Corruptinite Hoe",
+
+  "item.axontechnologies.dark_thunderanium_axon_alloy_sword": "Axon Alloy Sword Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_axe": "Axon Alloy Axe Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_pickaxe": "Axon Alloy Pickaxe Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_shovel": "Axon Alloy Shovel Type G",
+  "item.axontechnologies.dark_thunderanium_axon_alloy_hoe": "Axon Alloy Hoe Type G",
+
+  "item.axontechnologies.corruptinite_axon_alloy_sword": "Axon Alloy Sword Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_axe": "Axon Alloy Axe Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_pickaxe": "Axon Alloy Pickaxe Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_shovel": "Axon Alloy Shovel Type C",
+  "item.axontechnologies.corruptinite_axon_alloy_hoe": "Axon Alloy Hoe Type C",
+
+  "item.axontechnologies.axon_alloy_sword": "Axon Alloy Sword Type A",
+  "item.axontechnologies.axon_alloy_axe": "Axon Alloy Axe Type A",
+  "item.axontechnologies.axon_alloy_pickaxe": "Axon Alloy Pickaxe Type A",
+  "item.axontechnologies.axon_alloy_shovel": "Axon Alloy Shovel Type A",
+  "item.axontechnologies.axon_alloy_hoe": "Axon Alloy Hoe Type A",
+
+  "item.axontechnologies.mimic_world_dimension_core": "Mimic World Dimension Core",
+  "item.axontechnologies.dread_caverns_dimension_core": "Dread Caverns Dimension Core",
+  "item.axontechnologies.thunderlands_dimension_core": "Thunderlands Dimension Core",
+  "item.axontechnologies.corruptionlands_dimension_core": "Corruptionlands Dimension Core",
+
+  "block.axontechnologies.mimicarium_ore": "Mimicarium Ore",
+  "block.axontechnologies.deepslate_mimicarium_ore": "Deepslate Mimicarium Ore",
+  "block.axontechnologies.fakestone_iron_ore": "Fakestone Iron Ore",
+  "block.axontechnologies.fakestone_gold_ore": "Fakestone Gold Ore",
+  "block.axontechnologies.fakeslate_iron_ore": "Fakeslate Iron Ore",
+  "block.axontechnologies.fakeslate_gold_ore": "Fakeslate Gold Ore",
+  "block.axontechnologies.thunderanium_ore": "Thunderanium Ore",
+  "block.axontechnologies.renderium_ore": "Renderium Ore",
+  "block.axontechnologies.denderium_ore": "Denderium Ore",
+  "block.axontechnologies.corruptinite_ore": "Corruptinite Ore",
+
+  "block.axontechnologies.mimic_world_dimension_core_ore": "Mimic World Dimension Core Ore",
+  "block.axontechnologies.dread_caverns_dimension_core_ore": "Dread Caverns Dimension Core Ore",
+  "block.axontechnologies.thunderlands_dimension_core_ore": "Thunderlands Dimension Core Ore",
+  "block.axontechnologies.corruptionlands_dimension_core_ore": "Corruptionlands Dimension Core Ore",
+
+  "block.axontechnologies.dreadstone": "Dreadstone",
+  "block.axontechnologies.reinforced_dreadstone": "Reinforced Dreadstone",
+  "block.axontechnologies.reinforced_dreadstone_wall": "Reinforced Dreadstone Wall",
+  "block.axontechnologies.reinforced_dreadstone_stairs": "Reinforced Dreadstone Stairs",
+  "block.axontechnologies.reinforced_dreadstone_slab": "Reinforced Dreadstone Slab",
+  "block.axontechnologies.reinforced_dreadstone_door": "Reinforced Dreadstone Door",
+  "block.axontechnologies.reinforced_dreadstone_trapdoor": "Reinforced Dreadstone Trapdoor",
+  "block.axontechnologies.reinforced_dreadstone_glass": "Reinforced Dreadstone Glass",
+  "block.axontechnologies.void_coal_block": "Block of Void Coal",
+
+  "block.axontechnologies.voidstone": "Voidstone",
+  "block.axontechnologies.fakestone": "Fakestone",
+  "block.axontechnologies.octuple_compressed_cobblestone": "Octuple Compressed Cobblestone",
+  "block.axontechnologies.fakeslate": "Fakeslate",
+
+  "block.axontechnologies.thunderanium_tnt": "Thunderanium TNT",
+  "block.axontechnologies.red_thunderanium_tnt": "Red Thunderanium TNT",
+  "block.axontechnologies.axon_alloy_tnt": "Axon Alloy TNT",
+
+  "block.axontechnologies.charged_dirt": "Charged Dirt",
+  "block.axontechnologies.thundered_stone": "Thundered Stone",
+
+  "block.axontechnologies.corrupted_dirt": "Corrupted Dirt",
+  "block.axontechnologies.corrupted_stone": "Corrupted Stone",
+  "block.axontechnologies.corruption_block": "Corruption Block",
+
+  "block.axontechnologies.thunderanium_portal_frame": "Thunderanium Portal Frame",
+  "block.axontechnologies.mimicarium_portal_frame": "Mimicarium Portal Frame",
+  "block.axontechnologies.corruption_portal_frame": "Corruption Portal Frame",
+
+  "block.axontechnologies.dreadstone_diamond_ore": "Dreadstone Diamond Ore",
+  "block.axontechnologies.dreadstone_thunderanium_ore": "Dreadstone Thunderanium Ore",
+  "block.axontechnologies.dreadstone_netherite_ore": "Dreadstone Netherite Ore",
+  "block.axontechnologies.void_coal_ore": "Void Coal Ore",
+
+  "block.axontechnologies.thundered_wood": "Thundered Wood",
+  "block.axontechnologies.stripped_thundered_log": "Stripped Thundered Log",
+  "block.axontechnologies.stripped_thundered_wood": "Stripped Thundered Wood",
+  "block.axontechnologies.thundered_planks": "Thundered Planks",
+  "block.axontechnologies.thundered_leaves": "Thundered Leaves",
+  "block.axontechnologies.thundered_sapling": "Thundered Sapling",
+  "block.axontechnologies.thundered_log": "Thundered Log",
+
+  "block.customportalapi.customportalblock": "Portal Block",
+  "block.axontechnologies.liquid_thunder_block": "Liquid Thunder",
+  "block.axontechnologies.liquid_corruption_block": "Liquid Corruption",
+  "block.axontechnologies.gx_block": "GlitchX Formula",
+  "block.axontechnologies.liquid_life_essence_block": "Liquid Life Essence Block",
+  "block.axontechnologies.thunderic_glitching_acid_block": "Thunderic Glitching Acid",
+  "block.axontechnologies.infinite_water_block": "Infinite Water (WARNING WILL DESTROY WORLD)",
+
+  "effect.axontechnologies.glitchster": "Glitchster",
+  "effect.axontechnologies.glitchster2": "Glitchster II",
+  "effect.axontechnologies.glitchster3": "Glitchster III",
+  "effect.axontechnologies.glitchster4": "Glitchster IV",
+  "effect.axontechnologies.glitchster5": "Glitchster V",
+  "effect.axontechnologies.glitchx": "GlitchX",
+  "effect.axontechnologies.overdose": "Glitchster Overdose",
+  "effect.axontechnologies.neutralized_glitchster": "Neutralized Glitchster",
+  "effect.axontechnologies.corrupted_glitchster": "Corrupted Glitchster III",
+  "effect.axontechnologies.corrupted_glitchster2": "Corrupted Glitchster IV",
+  "effect.axontechnologies.corrupted_glitchster3": "Corrupted Glitchster V",
+  "effect.axontechnologies.thunder_poisoning": "Thunder Poisoning",
+  "effect.axontechnologies.antiglitchster": "Anti Glitchster",
+  "effect.axontechnologies.anti_corrupted_glitchster": "Glitchster",
+
+  "entity.axontechnologies.red_essence_zombie": "Red Essence Zombie",
+  "entity.axontechnologies.genetically_modified_red_essence_zombie": "Genetically Modified Red Essence Zombie",
+  "entity.axontechnologies.dark_essence_zombie": "Dark Essence Zombie",
+  "entity.axontechnologies.lost_miner": "Lost Miner",
+
+  "entity.axontechnologies.primed_thunderanium_tnt": "Primed Thunderanium Tnt",
+  "entity.axontechnologies.primed_red_thunderanium_tnt": "Primed Red Thunderanium Tnt",
+  "entity.axontechnologies.primed_axon_alloy_tnt": "Primed Axon Alloy Tnt",
+
+  "advancement.axontechnologies.get_mimicarium.title": "Stop Mocking Me",
+  "advancement.axontechnologies.get_mimicarium.description": "Obtain a piece of Mimicarium.",
+
+  "advancement.axontechnologies.get_thunderanium_ingot.title": "How Do You Even Get Thunder Into Ingot Form?",
+  "advancement.axontechnologies.get_thunderanium_ingot.description": "Obtain a Thunderanium Ingot.",
+
+  "advancement.axontechnologies.get_thunderanium_armor.title": "Man of Steel? More Like Man of Thunder",
+  "advancement.axontechnologies.get_thunderanium_armor.description": "Get a full set of Thunderanium Armor.",
+
+  "advancement.axontechnologies.get_red_essence.title": "All That For a Color...",
+  "advancement.axontechnologies.get_red_essence.description": "Kill a Red Essence Zombie and collect its Red Essence.",
+
+  "advancement.axontechnologies.get_renderium.title": "I Prefer the Old School Method.",
+  "advancement.axontechnologies.get_renderium.description": "Obtain a piece of Renderium.",
+
+  "advancement.axontechnologies.get_red_thunderanium_ingot.title": "I Could Get the Same Results Using Red Dye",
+  "advancement.axontechnologies.get_red_thunderanium_ingot.description": "Combine Thunderanium Ingots and Red Essence to obtain a Red Thunderanium Ingot.",
+
+  "advancement.axontechnologies.get_red_thunderanium_armor.title": "Fear Me With My Dyed Armor!",
+  "advancement.axontechnologies.get_red_thunderanium_armor.description": "Get a full set of Red Thunderanium Armor.",
+
+  "advancement.axontechnologies.get_dark_essence.title": "And the Cycle Continues",
+  "advancement.axontechnologies.get_dark_essence.description": "Kill a Dark Essence Zombie for Dark Essence.",
+
+  "advancement.axontechnologies.get_denderium.title": "I Prefer the Newer Old School Method.",
+  "advancement.axontechnologies.get_denderium.description": "Obtain a piece of Denderium.",
+
+  "advancement.axontechnologies.get_dark_thunderanium_ingot.title": "Anti Hero",
+  "advancement.axontechnologies.get_dark_thunderanium_ingot.description": "Create a Dark Thunderanium Ingot.",
+
+  "advancement.axontechnologies.get_corruptinite.title": "Corruption is My Path",
+  "advancement.axontechnologies.get_corruptinite.description": "Stabilize Unstable Corruptinite.",
+
+  "advancement.axontechnologies.get_dark_thunderanium_armor.title": "Embracing The Darkness",
+  "advancement.axontechnologies.get_dark_thunderanium_armor.description": "Get a full set of Dark Thunderanium Armor.",
+
+  "advancement.axontechnologies.get_corruptinite_armor.title": "You Can't Lock Up The Darkness",
+  "advancement.axontechnologies.get_corruptinite_armor.description": "Get a full set of Corruptinite Armor.",
+
+  "advancement.axontechnologies.get_axon_alloy.title": "All My Life's Work in One Alloy",
+  "advancement.axontechnologies.get_axon_alloy.description": "Create Axon Alloy.",
+
+  "advancement.axontechnologies.get_dark_thunderanium_axon_alloy_armor.title": "The Fastest Glitchster Alive",
+  "advancement.axontechnologies.get_dark_thunderanium_axon_alloy_armor.description": "Get a full set of Axon Alloy Armor Type G.",
+
+  "advancement.axontechnologies.get_corruptinite_axon_alloy_armor.title": "The Darkness Evolves!",
+  "advancement.axontechnologies.get_corruptinite_axon_alloy_armor.description": "Get a full set of Axon Alloy Armor Type C.",
+
+  "advancement.axontechnologies.get_axon_alloy_armor.title": "You Can't Use Both of Them!",
+  "advancement.axontechnologies.get_axon_alloy_armor.description": "Get a full set of Axon Alloy Armor Type A.",
+
+  "advancement.axontechnologies.get_ultimate_hoe_trophy.title": "Seriously?",
+  "advancement.axontechnologies.get_ultimate_hoe_trophy.description": "Get the Ultimate Hoe Trophy.",
+
+  "advancement.axontechnologies.get_razzorium.title": "All That Work for One Ingot?!",
+  "advancement.axontechnologies.get_razzorium.description": "Make a piece of Razzorium.",
+
+  "advancement.axontechnologies.get_razzor.title": "The Omega Weapon",
+  "advancement.axontechnologies.get_razzor.description": "Create Razzor.",
+
+  "advancement.axontechnologies.get_razzorium_miner.title": "World Eater",
+  "advancement.axontechnologies.get_razzorium_miner.description": "Create the Razzorium Miner.",
+
+
+  "category.axontechnologies.keybinds": "Axon T.e.c.h.n.o.l.o.g.i.e.s. (WIP)",
+  "key.axontechnologies.activate_effect": "Activate Effect (WIP)",
+  "itemGroup.axontechnologies": "Axon T.e.c.h.n.o.l.o.g.i.e.s.",
+
+  "tooltip.axontechnologies.compressed_stick": "Part of the Compressed Sticks. There are 14 Compressed Sticks in total.",
+  "tooltip.axontechnologies.razzor_skin": "This is a skin for Razzor."
+}

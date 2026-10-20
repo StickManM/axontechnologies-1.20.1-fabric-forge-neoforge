@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:corruptinite"
+    },
+    "T": {
+      "item": "axontechnologies:red_thunderanium_leggings"
+    }
+  },
+  "pattern": [
+    "###",
+    "#T#",
+    "# #"
+  ],
+  "result": {
+    "item": "axontechnologies:corruptinite_leggings"
+  },
+  "show_notification": true
+}

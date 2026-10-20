@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "A": {
+      "item": "axontechnologies:dark_thunderanium_boots"
+    },
+    "M": {
+      "item": "axontechnologies:corruptinite_boots"
+    }
+  },
+  "pattern": [
+    "###",
+    "A#M",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:axon_alloy_boots"
+  },
+  "show_notification": true
+}

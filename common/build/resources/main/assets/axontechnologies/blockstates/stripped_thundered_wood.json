@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "axontechnologies:block/stripped_thundered_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "axontechnologies:block/stripped_thundered_wood"
+    },
+    "axis=z": {
+      "model": "axontechnologies:block/stripped_thundered_wood",
+      "x": 90
+    }
+  }
+}

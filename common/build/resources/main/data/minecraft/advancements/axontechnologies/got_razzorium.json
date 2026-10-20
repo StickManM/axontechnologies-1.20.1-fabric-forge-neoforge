@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:axontechnologies/got_axon_alloy",
+  "criteria": {
+    "got_razzorium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:razzorium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.axontechnologies.get_razzorium.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "axontechnologies:razzorium"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.axontechnologies.get_razzorium.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_razzorium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

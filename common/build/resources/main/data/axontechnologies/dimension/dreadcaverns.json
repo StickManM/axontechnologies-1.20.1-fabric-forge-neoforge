@@ -1,0 +1,11 @@
+{
+  "type": "axontechnologies:dreadcaverns",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "axontechnologies:dreadcaverns",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "axontechnologies:dread_wastes"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:refined_thunderanium_from_smelting_thunderanium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thunderanium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:thunderanium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thunderanium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:refined_thunderanium_from_smelting_thunderanium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

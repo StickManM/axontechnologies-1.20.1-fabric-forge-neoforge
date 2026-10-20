@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "axontechnologies:block/thundered_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "axontechnologies:block/thundered_log"
+    },
+    "axis=z": {
+      "model": "axontechnologies:block/thundered_log_horizontal",
+      "x": 90
+    }
+  }
+}

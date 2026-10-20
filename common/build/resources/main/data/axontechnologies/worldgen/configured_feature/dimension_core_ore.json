@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 3,
+    "targets": [
+      {
+        "state": {
+          "Name": "axontechnologies:mimic_world_dimension_core_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "axontechnologies:fakeslate_replaceable"
+        }
+      },
+      {
+        "state": {
+          "Name": "axontechnologies:dread_caverns_dimension_core_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "axontechnologies:dreadstone_replaceable"
+        }
+      },
+      {
+        "state": {
+          "Name": "axontechnologies:thunderlands_dimension_core_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "axontechnologies:thundered_stone_replaceable"
+        }
+      },
+      {
+        "state": {
+          "Name": "axontechnologies:corruptionlands_dimension_core_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "axontechnologies:corrupted_stone_replaceable"
+        }
+      }
+    ]
+  }
+}

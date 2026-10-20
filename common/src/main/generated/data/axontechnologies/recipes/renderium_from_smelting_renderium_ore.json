@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 5.0,
+  "group": "renderium",
+  "ingredient": {
+    "item": "axontechnologies:renderium_ore"
+  },
+  "result": "axontechnologies:renderium"
+}

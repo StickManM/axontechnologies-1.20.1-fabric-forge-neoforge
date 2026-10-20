@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "A": {
+      "item": "axontechnologies:dark_thunderanium_helmet"
+    },
+    "M": {
+      "item": "axontechnologies:corruptinite_helmet"
+    }
+  },
+  "pattern": [
+    "###",
+    "A#M",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:axon_alloy_helmet"
+  },
+  "show_notification": true
+}

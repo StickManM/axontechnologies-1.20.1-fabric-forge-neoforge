@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "axontechnologies:item/dark_thunderanium_axon_alloy_axe"
+  }
+}

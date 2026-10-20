@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "axontechnologies:razzorium"
+    },
+    "S": {
+      "item": "axontechnologies:quattuordecuple_compressed_stick"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RSR",
+    "RSR"
+  ],
+  "result": {
+    "item": "axontechnologies:razzorium_miner"
+  },
+  "show_notification": true
+}

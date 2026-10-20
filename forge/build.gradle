@@ -48,6 +48,10 @@ dependencies {
     // GeckoLib
     modImplementation 'software.bernie.geckolib:geckolib-forge-1.20.1:4.4.4'
 
+    // GeckoLib's math library. The GeckoLib jar nests it (jar-in-jar), but Loom's dev run doesn't load nested jars,
+    // which causes NoClassDefFoundError: com/eliotlash/mclib/math/IValue. Players don't need this: it's in the GeckoLib jar.
+    forgeRuntimeLibrary 'com.eliotlash.mclib:mclib:20'
+
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }

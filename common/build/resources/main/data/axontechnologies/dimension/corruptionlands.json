@@ -1,0 +1,11 @@
+{
+  "type": "axontechnologies:corruptionlands",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "axontechnologies:corruptionlands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "axontechnologies:corrupted_plains"
+    }
+  }
+}

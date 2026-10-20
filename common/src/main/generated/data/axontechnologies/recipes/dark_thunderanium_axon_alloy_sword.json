@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "M": {
+      "item": "axontechnologies:dark_thunderanium_ingot"
+    },
+    "T": {
+      "item": "axontechnologies:dark_thunderanium_sword"
+    }
+  },
+  "pattern": [
+    "###",
+    "T#M",
+    "###"
+  ],
+  "result": {
+    "item": "axontechnologies:dark_thunderanium_axon_alloy_sword"
+  },
+  "show_notification": true
+}

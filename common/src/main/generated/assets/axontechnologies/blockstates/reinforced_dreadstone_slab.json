@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "axontechnologies:block/reinforced_dreadstone_slab"
+    },
+    "type=double": {
+      "model": "axontechnologies:block/reinforced_dreadstone"
+    },
+    "type=top": {
+      "model": "axontechnologies:block/reinforced_dreadstone_slab_top"
+    }
+  }
+}

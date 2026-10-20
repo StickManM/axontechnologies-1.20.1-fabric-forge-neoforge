@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 2000.0,
+  "group": "dimension_core",
+  "ingredient": {
+    "item": "axontechnologies:dread_caverns_dimension_core_ore"
+  },
+  "result": "axontechnologies:dread_caverns_dimension_core"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 10,
+  "experience": 3.0,
+  "group": "mimicarium",
+  "ingredient": {
+    "item": "axontechnologies:deepslate_mimicarium_ore"
+  },
+  "result": "axontechnologies:mimicarium"
+}
