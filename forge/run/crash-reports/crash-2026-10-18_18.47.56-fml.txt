@@ -1,0 +1,136 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2026-10-18 18:47:56
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23200%23207!/:?] {re:classloading}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:135) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23200%23207!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.MinecraftClient.lambda$new$4(MinecraftClient.java:571) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A}
+	at net.minecraft.util.Util.ifPresentOrElse(Util.java:421) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.MinecraftClient.lambda$new$5(MinecraftClient.java:564) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A}
+	at net.minecraftforge.client.loading.ForgeLoadingOverlay.render(ForgeLoadingOverlay.java:146) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23200%23207!/:?] {re:classloading}
+	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:954) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1146) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A}
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:718) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2-forge-1.20.1-47.4.23.jar%23201!/:?] {re:classloading,pl:unprotect:A}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.23.jar%23108!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.23.jar%23108!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.23.jar%23108!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.23.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23199!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:220) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	Architectury (architectury), Version: 9.2.14
+		Issue tracker URL: https://github.com/shedaniel/architectury/issues
+		at TRANSFORMER/architectury@9.2.14/dev.architectury.registry.registries.DeferredRegister$Entry.get(DeferredRegister.java:133)
+Stacktrace:
+	at dev.architectury.registry.registries.DeferredRegister$Entry.get(DeferredRegister.java:133) ~[architectury-forge-c202a452-9.2.14.jar%23208!/:?] {re:classloading}
+-- MOD axontechnologies --
+Details:
+	Mod File: /C:/Users/Daniel/OneDrive/Documents/axontechnologies 1.20.1 fabric-forge-neoforge/forge/build/resources/main/
+	Failure message: Axon Technologies (axontechnologies) has failed to load correctly
+		java.lang.NullPointerException: Registry Object not present: axontechnologies:thunder_fuel
+	Mod Version: 1.7.0-beta
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NullPointerException: Registry Object not present: axontechnologies:thunder_fuel
+Stacktrace:
+	at dev.architectury.registry.registries.DeferredRegister$Entry.get(DeferredRegister.java:133) ~[architectury-forge-c202a452-9.2.14.jar%23208!/:?] {re:classloading}
+	at net.stickmanm.axontechnologies.item.ModFuels.registerModFuels(ModFuels.java:10) ~[7383192761201474378.jar%23210!/:?] {re:classloading}
+	at net.stickmanm.axontechnologies.AxonTechnologies.init(AxonTechnologies.java:14) ~[7383192761201474378.jar%23210!/:?] {re:classloading}
+	at net.stickmanm.forge.AxonTechnologiesForge.<init>(AxonTechnologiesForge.java:31) ~[%23206!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.23.jar%23202!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.23.jar%23205!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 834686112 bytes (796 MiB) / 2084569088 bytes (1988 MiB) up to 8564768768 bytes (8168 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800XT 8-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.79
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon RX 6600 XT
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x73ff
+	Graphics card #0 versionInfo: DriverVersion=32.0.21045.5002
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 44226.79
+	Virtual memory used (MB): 41014.56
+	Swap memory total (MB): 11569.91
+	Swap memory used (MB): 468.03
+	JVM Flags: 2 total; -XX:StackShadowPages=32 -XX:StackShadowPages=32
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-patched-0.8.5.12.jar mixin PLUGINSERVICE 
+		eventbus-6.2.33.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.23.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.23.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.23.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-modlauncher-2.0.2.jar unprotect PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.23.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.23.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar ArchitecturyMixinRemapperInjector TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.4.23-minecraft-merged-1.20.1-net.f|Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		7383192761201474378.jar                           |generated_1e69021             |generated_1e69021             |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.4.23             |COMMON_SET|Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-c202a452-4.4.4.jar          |GeckoLib 4                    |geckolib                      |4.4.4               |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-forge-c202a452-9.2.14.jar            |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		main                                              |Axon Technologies             |axontechnologies              |1.7.0-beta          |ERROR     |Manifest: NOSIGNATURE
+	Crash Report UUID: eca5c826-58e1-4131-9f41-993073f3b1f5
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.23

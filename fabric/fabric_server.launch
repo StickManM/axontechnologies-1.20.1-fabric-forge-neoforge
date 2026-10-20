@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/fabric"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.buildship.core.classpathprovider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="dev.architectury.transformer.TransformerRuntime"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="nogui"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="fabric"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="&quot;-Darchitectury.main.class=D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.main_class&quot; &quot;-Darchitectury.runtime.transformer=D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.transforms&quot; &quot;-Darchitectury.properties=D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\.gradle\architectury\.properties&quot; -Djdk.attach.allowAttachSelf=true &quot;-javaagent:D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\architectury\architectury-transformer-agent.jar&quot; -Dfabric.dli.config=D:\Mod@@0020Making\axontechnologies@@00201.20.1@@0020fabric-forge-neoforge\.gradle\loom-cache\projects\fabric\launch.cfg -Dfabric.dli.env=server -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotServer"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:fabric}/fabric\run"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="true"/>
+</launchConfiguration>
