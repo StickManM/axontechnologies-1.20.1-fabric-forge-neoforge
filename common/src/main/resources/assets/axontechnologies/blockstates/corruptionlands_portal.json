@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "axontechnologies:block/custom_portal_ns" },
+    "axis=z": { "model": "axontechnologies:block/custom_portal_ew" },
+    "axis=y": { "model": "axontechnologies:block/custom_portal_flat" }
+  }
+}

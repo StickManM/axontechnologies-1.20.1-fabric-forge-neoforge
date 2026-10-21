@@ -317,5 +317,11 @@
   "itemGroup.axontechnologies": "Axon T.e.c.h.n.o.l.o.g.i.e.s.",
 
   "tooltip.axontechnologies.compressed_stick": "Part of the Compressed Sticks. There are 14 Compressed Sticks in total.",
-  "tooltip.axontechnologies.razzor_skin": "This is a skin for Razzor."
+  "tooltip.axontechnologies.razzor_skin": "This is a skin for Razzor.",
+
+  "block.axontechnologies.dreadcaverns_portal": "Dread Caverns Portal",
+  "block.axontechnologies.mimicworld_portal": "Mimic World Portal",
+  "block.axontechnologies.thunderlands_portal": "Thunderlands Portal",
+  "block.axontechnologies.corruptionlands_portal": "Corruption Lands Portal"
+
 }

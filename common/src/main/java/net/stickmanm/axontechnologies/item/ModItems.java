@@ -1,5 +1,6 @@
 package net.stickmanm.axontechnologies.item;
 
+import dev.architectury.core.item.ArchitecturyBucketItem;
 import dev.architectury.core.item.ArchitecturySpawnEggItem;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -394,13 +395,13 @@ public class ModItems {
 
     //BUCKETS
     public static final RegistrySupplier<Item> LIQUID_THUNDER_BUCKET = registerItem("liquid_thunder_bucket",
-            () -> new BucketItem(ModFluids.STILL_LIQUID_THUNDER.get(), new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
+            () -> new ArchitecturyBucketItem(ModFluids.STILL_LIQUID_THUNDER, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
 
     public static final RegistrySupplier<Item> LIQUID_CORRUPTION_BUCKET = registerItem("liquid_corruption_bucket",
-            () -> new BucketItem(ModFluids.STILL_LIQUID_CORRUPTION.get(), new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
+            () -> new ArchitecturyBucketItem(ModFluids.STILL_LIQUID_CORRUPTION, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
 
     public static final RegistrySupplier<Item> GX_BUCKET = registerItem("gx_bucket",
-            () -> new BucketItem(ModFluids.STILL_GX.get(), new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
+            () -> new ArchitecturyBucketItem(ModFluids.STILL_GX, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1).fireproof()));
 
 
 

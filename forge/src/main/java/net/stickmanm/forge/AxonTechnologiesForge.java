@@ -12,6 +12,7 @@ import net.stickmanm.axontechnologies.fluid.ModFluids;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.util.ModPotions;
+import net.stickmanm.axontechnologies.world.portal.ModPortals;
 
 @Mod(AxonTechnologies.MOD_ID)
 public final class AxonTechnologiesForge {
@@ -28,6 +29,9 @@ public final class AxonTechnologiesForge {
         //ModFuels.registerModFuels();
         ModEffects.EFFECTS.register();
         ModPotions.POTIONS.register();
+
+        // Custom portals (Fabric uses Custom Portal API instead)
+        ModPortals.init();
 
         // Run our common setup.
         AxonTechnologies.init();
