@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Fixed forge not launching">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CustomPortalBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/ModPortals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/PortalDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/blockstates/corruptionlands_portal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/blockstates/dreadcaverns_portal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/blockstates/mimicworld_portal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/blockstates/thunderlands_portal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/custom_portal_ew.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/custom_portal_flat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/custom_portal_ns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/gx_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/liquid_corruption_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/models/block/liquid_thunder_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/textures/block/custom_portal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/textures/block/custom_portal.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/block/custom_portal_ew.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/block/custom_portal_flat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/block/custom_portal_ns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/net/stickmanm/forge/client/AxonTechnologiesForgeClient.java" afterDir="false" />
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Fixed forge dimensions and fluids crashing">
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" afterDir="false" />
@@ -35,21 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/fabric/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/forge_minecraft_classpath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/forge_minecraft_classpath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/projects/forge/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/ModFluids.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/ModFluids.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/GXFluid.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/GXFluid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Still.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Still.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/world/ModConfiguredFeatures.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/devlibs/axontechnologies-common-1.8.0-beta.2-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/axontechnologies-common-1.8.0-beta.2-dev.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
@@ -57,204 +23,26 @@
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_trapdoor.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_trapdoor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/recipes/dark_essence.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/recipes/dark_essence.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/recipes/red_essence.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/recipes/red_essence.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_trapdoor.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/loot_tables/blocks/reinforced_dreadstone_trapdoor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/ModFluids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_essence.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/dark_essence.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_essence.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/recipes/red_essence.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/AxonTechnologiesFabric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/AxonTechnologiesFabricDataGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/block/ModStrippableBlockRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/client/AxonTechnologiesFabricClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModAdvancementGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModBlockTagProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModLootTableGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModModelProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModRecipeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModWorldGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/util/ModLootTableModifiers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/world/ModPortalsFabric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/.architectury-transformer/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-18-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-18-2.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-2.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/latest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-1.7.0-beta-dev.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-1.7.0-beta-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-A18-BETA-1-dev.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-A18-BETA-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-A18-BETA-dev.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/devlibs/axontechnologies-fabric-A18-BETA-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-1.7.0-beta-dev-shadow.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-1.7.0-beta-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-1.7.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA-1-dev-shadow.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA-dev-shadow.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/libs/axontechnologies-fabric-A18-BETA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/argFiles/runDatagen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.dev.architectury-architectury-fabric-0c6ac5fc-9.2.14-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.dev.architectury-architectury-fabric-0c6ac5fc-9.2.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.kyrptonaught-customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.net.kyrptonaught-customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.software.bernie.geckolib-geckolib-fabric-1.20.1-0c6ac5fc-4.4.4-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/remapped.software.bernie.geckolib-geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/processIncludeJars/customportalapi-0.0.1-beta64-1.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/axontechnologies.mixins.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesFabric.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesFabricClient.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModLootTableGenerator.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModLootTableModifiers.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModModelProvider.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModPortalsFabric.class.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeGenerator.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/remapJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/remapSourcesJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/sourcesJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/sourcesJar/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/axontechnologies/item/client/fabric/ArmorClientHooksImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/item/client/ArmorClientHooksImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/net/stickmanm/forge/AxonTechnologiesForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/net/stickmanm/forge/AxonTechnologiesForge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/argFiles/runClient" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/loom-cache/argFiles/runClient" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-10-19-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-10-19-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
@@ -262,38 +50,9 @@
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/net/stickmanm/forge/AxonTechnologiesForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/net/stickmanm/forge/AxonTechnologiesForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +60,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2102" />
+    <option name="cachedIndexableFilesCount" value="2122" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -402,21 +161,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000878839357548" />
-      <entry key="S5" value="1.0968006507213113" />
-      <entry key="S10" value="2.088760860671783" />
-      <entry key="S30" value="6.645492118280899" />
-      <entry key="S60" value="9.55842283571555" />
-      <entry key="M2" value="11.545312780900199" />
-      <entry key="M5" value="12.95610029752806" />
-      <entry key="M10" value="13.49348843092756" />
-      <entry key="M15" value="13.733245905260722" />
-      <entry key="M30" value="14.313762801185153" />
-      <entry key="H1" value="17.991227374398875" />
-      <entry key="H2" value="38.28047601040539" />
-      <entry key="H4" value="87.86199360395898" />
-      <entry key="D1" value="244.48008070933275" />
-      <entry key="W1" value="318.6272611715087" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000006337795" />
+      <entry key="S30" value="1.0008589727591874" />
+      <entry key="S60" value="1.029308243153497" />
+      <entry key="M2" value="1.1714674419705833" />
+      <entry key="M5" value="1.6744652536711628" />
+      <entry key="M10" value="3.569775054002272" />
+      <entry key="M15" value="6.105819584358324" />
+      <entry key="M30" value="12.394893923479067" />
+      <entry key="H1" value="20.57072227132711" />
+      <entry key="H2" value="40.87388718607339" />
+      <entry key="H4" value="89.25441718893529" />
+      <entry key="D1" value="252.61477455350507" />
+      <entry key="W1" value="331.53214580513884" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -424,37 +183,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.3541785136875315E-250" />
-      <entry key="S60" value="1.5343332472735213E-125" />
-      <entry key="M2" value="3.917059207435864E-63" />
-      <entry key="M5" value="1.0979233839594376E-25" />
-      <entry key="M10" value="4.34034018373247E-13" />
-      <entry key="M15" value="1.0636039661407764E-8" />
-      <entry key="M30" value="4.377023014873266E-4" />
-      <entry key="H1" value="0.10883435623440982" />
-      <entry key="H2" value="1.8204786711333842" />
-      <entry key="H4" value="7.638067980798578" />
-      <entry key="D1" value="33.63303678088822" />
-      <entry key="W1" value="50.86278392894577" />
+      <entry key="S30" value="8.696490026760483E-280" />
+      <entry key="S60" value="2.948981184539089E-140" />
+      <entry key="M2" value="1.7172609289422884E-70" />
+      <entry key="M5" value="1.2511877857440325E-28" />
+      <entry key="M10" value="1.4652070518992254E-14" />
+      <entry key="M15" value="1.110955769004194E-9" />
+      <entry key="M30" value="1.4146116825674662E-4" />
+      <entry key="H1" value="0.06187215145251072" />
+      <entry key="H2" value="1.3726196051065982" />
+      <entry key="H4" value="6.632325322488812" />
+      <entry key="D1" value="32.85083899970683" />
+      <entry key="W1" value="50.69208821961515" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.9192925419630775E-8" />
-      <entry key="MS500" value="0.03584709450706766" />
-      <entry key="S2" value="0.4352007731071605" />
-      <entry key="S5" value="0.8102006981727609" />
-      <entry key="S10" value="1.9181573991184189" />
-      <entry key="S30" value="6.563017195360099" />
-      <entry key="S60" value="9.509549902016218" />
-      <entry key="M2" value="11.518295039149974" />
-      <entry key="M5" value="12.94456215507964" />
-      <entry key="M10" value="13.487586109673547" />
-      <entry key="M15" value="13.729279236753674" />
-      <entry key="M30" value="14.31217500226304" />
-      <entry key="H1" value="18.098586055029113" />
-      <entry key="H2" value="40.09751598131741" />
-      <entry key="H4" value="95.493926020883" />
-      <entry key="D1" value="278.109491906556" />
-      <entry key="W1" value="369.4893520345371" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9876008614453725" />
+      <entry key="S2" value="0.9968856972203758" />
+      <entry key="S5" value="0.9987531130852756" />
+      <entry key="S10" value="0.9993763626556774" />
+      <entry key="S30" value="1.000623709718812" />
+      <entry key="S60" value="1.0287340742319666" />
+      <entry key="M2" value="1.1700355991592981" />
+      <entry key="M5" value="1.6725898296687225" />
+      <entry key="M10" value="3.567384030143188" />
+      <entry key="M15" value="6.103125893725964" />
+      <entry key="M30" value="12.392450789587496" />
+      <entry key="H1" value="20.630466665648342" />
+      <entry key="H2" value="42.24316525021883" />
+      <entry key="H4" value="95.881010769278" />
+      <entry key="D1" value="285.4620004805597" />
+      <entry key="W1" value="382.2235329124252" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -466,48 +225,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Minecraft Client (:fabric).executor": "Run",
-    "Application.Minecraft Client (:forge).executor": "Run",
-    "Gradle.Build axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [build].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Mod Making/axontechnologies 1.20.1 fabric-forge-neoforge/common/src/main/resources/assets/axontechnologies/models/block",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Client (:forge).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build axontechnologies 1.20.1 fabric-forge-neoforge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mod Making/axontechnologies 1.20.1 fabric-forge-neoforge/common/src/main/resources/assets/axontechnologies/models/block&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\src\main\resources\assets\axontechnologies\models\block" />
@@ -728,6 +487,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Minor changes/Remapping" />
     <MESSAGE value="Fixed forge not launching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed forge not launching" />
+    <MESSAGE value="Fixed forge dimensions and fluids crashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed forge dimensions and fluids crashing" />
   </component>
 </project>

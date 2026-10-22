@@ -1,17 +1,18 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/StickManM/axontechnologies-1.20.1-fabric-forge-neoforge/issues"
+license = "Apache 2.0"
 
 [[mods]]
 modId = "axontechnologies"
-version = "1.8.0-beta.2"
-displayName = "Axon Technologies"
+version = "1.8-beta.2"
+displayName = "Axon T.e.c.h.n.o.l.o.g.i.e.s."
+displayURL="https://modrinth.com/mod/axontechnologies"
 authors = "StickManM"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Axon T.e.c.h.n.o.l.o.g.i.e.s., Also referred as Axon Technologies or axontechnologies adds new ores, armor with their own tool types, status effects, mobs, dimensions, and more. It is currently still being developed, so bugs may occur.
 '''
-#logoFile = ""
+logoFile = "assets/axontechnologies/icon.png"
 
 [[dependencies.axontechnologies]]
 modId = "forge"
@@ -31,5 +32,12 @@ side = "BOTH"
 modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.axontechnologies]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[4.4.4,)"
 ordering = "AFTER"
 side = "BOTH"

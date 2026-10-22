@@ -442,13 +442,13 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModItems.TICKLE_TRAVIS_TICKLER.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.TICKLE_TRAVIS_TICKLER.get())));
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_ESSENCE.get(), 12)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_ESSENCE.get(), 4)
                 .input(ModItems.RENDERIUM.get())
                 .criterion(FabricRecipeProvider.hasItem(ModItems.RENDERIUM.get()),
                         FabricRecipeProvider.conditionsFromItem(ModItems.RED_ESSENCE.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.RED_ESSENCE.get())));
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DARK_ESSENCE.get(), 12)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DARK_ESSENCE.get(), 4)
                 .input(ModItems.DENDERIUM.get())
                 .criterion(FabricRecipeProvider.hasItem(ModItems.DENDERIUM.get()),
                         FabricRecipeProvider.conditionsFromItem(ModItems.DARK_ESSENCE.get()))

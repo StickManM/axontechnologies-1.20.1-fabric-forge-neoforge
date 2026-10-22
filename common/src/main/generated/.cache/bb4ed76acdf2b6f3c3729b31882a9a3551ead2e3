@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-20T20:22:45.8617686	Axon T.e.c.h.n.o.l.o.g.i.e.s./Model Definitions
+// 1.20.1	2026-10-21T20:21:53.1599844	Axon T.e.c.h.n.o.l.o.g.i.e.s./Model Definitions
 4e3fda5656e84c7285a980c11d598ce07842e98b assets\axontechnologies\models\item\corruptionlands_dimension_core_ore.json
 55e6a6b303d6351e750e68cd5098d552e8a9a6f9 assets\axontechnologies\models\item\dreadstone_thunderanium_ore.json
 c8b242e5aabcb152b9b988cb6142352c7f80739a assets\axontechnologies\models\item\red_thunderanium_chestplate.json
@@ -83,8 +83,8 @@ ccc831cd26de6a0d53889c6d7a5ba6f8b6c6c7fb assets\axontechnologies\models\block\th
 53ba51fb59a141fa09756d14bd7d96801e400d9c assets\axontechnologies\models\block\renderium_ore.json
 3baf34b6f48dc067b95e46e56fb73fabb455ed85 assets\axontechnologies\models\block\reinforced_dreadstone_slab.json
 cab5fb47981a2b4f21f3b86296a0bc79a48ee46e assets\axontechnologies\blockstates\fakestone_iron_ore.json
-115977db9e18c7688c7054f3336e78f8f8a35547 assets\axontechnologies\models\block\reinforced_dreadstone_wall_side.json
 2ddeb003bf0acd17f68f1400727ad3fa05fec902 assets\axontechnologies\models\item\axon_alloy_hoe.json
+115977db9e18c7688c7054f3336e78f8f8a35547 assets\axontechnologies\models\block\reinforced_dreadstone_wall_side.json
 4712eff9687a0c5a222e054b682deb19280a5303 assets\axontechnologies\models\block\corrupted_dirt.json
 de201c0ec9063aab5fc27f9a3f5ac3d04bdbdd1f assets\axontechnologies\models\block\reinforced_dreadstone_slab_top.json
 6a56282e9fba82343065b304ae147fc8b0d5c119 assets\axontechnologies\blockstates\thundered_wood.json

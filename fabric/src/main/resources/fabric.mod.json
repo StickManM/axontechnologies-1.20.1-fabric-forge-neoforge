@@ -9,8 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/axontechnologies",
-		"sources": "https://github.com/StickManM/axontechnologies-1.20.1-fabric",
-		"issues": "https://github.com/StickManM/axontechnologies-1.20.1-fabric/issues"
+		"sources": "https://github.com/StickManM/axontechnologies-1.20.1-fabric-forge-neoforge",
+		"issues": "https://github.com/StickManM/axontechnologies-1.20.1-fabric-forge-neoforge/issues"
 	},
 	"license": "Apache 2.0",
 	"icon": "assets/axontechnologies/icon.png",

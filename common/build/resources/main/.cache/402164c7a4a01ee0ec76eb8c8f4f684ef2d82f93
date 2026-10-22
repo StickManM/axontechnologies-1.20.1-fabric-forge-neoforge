@@ -1,10 +1,10 @@
-// 1.20.1	2026-10-20T20:22:45.8576456	Axon T.e.c.h.n.o.l.o.g.i.e.s./Block Loot Tables
+// 1.20.1	2026-10-21T20:21:53.1560176	Axon T.e.c.h.n.o.l.o.g.i.e.s./Block Loot Tables
 568b7adab59ef1d202fdebe1fa6c46f8c4afe52d data\axontechnologies\loot_tables\blocks\thundered_stone.json
 c94bba2800ee45007d69c03b2d4b50c5e849469b data\axontechnologies\loot_tables\blocks\reinforced_dreadstone_wall.json
 9e6941a814080a4fb8f480184eec6a10caff53d0 data\axontechnologies\loot_tables\blocks\corruption_portal_frame.json
 3eb74b39d3f2235cf7f72ef3438c68bdede17adf data\axontechnologies\loot_tables\blocks\fakestone_gold_ore.json
-cdc6ec637bc4518599fde610dd4e3f474dedfeef data\axontechnologies\loot_tables\blocks\corrupted_stone.json
 76c28a59d450588c4a2a9dc47b78fe93384c686e data\axontechnologies\loot_tables\blocks\thundered_wood.json
+cdc6ec637bc4518599fde610dd4e3f474dedfeef data\axontechnologies\loot_tables\blocks\corrupted_stone.json
 eb6cf81d44f097c527376fcc845a7850337064ca data\axontechnologies\loot_tables\blocks\reinforced_dreadstone.json
 89c00ff62aa093a28fc996887eff960a2b74dbc2 data\axontechnologies\loot_tables\blocks\dreadstone.json
 4bce5fb71f1a71baede3748fe0d0cc070ce8ce5d data\axontechnologies\loot_tables\blocks\thunderanium_portal_frame.json
