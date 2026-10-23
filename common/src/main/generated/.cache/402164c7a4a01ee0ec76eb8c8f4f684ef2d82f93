@@ -1,10 +1,10 @@
-// 1.20.1	2026-10-21T20:21:53.1560176	Axon T.e.c.h.n.o.l.o.g.i.e.s./Block Loot Tables
+// 1.20.1	2026-10-22T20:09:37.1509513	Axon T.e.c.h.n.o.l.o.g.i.e.s./Block Loot Tables
 568b7adab59ef1d202fdebe1fa6c46f8c4afe52d data\axontechnologies\loot_tables\blocks\thundered_stone.json
 c94bba2800ee45007d69c03b2d4b50c5e849469b data\axontechnologies\loot_tables\blocks\reinforced_dreadstone_wall.json
 9e6941a814080a4fb8f480184eec6a10caff53d0 data\axontechnologies\loot_tables\blocks\corruption_portal_frame.json
 3eb74b39d3f2235cf7f72ef3438c68bdede17adf data\axontechnologies\loot_tables\blocks\fakestone_gold_ore.json
-76c28a59d450588c4a2a9dc47b78fe93384c686e data\axontechnologies\loot_tables\blocks\thundered_wood.json
 cdc6ec637bc4518599fde610dd4e3f474dedfeef data\axontechnologies\loot_tables\blocks\corrupted_stone.json
+76c28a59d450588c4a2a9dc47b78fe93384c686e data\axontechnologies\loot_tables\blocks\thundered_wood.json
 eb6cf81d44f097c527376fcc845a7850337064ca data\axontechnologies\loot_tables\blocks\reinforced_dreadstone.json
 89c00ff62aa093a28fc996887eff960a2b74dbc2 data\axontechnologies\loot_tables\blocks\dreadstone.json
 4bce5fb71f1a71baede3748fe0d0cc070ce8ce5d data\axontechnologies\loot_tables\blocks\thunderanium_portal_frame.json
@@ -35,8 +35,8 @@ e1376150c35e3af780bd0bae4cc9b16650a079c7 data\axontechnologies\loot_tables\block
 7a00f44e699ecd3f0b83aac378103c2cc9f056d7 data\axontechnologies\loot_tables\blocks\voidstone.json
 13e662cab2c4e87ede8bf68faa6e573899d5c33e data\axontechnologies\loot_tables\blocks\mimicarium_portal_frame.json
 81c8818056021b408e7726bc3b71597ddd784ad9 data\axontechnologies\loot_tables\blocks\thunderanium_tnt.json
-84099559cf1419574494589b5bbf9dd3aa291e7f data\axontechnologies\loot_tables\blocks\corruptinite_ore.json
 28cc55d6c3461ed45607c77b37c419a17d57af0d data\axontechnologies\loot_tables\blocks\corruption_block.json
+84099559cf1419574494589b5bbf9dd3aa291e7f data\axontechnologies\loot_tables\blocks\corruptinite_ore.json
 bb4023b3215295bb7f1dd99dee38f4fc467d942a data\axontechnologies\loot_tables\blocks\thundered_sapling.json
 1db74d13b8b38c72a04ee1eaccd139baca049c50 data\axontechnologies\loot_tables\blocks\corrupted_dirt.json
 63a310aff728b1e4b200073dc7ba00eb9dfbccc4 data\axontechnologies\loot_tables\blocks\thundered_planks.json
