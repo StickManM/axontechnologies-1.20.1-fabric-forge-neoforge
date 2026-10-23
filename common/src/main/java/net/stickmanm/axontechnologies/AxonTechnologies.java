@@ -1,6 +1,7 @@
 package net.stickmanm.axontechnologies;
 
 import net.stickmanm.axontechnologies.entity.ModEntities;
+import net.stickmanm.axontechnologies.event.ModRespawnHandler;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroup;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class AxonTechnologies {
 		ModFuels.registerModFuels();
 		ModEntities.registerModEntities();
 		ModItemGroup.initItemGroups();
+		ModRespawnHandler.register();
 		LOGGER.info("Axon Technologies initialized!");
 	}
 }

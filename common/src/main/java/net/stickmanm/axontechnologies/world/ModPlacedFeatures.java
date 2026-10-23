@@ -7,8 +7,7 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.*;
-import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
-import net.minecraft.world.gen.placementmodifier.PlacementModifier;
+import net.minecraft.world.gen.placementmodifier.*;
 import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.ModBlocks;
 
@@ -93,6 +92,14 @@ public class ModPlacedFeatures {
                 ModOrePlacement.modifiersWithCount(12, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.aboveBottom(0), YOffset.belowTop(50))));
 
+        register(context, THUNDERED_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.THUNDERED_SAPLING_KEY),
+                PlacedFeatures.createCountExtraModifier(1, 0.1f, 2),
+                SquarePlacementModifier.of(),
+                SurfaceWaterDepthFilterPlacementModifier.of(0),
+                PlacedFeatures.OCEAN_FLOOR_HEIGHTMAP,
+                PlacedFeatures.wouldSurvive(ModBlocks.THUNDERED_SAPLING.get()),
+                BiomePlacementModifier.of());
+
         //Corruptionlands
         register(context, DENDERIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DENDERIUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(9, // Veins per Chunk
@@ -108,8 +115,8 @@ public class ModPlacedFeatures {
 
 
 
-        register(context, THUNDERED_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.THUNDERED_SAPLING_KEY),
-                PlacedFeatures.createCountExtraModifier(1, 0.1f,2), PlacedFeatures.wouldSurvive(ModBlocks.THUNDERED_SAPLING.get()));
+
+
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
