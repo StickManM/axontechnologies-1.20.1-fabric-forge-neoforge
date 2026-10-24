@@ -90,7 +90,8 @@ public class ModPortals {
 
         BlockState clicked = world.getBlockState(pos);
         for (PortalDef def : PORTALS) {
-            if (!held.isOf(def.igniter.get()) || !clicked.isOf(def.frame.get()))
+            boolean validIgniter = held.isOf(def.igniter.get()) || held.isOf(ModItems.UNIVERSAL_IGNITER.get());
+            if (!validIgniter || !clicked.isOf(def.frame.get()))
                 continue;
 
             BlockPos start = pos.offset(face);

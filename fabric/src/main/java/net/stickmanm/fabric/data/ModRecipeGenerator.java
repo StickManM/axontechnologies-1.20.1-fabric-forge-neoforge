@@ -294,6 +294,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModItems.CORRUPTION_GATEWAY.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CORRUPTION_GATEWAY.get())));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.UNIVERSAL_IGNITER.get())
+                .pattern("MAA")
+                .pattern("DTA")
+                .pattern("FCM")
+                .input('T', ModItems.THUNDERANIUM_KEY.get())
+                .input('C', ModItems.CORRUPTION_GATEWAY.get())
+                .input('D', ModItems.DREADED_IGNITER.get())
+                .input('F', ModItems.MIMICARIUM_IGNITER.get())
+                .input('M', ModItems.MIMICARIUM.get())
+                .input('A', ModItems.AXON_ALLOY.get())
+                .criterion(FabricRecipeProvider.hasItem(ModItems.CORRUPTION_GATEWAY.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.UNIVERSAL_IGNITER.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.UNIVERSAL_IGNITER.get())));
+
         //PORTAL FRAMES
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MIMIMCARIUM_PORTAL_FRAME.get())
                 .pattern("I#I")

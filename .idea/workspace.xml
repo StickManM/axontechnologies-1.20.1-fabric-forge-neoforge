@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Fixed Thunder Wood Set Recipes not working. Added Corrupted Wood and its spawning the the Corruptionalands. Made Thundered Stone, Corrupted Stone, Fakestone, Fakeslate, and Dreadstone stone crafting recipe substitues (similar to deepslate).">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.java" afterDir="false" />
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Made it so that changes in the Thunderlands are mirrored into the Corruptionlands. Added Thundered Leaves into the Leaves Block Tag. Made Corruptionlands return portal go to the Thunderlands.">
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" afterDir="false" />
@@ -15,18 +14,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/AxonTechnologies.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/AxonTechnologies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItems.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/ModPortals.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/ModPortals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/PortalDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/portal/PortalDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
@@ -37,8 +45,18 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/world/ModPortalsFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/world/ModPortalsFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,61 +163,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000002768838" />
-      <entry key="MS500" value="1.0122591265296368" />
-      <entry key="S2" value="1.332747561805936" />
-      <entry key="S5" value="1.6439408147549126" />
-      <entry key="S10" value="1.802459229341225" />
-      <entry key="S30" value="1.9292680871353356" />
-      <entry key="S60" value="1.964242253148405" />
-      <entry key="M2" value="1.9984394038891233" />
-      <entry key="M5" value="2.3619771690571496" />
-      <entry key="M10" value="5.783085184415928" />
-      <entry key="M15" value="12.895747704003018" />
-      <entry key="M30" value="39.02603644228196" />
-      <entry key="H1" value="83.97302825341278" />
-      <entry key="H2" value="139.36348772981023" />
-      <entry key="H4" value="188.97677794120497" />
-      <entry key="D1" value="378.38191526220055" />
-      <entry key="W1" value="586.7035684839799" />
+      <entry key="MS100" value="1.0042450618340357" />
+      <entry key="MS500" value="1.3560886968091266" />
+      <entry key="S2" value="2.1931045813986323" />
+      <entry key="S5" value="3.0149747267087155" />
+      <entry key="S10" value="3.697948525749815" />
+      <entry key="S30" value="4.4634791279605714" />
+      <entry key="S60" value="4.735786344524888" />
+      <entry key="M2" value="5.159939595175672" />
+      <entry key="M5" value="6.764997733279505" />
+      <entry key="M10" value="10.34191583190497" />
+      <entry key="M15" value="16.378798986588357" />
+      <entry key="M30" value="41.367500469219195" />
+      <entry key="H1" value="91.57797596943443" />
+      <entry key="H2" value="160.8030884004991" />
+      <entry key="H4" value="227.75791737175018" />
+      <entry key="D1" value="441.4085682353414" />
+      <entry key="W1" value="658.3674157729961" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.244869530752802E-7" />
-      <entry key="MS500" value="0.06070758155277193" />
-      <entry key="S2" value="0.5268540458928929" />
-      <entry key="S5" value="1.003172283003948" />
-      <entry key="S10" value="1.3667951902808502" />
-      <entry key="S30" value="1.746759776218774" />
-      <entry key="S60" value="1.8673833028621076" />
-      <entry key="M2" value="1.9493629917606927" />
-      <entry key="M5" value="2.2024551182320486" />
-      <entry key="M10" value="2.941193391526035" />
-      <entry key="M15" value="4.398796852951932" />
-      <entry key="M30" value="12.366783870757658" />
-      <entry key="H1" value="32.08268342675413" />
-      <entry key="H2" value="59.86834365767414" />
-      <entry key="H4" value="85.1159260835875" />
-      <entry key="D1" value="131.2473175722795" />
-      <entry key="W1" value="168.178646828938" />
+      <entry key="MS100" value="6.3136019481019445E-77" />
+      <entry key="MS500" value="5.755133993516164E-16" />
+      <entry key="S2" value="1.5488660479383808E-4" />
+      <entry key="S5" value="0.0299230283436727" />
+      <entry key="S10" value="0.17298274167805344" />
+      <entry key="S30" value="0.5593146971926363" />
+      <entry key="S60" value="0.8449170224183079" />
+      <entry key="M2" value="1.6804234919159262" />
+      <entry key="M5" value="4.093303945211918" />
+      <entry key="M10" value="6.0513051207493715" />
+      <entry key="M15" value="7.21486679940039" />
+      <entry key="M30" value="11.498204449403167" />
+      <entry key="H1" value="25.870210635918244" />
+      <entry key="H2" value="52.880000644587426" />
+      <entry key="H4" value="81.97020072089268" />
+      <entry key="D1" value="136.9417470635604" />
+      <entry key="W1" value="176.56807177321713" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0062151290720065325" />
-      <entry key="MS500" value="0.3744394222566663" />
-      <entry key="S2" value="1.1970800835805466" />
-      <entry key="S5" value="1.9498366261787736" />
-      <entry key="S10" value="2.5232654195357656" />
-      <entry key="S30" value="3.300415525296916" />
-      <entry key="S60" value="3.6114472827529434" />
-      <entry key="M2" value="3.827998312191095" />
-      <entry key="M5" value="4.512774070940849" />
-      <entry key="M10" value="8.69494224948019" />
-      <entry key="M15" value="17.269753380313063" />
-      <entry key="M30" value="51.36541976072742" />
-      <entry key="H1" value="116.02292480444196" />
-      <entry key="H2" value="199.2016037341957" />
-      <entry key="H4" value="274.07114442322546" />
-      <entry key="D1" value="509.6226518608991" />
-      <entry key="W1" value="754.8808420586953" />
+      <entry key="MS100" value="0.9632249021415874" />
+      <entry key="MS500" value="1.3429880398306184" />
+      <entry key="S2" value="2.187452300467445" />
+      <entry key="S5" value="3.0380007290335955" />
+      <entry key="S10" value="3.857920446957535" />
+      <entry key="S30" value="5.009808256332519" />
+      <entry key="S60" value="5.570055297071546" />
+      <entry key="M2" value="6.825773704837637" />
+      <entry key="M5" value="10.840187698130219" />
+      <entry key="M10" value="16.378170961061404" />
+      <entry key="M15" value="23.580046485190714" />
+      <entry key="M30" value="52.85034118412841" />
+      <entry key="H1" value="117.42610495552925" />
+      <entry key="H2" value="213.65846751282413" />
+      <entry key="H4" value="309.7083819578362" />
+      <entry key="D1" value="578.343687567233" />
+      <entry key="W1" value="834.9340888459974" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -274,7 +292,7 @@
       <recent name="net.stickmanm.fabric" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
+  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -479,6 +497,7 @@
     <MESSAGE value="Updated forge mods.toml, links to sites, and recipe for renderium and denderium to their respective essences." />
     <MESSAGE value="Fixed Thundered Tree Spawning in Thunderlands and Made it so dying the dimensions forces you to respawn in them." />
     <MESSAGE value="Fixed Thunder Wood Set Recipes not working. Added Corrupted Wood and its spawning the the Corruptionalands. Made Thundered Stone, Corrupted Stone, Fakestone, Fakeslate, and Dreadstone stone crafting recipe substitues (similar to deepslate)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Thunder Wood Set Recipes not working. Added Corrupted Wood and its spawning the the Corruptionalands. Made Thundered Stone, Corrupted Stone, Fakestone, Fakeslate, and Dreadstone stone crafting recipe substitues (similar to deepslate)." />
+    <MESSAGE value="Made it so that changes in the Thunderlands are mirrored into the Corruptionlands. Added Thundered Leaves into the Leaves Block Tag. Made Corruptionlands return portal go to the Thunderlands." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made it so that changes in the Thunderlands are mirrored into the Corruptionlands. Added Thundered Leaves into the Leaves Block Tag. Made Corruptionlands return portal go to the Thunderlands." />
   </component>
 </project>

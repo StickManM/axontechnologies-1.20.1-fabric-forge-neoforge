@@ -124,6 +124,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DREADED_IGNITER.get(), Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_KEY.get(), Models.GENERATED);
         itemModelGenerator.register(ModItems.CORRUPTION_GATEWAY.get(), Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNIVERSAL_IGNITER.get(), Models.GENERATED);
 
         //COMPRESSED STICKS
         itemModelGenerator.register(ModItems.COMPRESSED_STICK.get(), Models.GENERATED);

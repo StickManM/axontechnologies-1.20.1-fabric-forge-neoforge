@@ -173,6 +173,9 @@ public class ModItems {
     public static final RegistrySupplier<Item> CORRUPTION_GATEWAY = registerItem("corruption_gateway",
             () -> new Item(new Item.Settings().fireproof()));
 
+    public static final RegistrySupplier<Item> UNIVERSAL_IGNITER = registerItem("universal_igniter",
+            () -> new Item(new Item.Settings().fireproof()));
+
     //Armors
 
     //Thunderanium

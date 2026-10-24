@@ -56,6 +56,7 @@ public class ModItemGroup {
                         entries.add(ModItems.DREADED_IGNITER.get());
                         entries.add(ModItems.THUNDERANIUM_KEY.get());
                         entries.add(ModItems.CORRUPTION_GATEWAY.get());
+                        entries.add(ModItems.UNIVERSAL_IGNITER.get());
 
                         entries.add(ModItems.THUNDERANIUM_HELMET.get());
                         entries.add(ModItems.THUNDERANIUM_CHESTPLATE.get());

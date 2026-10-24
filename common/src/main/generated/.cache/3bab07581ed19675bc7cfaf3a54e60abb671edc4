@@ -1,6 +1,6 @@
-// 1.20.1	2026-10-24T11:14:53.0687334	Axon T.e.c.h.n.o.l.o.g.i.e.s./axontechnologies World Generator
-e1fc9034233dcd224c4d80edc0359ebc45eaf403 data\axontechnologies\worldgen\placed_feature\ore_liquid_thunder.json
+// 1.20.1	2026-10-24T12:19:47.1191816	Axon T.e.c.h.n.o.l.o.g.i.e.s./axontechnologies World Generator
 b6ee066f7bc927d30e133ed2b717b8b7a7aa7fd3 data\axontechnologies\worldgen\placed_feature\dimension_core_ore.json
+e1fc9034233dcd224c4d80edc0359ebc45eaf403 data\axontechnologies\worldgen\placed_feature\ore_liquid_thunder.json
 1b88cbae11cd9ca6c835180cd25b1f19ff18883b data\axontechnologies\worldgen\placed_feature\ore_liquid_corruption.json
 7981cc938196ef7edf5647ce47bc65ac4252e5e7 data\axontechnologies\worldgen\configured_feature\void_coal_ore.json
 b9fe3b04ccda7c50bab8c3975a3e5a5bfd58a1b2 data\axontechnologies\worldgen\placed_feature\dreadstone_netherite_ore.json
@@ -25,8 +25,8 @@ f1b8d1667030fa5d79b4cd6ea229c74b67a512dc data\axontechnologies\worldgen\configur
 fcb4cbc88932be66cccc7540a581fd6a1c36a3a5 data\axontechnologies\worldgen\configured_feature\dreadstone_thunderanium_ore.json
 8631047408ab7167a371fc48786dcdd25c53efa4 data\axontechnologies\worldgen\placed_feature\corruptinite_ore.json
 d50fb112fff4a81c2a05cbc4e39b785907896584 data\axontechnologies\worldgen\placed_feature\void_coal_ore.json
-7ed779b1b9e87285c9c4a1045d3dcf645bc9ee7e data\axontechnologies\worldgen\configured_feature\ore_liquid_thunder.json
 b9b48c04e4d933e1768aa44988b0f15fe0c9a19a data\axontechnologies\worldgen\configured_feature\dimension_core_ore.json
+7ed779b1b9e87285c9c4a1045d3dcf645bc9ee7e data\axontechnologies\worldgen\configured_feature\ore_liquid_thunder.json
 7fa7503ad41058179ea5f68e5366ce67186d46cf data\axontechnologies\worldgen\placed_feature\corrupted_tree_placed.json
 2dd5992e343f05ef6fd0aabf33196700399008eb data\axontechnologies\worldgen\configured_feature\thunderanium_ore.json
 5c3d987d40d6809719c4089693234da40c20ae7f data\axontechnologies\worldgen\placed_feature\mimicarium_ore_placed.json
