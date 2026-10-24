@@ -66,7 +66,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.THUNDERED_PLANKS.get())
                     .add(ModBlocks.THUNDERED_WOOD.get())
                     .add(ModBlocks.STRIPPED_THUNDERED_LOG.get())
-                    .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
+                    .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get())
+                    .add(ModBlocks.CORRUPTED_LOG.get())
+                    .add(ModBlocks.CORRUPTED_PLANKS.get())
+                    .add(ModBlocks.CORRUPTED_WOOD.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
 
             getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                     .add(ModBlocks.CHARGED_DIRT.get())
@@ -133,9 +138,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.THUNDERED_LOG.get())
                     .add(ModBlocks.THUNDERED_WOOD.get())
                     .add(ModBlocks.STRIPPED_THUNDERED_LOG.get())
-                    .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
+                    .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get())
+                    .add(ModBlocks.CORRUPTED_LOG.get())
+                    .add(ModBlocks.CORRUPTED_WOOD.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
 
-            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier(AxonTechnologiesConstants.MOD_ID, "reinforced_dreadstone")))
+            getOrCreateTagBuilder(BlockTags.PLANKS)
+                    .add(ModBlocks.THUNDERED_PLANKS.get())
+                    .add(ModBlocks.CORRUPTED_PLANKS.get());
+
+            getOrCreateTagBuilder(ModBlockTags.REINFORCED_DREADSTONE)
                     .add(ModBlocks.REINFORCED_DREADSTONE.get())
                     .add(ModBlocks.REINFORCED_DREADSTONE_DOOR.get())
                     .add(ModBlocks.REINFORCED_DREADSTONE_GLASS.get())
@@ -143,6 +156,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.REINFORCED_DREADSTONE_WALL.get())
                     .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR.get())
                     .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS.get());
+
+            getOrCreateTagBuilder(ModBlockTags.THUNDERED_PLANKS_CONVERTIBLE)
+                    .add(ModBlocks.THUNDERED_LOG.get())
+                    .add(ModBlocks.THUNDERED_WOOD.get())
+                    .add(ModBlocks.STRIPPED_THUNDERED_LOG.get())
+                    .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
+
+            getOrCreateTagBuilder(ModBlockTags.CORRUPTED_PLANKS_CONVERTIBLE)
+                    .add(ModBlocks.CORRUPTED_LOG.get())
+                    .add(ModBlocks.CORRUPTED_WOOD.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
 
             getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE)
                     .addTag(ModBlockTags.REINFORCED_DREADSTONE);

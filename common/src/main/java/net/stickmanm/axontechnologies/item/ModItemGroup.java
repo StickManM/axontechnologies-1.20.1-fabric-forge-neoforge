@@ -182,6 +182,13 @@ public class ModItemGroup {
                         entries.add(ModBlocks.THUNDERED_LEAVES.get());
                         entries.add(ModBlocks.THUNDERED_SAPLING.get());
 
+                        entries.add(ModBlocks.CORRUPTED_LOG.get());
+                        entries.add(ModBlocks.CORRUPTED_WOOD.get());
+                        entries.add(ModBlocks.STRIPPED_CORRUPTED_LOG.get());
+                        entries.add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+                        entries.add(ModBlocks.CORRUPTED_PLANKS.get());
+                        entries.add(ModBlocks.CORRUPTED_SAPLING.get());
+
                         entries.add(ModBlocks.VOIDSTONE.get());
                         entries.add(ModBlocks.MIMIMCARIUM_PORTAL_FRAME.get());
                         entries.add(ModBlocks.THUNDERANIUM_PORTAL_FRAME.get());

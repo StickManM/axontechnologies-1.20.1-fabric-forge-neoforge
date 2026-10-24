@@ -12,11 +12,16 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.stickmanm.axontechnologies.AxonTechnologies;
+import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
+import net.stickmanm.axontechnologies.block.ModBlockTags;
 import net.stickmanm.axontechnologies.block.ModBlocks;
+import net.stickmanm.axontechnologies.item.ModItemTags;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.util.ModTags;
 
@@ -214,7 +219,35 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_WOOD.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_WOOD.get())));
 
-       //IGNITERS
+        //Thundered Planks
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_PLANKS.get(), 4)
+                .input(ModItemTags.THUNDERED_PLANKS_CONVERTIBLE)
+                .group("planks")
+                .criterion("has_thundered_planks_convertible",
+                        FabricRecipeProvider.conditionsFromTag(ModItemTags.THUNDERED_PLANKS_CONVERTIBLE))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_PLANKS.get())));
+
+
+        //Corrupted Wood
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPTED_WOOD.get())
+                .pattern("##")
+                .pattern("##")
+                .input('#', ModBlocks.CORRUPTED_LOG.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_LOG.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_WOOD.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_WOOD.get())));
+
+        //Corrupted Planks
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_PLANKS.get(), 4)
+                .input(ModItemTags.CORRUPTED_PLANKS_CONVERTIBLE)
+                .group("planks")
+                .criterion("has_thundered_planks_convertible",
+                        FabricRecipeProvider.conditionsFromTag(ModItemTags.CORRUPTED_PLANKS_CONVERTIBLE))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_PLANKS.get())));
+
+
+        //IGNITERS
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MIMICARIUM_IGNITER.get())
                 .pattern(" F#")
                 .pattern(" SF")

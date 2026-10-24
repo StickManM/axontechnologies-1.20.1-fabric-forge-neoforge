@@ -17,6 +17,7 @@ import net.stickmanm.axontechnologies.block.custom.CorruptionBlock;
 import net.stickmanm.axontechnologies.block.custom.RedThunderaniumTntBlock;
 import net.stickmanm.axontechnologies.block.custom.ThunderaniumTntBlock;
 import net.stickmanm.axontechnologies.item.ModItems;
+import net.stickmanm.axontechnologies.world.tree.CorruptedSaplingGenerator;
 import net.stickmanm.axontechnologies.world.tree.ThunderedSaplingGenerator;
 
 import java.util.function.Supplier;
@@ -69,6 +70,23 @@ public class ModBlocks {
 
     public static final RegistrySupplier<Block> THUNDERED_SAPLING = registerBlock("thundered_sapling",
             () -> new SaplingBlock(new ThunderedSaplingGenerator(), Block.Settings.copy(Blocks.OAK_SAPLING)));
+
+
+    //Corrupted Tree
+    public static final RegistrySupplier<Block> CORRUPTED_LOG = registerBlock("corrupted_log",
+            () -> new PillarBlock(Block.Settings.copy(Blocks.OAK_LOG).strength(2.0f)));
+    public static final RegistrySupplier<Block> CORRUPTED_WOOD = registerBlock("corrupted_wood",
+            () -> new PillarBlock(Block.Settings.copy(Blocks.OAK_WOOD).strength(2.0f)));
+    public static final RegistrySupplier<Block> STRIPPED_CORRUPTED_LOG = registerBlock("stripped_corrupted_log",
+            () -> new PillarBlock(Block.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)));
+    public static final RegistrySupplier<Block> STRIPPED_CORRUPTED_WOOD = registerBlock("stripped_corrupted_wood",
+            () -> new PillarBlock(Block.Settings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)));
+
+    public static final RegistrySupplier<Block> CORRUPTED_PLANKS = registerBlock("corrupted_planks",
+            () -> new Block(Block.Settings.copy(Blocks.OAK_PLANKS).strength(2.0f)));
+
+    public static final RegistrySupplier<Block> CORRUPTED_SAPLING = registerBlock("corrupted_sapling",
+            () -> new SaplingBlock(new CorruptedSaplingGenerator(), Block.Settings.copy(Blocks.OAK_SAPLING)));
 
     //Portal Blocks
     public static final RegistrySupplier<Block> VOIDSTONE = registerBlock("voidstone",

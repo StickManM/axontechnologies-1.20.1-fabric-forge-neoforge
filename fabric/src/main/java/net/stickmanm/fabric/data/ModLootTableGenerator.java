@@ -37,6 +37,14 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
         addVinePlantDrop(ModBlocks.THUNDERED_LEAVES.get(),ModBlocks.THUNDERED_LEAVES.get());
 
+        //Corrupted Tree
+        addDrop(ModBlocks.CORRUPTED_LOG.get());
+        addDrop(ModBlocks.CORRUPTED_WOOD.get());
+        addDrop(ModBlocks.CORRUPTED_PLANKS.get());
+        addDrop(ModBlocks.STRIPPED_CORRUPTED_LOG.get());
+        addDrop(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+        addDrop(ModBlocks.CORRUPTED_SAPLING.get());
+
         //Dreadstone and Dreadstone Ores
         addDrop(ModBlocks.DREADSTONE.get());
         addDrop(ModBlocks.REINFORCED_DREADSTONE.get());

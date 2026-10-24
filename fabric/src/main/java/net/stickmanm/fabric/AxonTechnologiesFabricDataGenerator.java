@@ -13,7 +13,8 @@ public class AxonTechnologiesFabricDataGenerator implements DataGeneratorEntrypo
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-		pack.addProvider(ModBlockTagProvider::new);
+		ModBlockTagProvider blockTags = pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider((output, registries) -> new ModItemTagProvider(output, registries, blockTags));
 		pack.addProvider(ModLootTableGenerator::new);
 		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModModelProvider::new);

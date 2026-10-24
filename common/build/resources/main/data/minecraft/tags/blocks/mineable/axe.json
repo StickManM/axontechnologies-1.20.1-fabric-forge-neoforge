@@ -5,6 +5,11 @@
     "axontechnologies:thundered_planks",
     "axontechnologies:thundered_wood",
     "axontechnologies:stripped_thundered_log",
-    "axontechnologies:stripped_thundered_wood"
+    "axontechnologies:stripped_thundered_wood",
+    "axontechnologies:corrupted_log",
+    "axontechnologies:corrupted_planks",
+    "axontechnologies:corrupted_wood",
+    "axontechnologies:stripped_corrupted_log",
+    "axontechnologies:stripped_corrupted_wood"
   ]
 }

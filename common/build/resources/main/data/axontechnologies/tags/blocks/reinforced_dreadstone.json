@@ -7,12 +7,6 @@
     "axontechnologies:reinforced_dreadstone_slab",
     "axontechnologies:reinforced_dreadstone_wall",
     "axontechnologies:reinforced_dreadstone_trapdoor",
-    "axontechnologies:reinforced_dreadstone_stairs",
-    "axontechnologies:corruption_block",
-    "axontechnologies:corrupted_dirt",
-    "axontechnologies:corrupted_stone",
-    "axontechnologies:corruptinite_ore",
-    "axontechnologies:denderium_ore",
-    "axontechnologies:corruptionlands_dimension_core_ore"
+    "axontechnologies:reinforced_dreadstone_stairs"
   ]
 }

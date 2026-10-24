@@ -1,5 +1,6 @@
 package net.stickmanm.axontechnologies.world;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -21,6 +22,7 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> THUNDERED_SAPLING_KEY = registerKey("thundered_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CORRUPTED_SAPLING_KEY = registerKey("corrupted_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MIMICARIUM_ORE_KEY = registerKey("mimicarium_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FAKESTONES_IRON_ORE_KEY = registerKey("fakestones_iron_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FAKESTONES_GOLD_ORE_KEY = registerKey("fakestones_gold_ore");
@@ -103,6 +105,13 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.THUNDERED_LOG.get()),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.THUNDERED_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, CORRUPTED_SAPLING_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.CORRUPTED_LOG.get()),
+                new StraightTrunkPlacer(5, 6, 3),
+                BlockStateProvider.of(Blocks.AIR),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
 

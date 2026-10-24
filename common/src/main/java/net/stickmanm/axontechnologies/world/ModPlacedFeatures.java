@@ -16,6 +16,7 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> MIMICARIUM_ORE_PLACED_KEY = registerKey("mimicarium_ore_placed");
     public static final RegistryKey<PlacedFeature> THUNDERED_TREE_PLACED_KEY = registerKey("thundered_tree_placed");
+    public static final RegistryKey<PlacedFeature> CORRUPTED_TREE_PLACED_KEY = registerKey("corrupted_tree_placed");
     public static final RegistryKey<PlacedFeature> FAKESTONES_IRON_ORE_PLACED_KEY = registerKey("fakestones_iron_ore");
     public static final RegistryKey<PlacedFeature> FAKESTONES_GOLD_ORE_PLACED_KEY = registerKey("fakestones_gold_ore");
     public static final RegistryKey<PlacedFeature> VOIDSTONE_ORE_PLACED_KEY = registerKey("voidstone");
@@ -100,6 +101,7 @@ public class ModPlacedFeatures {
                 PlacedFeatures.wouldSurvive(ModBlocks.THUNDERED_SAPLING.get()),
                 BiomePlacementModifier.of());
 
+
         //Corruptionlands
         register(context, DENDERIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DENDERIUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(9, // Veins per Chunk
@@ -112,6 +114,15 @@ public class ModPlacedFeatures {
         register(context, ORE_LIQUID_CORRUPTION_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ORE_LIQUID_CORRUPTION_KEY),
                 ModOrePlacement.modifiersWithCount(12, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.aboveBottom(0), YOffset.belowTop(50))));
+
+        register(context, CORRUPTED_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CORRUPTED_SAPLING_KEY),
+                PlacedFeatures.createCountExtraModifier(1, 0.1f, 2),
+                SquarePlacementModifier.of(),
+                SurfaceWaterDepthFilterPlacementModifier.of(0),
+                PlacedFeatures.OCEAN_FLOOR_HEIGHTMAP,
+                PlacedFeatures.wouldSurvive(ModBlocks.CORRUPTED_SAPLING.get()),
+                BiomePlacementModifier.of());
+
 
 
 

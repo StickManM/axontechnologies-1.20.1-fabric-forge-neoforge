@@ -7,5 +7,8 @@ public class ModStrippableBlockRegistry {
     public static void registerStrippableBlocks(){
         StrippableBlockRegistry.register(ModBlocks.THUNDERED_LOG.get(), ModBlocks.STRIPPED_THUNDERED_LOG.get());
         StrippableBlockRegistry.register(ModBlocks.THUNDERED_WOOD.get(), ModBlocks.STRIPPED_THUNDERED_WOOD.get());
+        StrippableBlockRegistry.register(ModBlocks.CORRUPTED_LOG.get(), ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+        StrippableBlockRegistry.register(ModBlocks.CORRUPTED_WOOD.get(), ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+
     }
 }

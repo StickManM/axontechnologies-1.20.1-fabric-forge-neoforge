@@ -29,11 +29,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.THUNDERED_LOG.get()).log(ModBlocks.THUNDERED_LOG.get()).wood(ModBlocks.THUNDERED_WOOD.get());
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_THUNDERED_LOG.get()).log(ModBlocks.STRIPPED_THUNDERED_LOG.get()).wood(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
 
-
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_PLANKS.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_LEAVES.get());
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.THUNDERED_SAPLING.get(), BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        //Corrupted Tree Blocks
+        blockStateModelGenerator.registerLog(ModBlocks.CORRUPTED_LOG.get()).log(ModBlocks.CORRUPTED_LOG.get()).wood(ModBlocks.CORRUPTED_WOOD.get());
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CORRUPTED_LOG.get()).log(ModBlocks.STRIPPED_CORRUPTED_LOG.get()).wood(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_PLANKS.get());
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.CORRUPTED_SAPLING.get(), BlockStateModelGenerator.TintType.NOT_TINTED);
+
+
 
         //Dreadstone and Dreadstone Ores
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DREADSTONE.get());
