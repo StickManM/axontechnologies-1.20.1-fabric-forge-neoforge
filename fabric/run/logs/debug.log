@@ -2585,7 +2585,7 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 [21:32:37] [Render thread/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:ChunkRendererRegionMixin from mod fabric-renderer-indigo: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
 [21:32:37] [Server thread/DEBUG] (io.netty.util.internal.ThreadLocalRandom) -Dio.netty.initialSeedUniquifier: 0x74e07dd423f38150
 [21:32:40] [Worker-Main-7/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Successful read, server response was 204
-[21:32:40] [Worker-Main-7/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Response: 
+[21:32:40] [Worker-Main-7/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Response:
 [21:32:40] [Worker-Main-7/DEBUG] (com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService) Couldn't fetch profile properties for com.mojang.authlib.GameProfile@1725a635[id=b1792265-831a-380a-8487-8a743941d06d,name=Player720,properties={},legacy=false] as the profile does not exist
 [21:32:41] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 0, new limit 144.
 [21:32:43] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 26508, new limit 53568.
