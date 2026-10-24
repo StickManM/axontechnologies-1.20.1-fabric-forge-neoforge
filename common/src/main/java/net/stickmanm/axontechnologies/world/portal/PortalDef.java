@@ -18,6 +18,7 @@ public class PortalDef {
     /** Flat portals lie horizontally (like a trapdoor) instead of standing up. */
     public final boolean flat;
     public RegistrySupplier<Block> portalBlock;
+    public RegistryKey<World> returnDimension;
 
     public PortalDef(String name, Supplier<Block> frame, RegistryKey<World> destination, int tint, Supplier<Item> igniter, boolean flat) {
         this.name = name;
@@ -26,5 +27,6 @@ public class PortalDef {
         this.tint = tint;
         this.igniter = igniter;
         this.flat = flat;
+
     }
 }

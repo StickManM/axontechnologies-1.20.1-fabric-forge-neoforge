@@ -41,6 +41,7 @@ public class ModPortalsFabric {
                 .destDimID(CORRUPTIONLANDS_DIMENSION_KEY.getValue())
                 .tintColor(139, 0, 0)
                 .lightWithItem(ModItems.CORRUPTION_GATEWAY.get())
+                .returnDim(THUNDERLANDS_DIMENSION_KEY.getValue(), false)
                 .registerPortal();
     }
 

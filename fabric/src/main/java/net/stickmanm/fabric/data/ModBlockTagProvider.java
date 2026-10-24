@@ -144,6 +144,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
                     .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
 
+            getOrCreateTagBuilder(BlockTags.LEAVES)
+                    .add(ModBlocks.THUNDERED_LEAVES.get());
+
             getOrCreateTagBuilder(BlockTags.PLANKS)
                     .add(ModBlocks.THUNDERED_PLANKS.get())
                     .add(ModBlocks.CORRUPTED_PLANKS.get());
@@ -180,6 +183,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.CORRUPTED_DIRT.get())
                     .add(ModBlocks.CORRUPTED_STONE.get())
                     .add(ModBlocks.CORRUPTINITE_ORE.get())
+
                     .add(ModBlocks.DENDERIUM_ORE.get())
                     .add(ModBlocks.CLDC_ORE.get());
 

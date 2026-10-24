@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-23T21:30:36.4123207	Axon T.e.c.h.n.o.l.o.g.i.e.s./Recipes
+// 1.20.1	2026-10-23T21:34:52.8037454	Axon T.e.c.h.n.o.l.o.g.i.e.s./Recipes
 16e130b64a8d7d7605695f0f737576cfa016a538 data\axontechnologies\recipes\thunderlands_dimension_core_from_blasting_thunderlands_dimension_core_ore.json
 d38ee3535bc42b4e4eab029b85a4487e6bdb5199 data\axontechnologies\advancements\recipes\misc\quadruple_compressed_stick.json
 d91e1b505fa5c4384328612470d2e0da0cfbc12b data\axontechnologies\recipes\cracked_polished_blackstone_bricks_from_blasting_polished_blackstone_bricks.json
@@ -232,8 +232,8 @@ d4ecadf6df330f9622c34c3c83c33b6034d6ea73 data\axontechnologies\advancements\reci
 01279419b9787ee7b834497bdf4f6f4ab0747137 data\axontechnologies\advancements\recipes\misc\thunderanium_chestplate.json
 2dabe7941fc1e8e006cdd61028923ab519c62ae1 data\axontechnologies\advancements\recipes\misc\red_thunderanium_chestplate.json
 738dc78639b9834cc839a309a2971f4dbfd8946e data\axontechnologies\recipes\thunderanium_portal_frame.json
-15c9c93d14483c42a6f2902646448b6fd9e0f776 data\axontechnologies\advancements\recipes\building_blocks\cracked_stone_bricks_from_blasting_stone_bricks.json
 bc05a8013bc5735554b8901e4dbc0828e5c4c381 data\axontechnologies\recipes\cracked_deepslate_tiles_from_blasting_deepslate_tiles.json
+15c9c93d14483c42a6f2902646448b6fd9e0f776 data\axontechnologies\advancements\recipes\building_blocks\cracked_stone_bricks_from_blasting_stone_bricks.json
 f80a89adb09ed787609cc40088b51a50cda31932 data\axontechnologies\recipes\thunderanium_shovel.json
 e667f20c1df8bccabb3a29ece2534e908ab6ac7f data\axontechnologies\advancements\recipes\misc\dark_thunderanium_boots.json
 094b3a245d7222b91e94a11dff0912c3e10f678d data\axontechnologies\advancements\recipes\misc\corruptinite_pickaxe.json

@@ -58,6 +58,10 @@ public class ModPortals {
     public static final PortalDef CORRUPTIONLANDS = define("corruptionlands", () -> ModBlocks.CORRUPTION_PORTAL_FRAME.get(),
             CORRUPTIONLANDS_DIMENSION_KEY, 0x8B0000, () -> ModItems.CORRUPTION_GATEWAY.get(), false);
 
+    static {
+        CORRUPTIONLANDS.returnDimension = THUNDERLANDS_DIMENSION_KEY;
+    }
+
     private static PortalDef define(String name, Supplier<Block> frame, net.minecraft.registry.RegistryKey<World> dest,
                                     int tint, Supplier<net.minecraft.item.Item> igniter, boolean flat) {
         PortalDef def = new PortalDef(name, frame, dest, tint, igniter, flat);
@@ -204,7 +208,14 @@ public class ModPortals {
             return;
 
         ServerWorld from = player.getServerWorld();
-        ServerWorld to = from.getRegistryKey() == def.destination ? server.getOverworld() : server.getWorld(def.destination);
+
+        ServerWorld to;
+        if (from.getRegistryKey() == def.destination) {
+            to = def.returnDimension != null ? server.getWorld(def.returnDimension) : server.getOverworld();
+        } else {
+            to = server.getWorld(def.destination);
+        }
+
         if (to == null)
             return;
 

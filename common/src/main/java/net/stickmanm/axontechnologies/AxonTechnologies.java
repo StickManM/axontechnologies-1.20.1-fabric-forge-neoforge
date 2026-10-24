@@ -4,6 +4,7 @@ import net.stickmanm.axontechnologies.entity.ModEntities;
 import net.stickmanm.axontechnologies.event.ModRespawnHandler;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroup;
+import net.stickmanm.axontechnologies.world.sync.CorruptionlandsMirror;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,7 @@ public class AxonTechnologies {
 		ModEntities.registerModEntities();
 		ModItemGroup.initItemGroups();
 		ModRespawnHandler.register();
+		CorruptionlandsMirror.register();
 		LOGGER.info("Axon Technologies initialized!");
 	}
 }

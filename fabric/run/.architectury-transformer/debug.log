@@ -117,15 +117,15 @@
 [Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-resource-loader-v0-0c6ac5fc\0.11.12+fb82e9d777\fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar
 [Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-sound-api-v1-0c6ac5fc\1.0.14+1802ada577\fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1-0c6ac5fc\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.jar
-[Architectury Transformer] Read classpath in 915.1 ms
+[Architectury Transformer] Read classpath in 902.2 ms
 [Architectury Transformer DEBUG] Closed File Systems for D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to C:\Users\Daniel\AppData\Local\Temp\4009832562229983659.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@4052274f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@132ddbab
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@297ea53a
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@acb0951
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5bf22f18
-[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to C:\Users\Daniel\AppData\Local\Temp\4009832562229983659.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to C:\Users\Daniel\AppData\Local\Temp\8717231137914069656.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@62e70ea3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@3efe7086
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@675d8c96
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@741b3bc3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2ed3b1f5
+[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to C:\Users\Daniel\AppData\Local\Temp\8717231137914069656.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologies with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologiesConstants with maxs=true frames=true
@@ -256,319 +256,332 @@
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/PortalDef with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Daniel\AppData\Local\Temp\4009832562229983659.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Daniel\AppData\Local\Temp\8717231137914069656.jar
 [Architectury Transformer] Listening at D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\Daniel\AppData\Local\Temp\4009832562229983659.jar] contains packages: net.stickmanm.axontechnologies.fluid, net.stickmanm.axontechnologies.event, net.stickmanm.axontechnologies.item.custom, net.stickmanm.axontechnologies.world, net.stickmanm.axontechnologies, net.stickmanm.axontechnologies.world.portal, net.stickmanm.axontechnologies.effect.custom, net.stickmanm.axontechnologies.effect, net.stickmanm.axontechnologies.entity.client, net.stickmanm.axontechnologies.entity.custom, net.stickmanm.axontechnologies.world.tree, net.stickmanm.axontechnologies.util, net.stickmanm.axontechnologies.mixin, net.stickmanm.axontechnologies.fluid.custom, net.stickmanm.axontechnologies.item, net.stickmanm.axontechnologies.world.gen, net.stickmanm.axontechnologies.item.client, net.stickmanm.axontechnologies.block.custom, net.stickmanm.axontechnologies.block, net.stickmanm.axontechnologies.world.dimension, net.stickmanm.axontechnologies.world.biome, net.stickmanm.axontechnologies.entity
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\Daniel\AppData\Local\Temp\8717231137914069656.jar] contains packages: net.stickmanm.axontechnologies.fluid, net.stickmanm.axontechnologies.event, net.stickmanm.axontechnologies.item.custom, net.stickmanm.axontechnologies.world, net.stickmanm.axontechnologies, net.stickmanm.axontechnologies.world.portal, net.stickmanm.axontechnologies.effect.custom, net.stickmanm.axontechnologies.effect, net.stickmanm.axontechnologies.world.sync, net.stickmanm.axontechnologies.entity.client, net.stickmanm.axontechnologies.entity.custom, net.stickmanm.axontechnologies.world.tree, net.stickmanm.axontechnologies.util, net.stickmanm.axontechnologies.mixin, net.stickmanm.axontechnologies.fluid.custom, net.stickmanm.axontechnologies.item, net.stickmanm.axontechnologies.world.gen, net.stickmanm.axontechnologies.item.client, net.stickmanm.axontechnologies.block.custom, net.stickmanm.axontechnologies.block, net.stickmanm.axontechnologies.world.dimension, net.stickmanm.axontechnologies.world.biome, net.stickmanm.axontechnologies.entity
 [Architectury Transformer DEBUG] Closed File Systems for D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\build\classes\java\main] contains packages: net.stickmanm.fabric.item.client, net.stickmanm.fabric, net.stickmanm.fabric.world, net.stickmanm.fabric.block, net.stickmanm.fabric.client, net.stickmanm.fabric.data, net.stickmanm.fabric.util
 [Architectury Transformer DEBUG] Classpath entry [D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/ModBlocks.class to net/stickmanm/axontechnologies/block/ModBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/ModBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/ModBlocks in 2.851 ms
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class to net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CorruptionBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/CorruptionBlock in 492.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock.class to net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock in 834.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock.class to net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock in 495.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock.class to net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock in 534.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/ModBlocks in 2.631 ms
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator.class to net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator in 194.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator in 348.9 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator.class to net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator in 128.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator in 214.3 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock.class to net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock in 737.6 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock.class to net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock in 441.6 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock.class to net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock in 407.5 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class to net/stickmanm/axontechnologies/block/custom/CorruptionBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CorruptionBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/CorruptionBlock in 265.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/ModItems.class to net/stickmanm/axontechnologies/item/ModItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModItems in 2.126 ms
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem in 537.3 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem in 340.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem in 337.1 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem in 712.8 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem in 618.5 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem in 573.0 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem in 522.4 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModPickaxeItem.class to net/stickmanm/axontechnologies/item/custom/ModPickaxeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModPickaxeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModPickaxeItem in 152.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModHoeItem.class to net/stickmanm/axontechnologies/item/custom/ModHoeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModHoeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModHoeItem in 171.3 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModSwordItem.class to net/stickmanm/axontechnologies/item/custom/ModSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModSwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModSwordItem in 156.9 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModAxeItem.class to net/stickmanm/axontechnologies/item/custom/ModAxeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModAxeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModAxeItem in 151.1 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem in 232.4 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.class to net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RazzorSwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/RazzorSwordItem in 158.6 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.class to net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem in 196.4 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem in 181.9 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModMultiTool.class to net/stickmanm/axontechnologies/item/custom/ModMultiTool.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModMultiTool with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModMultiTool in 164.7 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.class to net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem in 120.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModItems in 2.303 ms
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CompressedStickItem.class to net/stickmanm/axontechnologies/item/custom/CompressedStickItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CompressedStickItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CompressedStickItem in 215.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CompressedStickItem in 339.1 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModPickaxeItem.class to net/stickmanm/axontechnologies/item/custom/ModPickaxeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModPickaxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModPickaxeItem in 125.1 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.class to net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem in 179.5 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModHoeItem.class to net/stickmanm/axontechnologies/item/custom/ModHoeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModHoeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModHoeItem in 106.9 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem in 151.3 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem in 190.6 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModAxeItem.class to net/stickmanm/axontechnologies/item/custom/ModAxeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModAxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModAxeItem in 121.0 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModMultiTool.class to net/stickmanm/axontechnologies/item/custom/ModMultiTool.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModMultiTool with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModMultiTool in 155.9 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem in 421.1 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ModSwordItem.class to net/stickmanm/axontechnologies/item/custom/ModSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ModSwordItem in 130.4 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.class to net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem in 212.5 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.class to net/stickmanm/axontechnologies/item/custom/RazzorSwordItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RazzorSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/RazzorSwordItem in 192.6 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem in 315.1 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem in 296.0 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem in 306.7 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem in 290.0 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.class to net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem in 317.5 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.class to net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem in 397.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.class to net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity in 624.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity in 792.3 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.class to net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity in 295.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity in 337.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.class to net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity in 317.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity in 278.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/ModEntities.class to net/stickmanm/axontechnologies/entity/ModEntities.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/ModEntities with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/ModEntities in 494.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/ModEntities in 693.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.class to net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity in 673.0 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity in 765.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.class to net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity in 410.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity in 572.5 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.class to net/stickmanm/axontechnologies/entity/custom/LostMinerEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/LostMinerEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/LostMinerEntity in 288.9 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/LostMinerEntity in 320.9 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.class to net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity in 266.9 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity in 281.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/ModFluids.class to net/stickmanm/axontechnologies/fluid/ModFluids.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/ModFluids with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/ModFluids in 430.1 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class to net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing in 206.0 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source.class to net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source in 134.8 μs
-[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source.class to net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source in 125.2 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/ModFluids in 598.2 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing.class to net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing in 136.7 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing in 263.7 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class to net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing in 183.0 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source.class to net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source in 191.7 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source.class to net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source in 172.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.class to net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock in 199.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock in 206.2 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.class to net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock in 161.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock in 143.9 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/GXFluidBlock.class to net/stickmanm/axontechnologies/block/custom/GXFluidBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/GXFluidBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/GXFluidBlock in 246.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/GXFluidBlock in 241.0 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/ModArmorMaterials.class to net/stickmanm/axontechnologies/item/ModArmorMaterials.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModArmorMaterials with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModArmorMaterials in 879.9 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModArmorMaterials in 1.016 ms
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/ModToolMaterials.class to net/stickmanm/axontechnologies/item/ModToolMaterials.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModToolMaterials with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModToolMaterials in 431.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModToolMaterials in 734.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/ModEffects.class to net/stickmanm/axontechnologies/effect/ModEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/ModEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/ModEffects in 412.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/ModEffects in 557.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect in 280.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect in 234.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect in 270.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect in 242.5 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect in 199.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect in 214.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect in 180.2 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect in 187.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect in 174.8 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect in 184.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.class to net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect in 199.8 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect in 149.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.class to net/stickmanm/axontechnologies/effect/custom/OverdoseEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/OverdoseEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/OverdoseEffect in 161.8 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/OverdoseEffect in 255.2 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect.class to net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect in 167.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect in 204.2 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect.class to net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect in 173.2 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect in 138.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.class to net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect in 225.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect in 200.4 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.class to net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect in 272.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect in 177.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.class to net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect in 247.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect in 164.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.class to net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect in 298.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect in 217.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.class to net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect in 181.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect in 149.4 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/effect/custom/UnkillableEffect.class to net/stickmanm/axontechnologies/effect/custom/UnkillableEffect.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/UnkillableEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/UnkillableEffect in 168.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/effect/custom/UnkillableEffect in 178.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/util/ModPotions.class to net/stickmanm/axontechnologies/util/ModPotions.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModPotions with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/util/ModPotions in 216.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/util/ModPotions in 179.4 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/AxonTechnologies.class to net/stickmanm/axontechnologies/AxonTechnologies.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologies with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/AxonTechnologies in 243.0 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/AxonTechnologies in 342.1 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/ModFuels.class to net/stickmanm/axontechnologies/item/ModFuels.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModFuels with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModFuels in 165.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModFuels in 183.4 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/item/ModItemGroup.class to net/stickmanm/axontechnologies/item/ModItemGroup.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItemGroup with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModItemGroup in 769.2 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/item/ModItemGroup in 788.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/event/ModRespawnHandler.class to net/stickmanm/axontechnologies/event/ModRespawnHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/event/ModRespawnHandler with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/event/ModRespawnHandler in 564.7 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/event/ModRespawnHandler in 466.5 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/world/dimension/ModDimensions.class to net/stickmanm/axontechnologies/world/dimension/ModDimensions.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/dimension/ModDimensions with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/dimension/ModDimensions in 156.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/dimension/ModDimensions in 228.8 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.class to net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror in 1.018 ms
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.class to net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer in 295.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer in 317.6 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.class to net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel in 205.1 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel in 305.0 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.class to net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer in 217.8 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer in 151.9 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.class to net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel in 224.9 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel in 148.0 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.class to net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer in 123.3 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer in 138.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.class to net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel in 147.6 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel in 325.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.class to net/stickmanm/axontechnologies/entity/client/LostMinerRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/LostMinerRenderer in 123.7 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/LostMinerRenderer in 219.7 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/LostMinerModel.class to net/stickmanm/axontechnologies/entity/client/LostMinerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/LostMinerModel in 235.9 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/LostMinerModel in 225.5 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.class to net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer in 249.5 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer in 196.8 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.class to net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer in 226.4 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer in 164.5 μs
 [Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.class to net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer in 178.8 μs
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer in 202.7 μs
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/block/custom/CustomPortalBlock.class to net/stickmanm/axontechnologies/block/custom/CustomPortalBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CustomPortalBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/block/custom/CustomPortalBlock in 2.885 ms
+[Architectury Transformer DEBUG] Transforming from net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids.class to net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids in 2.448 ms
