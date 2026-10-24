@@ -1,8 +1,8 @@
-// 1.20.1	2026-10-23T21:34:52.7997281	Axon T.e.c.h.n.o.l.o.g.i.e.s./Tags for minecraft:block
+// 1.20.1	2026-10-24T11:14:53.069913	Axon T.e.c.h.n.o.l.o.g.i.e.s./Tags for minecraft:block
 e909506b5f145fcd80787227955013a883cbd0d0 data\fabric\tags\blocks\needs_tool_level_6.json
 9499999f1f43140ee28bea264d7872f7ce5f09f9 data\minecraft\tags\blocks\wither_immune.json
-60cad59ef847230e1d39886f2e6e36cdf593f066 data\minecraft\tags\blocks\mineable\axe.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
+60cad59ef847230e1d39886f2e6e36cdf593f066 data\minecraft\tags\blocks\mineable\axe.json
 18068edc0b17984eee66518a22129d73dd19d180 data\minecraft\tags\blocks\needs_stone_tool.json
 8a282db4129b71c02a359fd871487310758c16b3 data\fabric\tags\blocks\needs_tool_level_5.json
 d0149a1cc16eb4824710c96c31da6917f4b1e8bd data\minecraft\tags\blocks\walls.json
@@ -16,8 +16,9 @@ f5065e4df5bcf3ba8884171adde60e8faf0837c3 data\minecraft\tags\blocks\logs.json
 ba505c41c9e3468f236588b46d04f991d4fde91a data\minecraft\tags\blocks\planks.json
 8f38454ea612807e139c941ff8c778b70a74b062 data\minecraft\tags\blocks\needs_diamond_tool.json
 3c9ebb7f31f5fbb95bba91ed723781561a57c7fe data\minecraft\tags\blocks\mineable\shovel.json
+a86c915f6b42ece252f78ce636f2841575b31a19 data\minecraft\tags\blocks\leaves.json
 7310f744a992f75864100cad7c483f99dbe3b4d9 data\axontechnologies\tags\blocks\thundered_planks_convertible.json
 9499999f1f43140ee28bea264d7872f7ce5f09f9 data\minecraft\tags\blocks\dragon_immune.json
-3c9ebb7f31f5fbb95bba91ed723781561a57c7fe data\minecraft\tags\blocks\dirt.json
 a3b70c904e23b9ddbb06fddb5c4bdd86328a6180 data\fabric\tags\blocks\needs_tool_level_4.json
+3c9ebb7f31f5fbb95bba91ed723781561a57c7fe data\minecraft\tags\blocks\dirt.json
 4f2045eb1667b2c2f877819446d5e3e721299532 data\fabric\tags\blocks\needs_tool_level_10.json
