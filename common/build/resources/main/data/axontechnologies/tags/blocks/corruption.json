@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:corruption_block",
+    "axontechnologies:corrupted_dirt",
+    "axontechnologies:corrupted_stone",
+    "axontechnologies:corruptinite_ore",
+    "axontechnologies:denderium_ore",
+    "axontechnologies:corruptionlands_dimension_core_ore"
+  ]
+}

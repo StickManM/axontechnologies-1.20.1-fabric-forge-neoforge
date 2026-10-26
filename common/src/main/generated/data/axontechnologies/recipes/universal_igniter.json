@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "axontechnologies:axon_alloy"
+    },
+    "C": {
+      "item": "axontechnologies:corruption_gateway"
+    },
+    "D": {
+      "item": "axontechnologies:dreaded_igniter"
+    },
+    "F": {
+      "item": "axontechnologies:mimicarium_igniter"
+    },
+    "M": {
+      "item": "axontechnologies:mimicarium"
+    },
+    "T": {
+      "item": "axontechnologies:thunderanium_key"
+    }
+  },
+  "pattern": [
+    "MAA",
+    "DTA",
+    "FCM"
+  ],
+  "result": {
+    "item": "axontechnologies:universal_igniter"
+  },
+  "show_notification": true
+}

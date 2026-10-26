@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:corrupted_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thundered_planks_convertible": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "axontechnologies:corrupted_planks_convertible"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thundered_planks_convertible",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:corrupted_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

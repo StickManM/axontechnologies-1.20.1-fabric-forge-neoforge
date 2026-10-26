@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "axontechnologies:block/thundered_slab"
+    },
+    "type=double": {
+      "model": "axontechnologies:block/thundered_planks"
+    },
+    "type=top": {
+      "model": "axontechnologies:block/thundered_slab_top"
+    }
+  }
+}

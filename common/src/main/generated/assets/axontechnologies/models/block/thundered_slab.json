@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "axontechnologies:block/thundered_planks",
+    "side": "axontechnologies:block/thundered_planks",
+    "top": "axontechnologies:block/thundered_planks"
+  }
+}

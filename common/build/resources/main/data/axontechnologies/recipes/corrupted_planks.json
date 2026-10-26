@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "axontechnologies:corrupted_planks_convertible"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "axontechnologies:corrupted_planks"
+  }
+}

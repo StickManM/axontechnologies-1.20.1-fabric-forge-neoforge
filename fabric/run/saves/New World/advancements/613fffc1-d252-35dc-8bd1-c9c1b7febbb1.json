@@ -1,0 +1,129 @@
+{
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_slab": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:48 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_fence_gate": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-25 20:16:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-10-25 20:16:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_stairs": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:49 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_fence": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-10-25 20:16:31 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-10-25 20:16:47 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_button": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_pressure_plate": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:44 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_trapdoor": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:51 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_door": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-25 20:16:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-25 20:16:56 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

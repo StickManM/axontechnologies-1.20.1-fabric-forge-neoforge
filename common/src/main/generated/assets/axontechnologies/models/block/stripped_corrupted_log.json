@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "axontechnologies:block/stripped_corrupted_log_top",
+    "side": "axontechnologies:block/stripped_corrupted_log"
+  }
+}

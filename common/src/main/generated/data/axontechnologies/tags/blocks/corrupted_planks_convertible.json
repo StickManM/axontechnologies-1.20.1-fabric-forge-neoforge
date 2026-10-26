@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:corrupted_log",
+    "axontechnologies:corrupted_wood",
+    "axontechnologies:stripped_corrupted_log",
+    "axontechnologies:stripped_corrupted_wood"
+  ]
+}

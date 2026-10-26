@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "button",
+  "ingredients": [
+    {
+      "item": "axontechnologies:thundered_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "axontechnologies:thundered_button"
+  }
+}
