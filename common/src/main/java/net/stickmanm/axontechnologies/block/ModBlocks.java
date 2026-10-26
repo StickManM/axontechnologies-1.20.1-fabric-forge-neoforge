@@ -65,6 +65,32 @@ public class ModBlocks {
 
     public static final RegistrySupplier<Block> THUNDERED_PLANKS = registerBlock("thundered_planks",
             () -> new Block(Block.Settings.copy(Blocks.OAK_PLANKS).strength(2.0f)));
+
+    public static final RegistrySupplier<Block> THUNDERED_SLAB = registerBlock("thundered_slab",
+            () -> new SlabBlock(Block.Settings.copy(THUNDERED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> THUNDERED_STAIRS = registerBlock("thundered_stairs",
+            () -> new StairsBlock(THUNDERED_PLANKS.get().getDefaultState(), Block.Settings.copy(THUNDERED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> THUNDERED_FENCE = registerBlock("thundered_fence",
+            () -> new FenceBlock(Block.Settings.copy(THUNDERED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> THUNDERED_FENCE_GATE = registerBlock("thundered_fence_gate",
+            () -> new FenceGateBlock(Block.Settings.copy(THUNDERED_PLANKS.get()), WoodType.CRIMSON));
+
+    public static final RegistrySupplier<Block> THUNDERED_DOOR = registerBlock("thundered_door",
+            () -> new DoorBlock(Block.Settings.copy(THUNDERED_PLANKS.get()), BlockSetType.CRIMSON));
+
+    public static final RegistrySupplier<Block> THUNDERED_TRAPDOOR = registerBlock("thundered_trapdoor",
+            () -> new TrapdoorBlock(Block.Settings.copy(THUNDERED_PLANKS.get()), BlockSetType.CRIMSON));
+
+    public static final RegistrySupplier<Block> THUNDERED_BUTTON = registerBlock("thundered_button",
+            () -> new ButtonBlock(Block.Settings.copy(THUNDERED_PLANKS.get()), BlockSetType.CRIMSON, 30,true));
+
+    public static final RegistrySupplier<Block> THUNDERED_PRESSURE_PLATE = registerBlock("thundered_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, Block.Settings.copy(THUNDERED_PLANKS.get()), BlockSetType.CRIMSON));
+
+
     public static final RegistrySupplier<Block> THUNDERED_LEAVES = registerBlock("thundered_leaves",
             () -> new LeavesBlock(Block.Settings.copy(Blocks.OAK_LEAVES).strength(1.0f).requiresTool()));
 

@@ -67,6 +67,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.THUNDERED_WOOD.get())
                     .add(ModBlocks.STRIPPED_THUNDERED_LOG.get())
                     .add(ModBlocks.STRIPPED_THUNDERED_WOOD.get())
+                    .add(ModBlocks.THUNDERED_FENCE_GATE.get())
+                    .add(ModBlocks.THUNDERED_FENCE.get())
+                    .add(ModBlocks.THUNDERED_PRESSURE_PLATE.get())
+                    .add(ModBlocks.THUNDERED_TRAPDOOR.get())
+                    .add(ModBlocks.THUNDERED_STAIRS.get())
+                    .add(ModBlocks.THUNDERED_SLAB.get())
+                    .add(ModBlocks.THUNDERED_DOOR.get())
                     .add(ModBlocks.CORRUPTED_LOG.get())
                     .add(ModBlocks.CORRUPTED_PLANKS.get())
                     .add(ModBlocks.CORRUPTED_WOOD.get())
@@ -150,6 +157,30 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             getOrCreateTagBuilder(BlockTags.PLANKS)
                     .add(ModBlocks.THUNDERED_PLANKS.get())
                     .add(ModBlocks.CORRUPTED_PLANKS.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
+                    .add(ModBlocks.THUNDERED_BUTTON.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
+                    .add(ModBlocks.THUNDERED_DOOR.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                    .add(ModBlocks.THUNDERED_FENCE.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
+                    .add(ModBlocks.THUNDERED_SLAB.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
+                    .add(ModBlocks.THUNDERED_STAIRS.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS)
+                    .add(ModBlocks.THUNDERED_TRAPDOOR.get());
+
+            getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
+                    .add(ModBlocks.THUNDERED_PRESSURE_PLATE.get());
+
+            getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                    .add(ModBlocks.THUNDERED_FENCE_GATE.get());
 
             getOrCreateTagBuilder(ModBlockTags.REINFORCED_DREADSTONE)
                     .add(ModBlocks.REINFORCED_DREADSTONE.get())

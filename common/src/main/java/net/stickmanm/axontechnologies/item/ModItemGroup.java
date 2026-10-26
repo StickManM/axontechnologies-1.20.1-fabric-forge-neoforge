@@ -180,6 +180,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STRIPPED_THUNDERED_LOG.get());
                         entries.add(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
                         entries.add(ModBlocks.THUNDERED_PLANKS.get());
+                        entries.add(ModBlocks.THUNDERED_SLAB.get());
+                        entries.add(ModBlocks.THUNDERED_STAIRS.get());
+                        entries.add(ModBlocks.THUNDERED_DOOR.get());
+                        entries.add(ModBlocks.THUNDERED_TRAPDOOR.get());
+                        entries.add(ModBlocks.THUNDERED_FENCE.get());
+                        entries.add(ModBlocks.THUNDERED_FENCE_GATE.get());
+                        entries.add(ModBlocks.THUNDERED_PRESSURE_PLATE.get());
+                        entries.add(ModBlocks.THUNDERED_BUTTON.get());
                         entries.add(ModBlocks.THUNDERED_LEAVES.get());
                         entries.add(ModBlocks.THUNDERED_SAPLING.get());
 

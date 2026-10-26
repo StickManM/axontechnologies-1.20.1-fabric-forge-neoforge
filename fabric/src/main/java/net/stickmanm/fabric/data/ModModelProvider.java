@@ -29,9 +29,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.THUNDERED_LOG.get()).log(ModBlocks.THUNDERED_LOG.get()).wood(ModBlocks.THUNDERED_WOOD.get());
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_THUNDERED_LOG.get()).log(ModBlocks.STRIPPED_THUNDERED_LOG.get()).wood(ModBlocks.STRIPPED_THUNDERED_WOOD.get());
 
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_PLANKS.get());
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_LEAVES.get());
+        BlockStateModelGenerator.BlockTexturePool thunderedPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_PLANKS.get());
+        blockStateModelGenerator.registerDoor(ModBlocks.THUNDERED_DOOR.get());
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.THUNDERED_TRAPDOOR.get());
+        thunderedPlanksPool.fence(ModBlocks.THUNDERED_FENCE.get());
+        thunderedPlanksPool.fenceGate(ModBlocks.THUNDERED_FENCE_GATE.get());
+        thunderedPlanksPool.stairs(ModBlocks.THUNDERED_STAIRS.get());
+        thunderedPlanksPool.slab(ModBlocks.THUNDERED_SLAB.get());
+        thunderedPlanksPool.button(ModBlocks.THUNDERED_BUTTON.get());
+        thunderedPlanksPool.pressurePlate(ModBlocks.THUNDERED_PRESSURE_PLATE.get());
 
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_LEAVES.get());
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.THUNDERED_SAPLING.get(), BlockStateModelGenerator.TintType.NOT_TINTED);
 
         //Corrupted Tree Blocks

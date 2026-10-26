@@ -227,6 +227,71 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromTag(ModItemTags.THUNDERED_PLANKS_CONVERTIBLE))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_PLANKS.get())));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_BUTTON.get(), 4)
+                .input(ModBlocks.THUNDERED_PLANKS.get())
+                .group("button")
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_BUTTON.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_BUTTON.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_SLAB.get(), 6)
+                .pattern("###")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_SLAB.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_SLAB.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_STAIRS.get(), 6)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_STAIRS.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_STAIRS.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_DOOR.get(), 3)
+                .pattern("##")
+                .pattern("##")
+                .pattern("##")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_DOOR.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_DOOR.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_TRAPDOOR.get(),6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_TRAPDOOR.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_TRAPDOOR.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_PRESSURE_PLATE.get(),2)
+                .pattern("##")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_PRESSURE_PLATE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_PRESSURE_PLATE.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_FENCE.get(),4)
+                .pattern("#S#")
+                .pattern("#S#")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_FENCE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_FENCE.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_FENCE_GATE.get(),2)
+                .pattern("S#S")
+                .pattern("S#S")
+                .input('#', ModBlocks.THUNDERED_PLANKS.get())
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_FENCE_GATE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_FENCE_GATE.get())));
+
 
         //Corrupted Wood
 
