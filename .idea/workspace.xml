@@ -4,44 +4,611 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Added a Universal Igniter.">
-      <change afterPath="$PROJECT_DIR$/fabric/run/mods/RoughlyEnoughItems-12.1.785-fabric.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/mods/cloth-config-11.1.136-fabric.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/mods/RoughlyEnoughItems-12.1.785-forge.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/mods/cloth-config-11.1.136-forge.jar" afterDir="false" />
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Thundered Tree Woodset Expansion">
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-0c6ac5fc/9.2.14/architectury-fabric-0c6ac5fc-9.2.14.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-0c6ac5fc/0.92.12+1.20.1/fabric-api-0c6ac5fc-0.92.12+1.20.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-0c6ac5fc/0.4.32+1802ada577/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-0c6ac5fc/1.6.37+1802ada577/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-0c6ac5fc/13.0.15+93aa238b77/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-0c6ac5fc/1.0.12+1802ada577/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-0c6ac5fc/1.0.3+924f046a77/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-0c6ac5fc/1.1.42+1802ada577/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-tags-api-v1-0c6ac5fc/1.2.0+238242b777/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v1-0c6ac5fc/1.2.35+f71b366f77/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-0c6ac5fc/2.2.14+1802ada577/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-commands-v0-0c6ac5fc/0.2.52+df3654b377/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-containers-v0-0c6ac5fc/0.1.68+df3654b377/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-0c6ac5fc/4.0.13+1802ada577/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-0c6ac5fc/1.5.6+1802ada577/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-0c6ac5fc/0.2.20+1802ada577/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-0c6ac5fc/1.0.2+de0fd6d177/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-0c6ac5fc/12.4.0+238242b777/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-0c6ac5fc/2.1.55+1802ada577/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-0c6ac5fc/1.6.1+1c78457f77/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-0c6ac5fc/0.6.6+13a40c6677/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-lifecycle-v0-0c6ac5fc/0.2.64+df3654b377/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-0c6ac5fc/1.0.41+1802ada577/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-0c6ac5fc/1.2.15+1802ada577/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-0c6ac5fc/2.1.29+1802ada577/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-0c6ac5fc/4.0.14+1802ada577/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-0c6ac5fc/1.0.38+1802ada577/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-keybindings-v0-0c6ac5fc/0.2.36+df3654b377/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-0c6ac5fc/2.2.23+1802ada577/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-0c6ac5fc/1.2.3+1802ada577/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-tables-v1-0c6ac5fc/1.1.47+9e7660c677/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-0c6ac5fc/5.1.10+1802ada577/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-0c6ac5fc/2.1.52+1802ada577/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-0c6ac5fc/1.0.4+1802ada577/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-models-v0-0c6ac5fc/0.4.3+9386d8a777/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-0c6ac5fc/1.3.15+0caff8d077/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-v0-0c6ac5fc/0.3.55+df3654b377/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-0c6ac5fc/11.1.5+e35120df77/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-0c6ac5fc/1.1.3+1802ada577/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-0c6ac5fc/1.0.25+1802ada577/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-0c6ac5fc/2.4.1+4c0a70e677/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-0c6ac5fc/3.2.2+1802ada577/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-0c6ac5fc/1.5.3+85287f9f77/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-0c6ac5fc/3.2.48+df3654b377/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-0c6ac5fc/0.3.39+92a0d36777/fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-0c6ac5fc/0.3.39+92a0d36777/fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-0c6ac5fc/0.3.39+92a0d36777/fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-0c6ac5fc/0.3.39+92a0d36777/fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-0c6ac5fc/3.0.29+1802ada577/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v0-0c6ac5fc/1.1.51+df3654b377/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-0c6ac5fc/3.0.10+54550fb677/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-0c6ac5fc/2.3.9+1802ada577/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-0c6ac5fc/0.11.12+fb82e9d777/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-0c6ac5fc/2.0.9+1802ada577/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-0c6ac5fc/1.3.34+1802ada577/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-0c6ac5fc/1.0.14+1802ada577/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-0c6ac5fc/1.3.0+238242b777/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-0c6ac5fc/3.3.6+8dd72ea377/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-0c6ac5fc/4.3.2+1802ada577/fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-0c6ac5fc/4.3.2+1802ada577/fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-0c6ac5fc/4.3.2+1802ada577/fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-0c6ac5fc/4.3.2+1802ada577/fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/kyrptonaught/customportalapi-0c6ac5fc/0.0.1-beta64-1.20/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/software/bernie/geckolib/geckolib-fabric-1.20.1-0c6ac5fc/4.4.4/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-17-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-17-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-17-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-1.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-1.log2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-2.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-2.log2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-3.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-4.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-5.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-18-6.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-1.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-1.log2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-2.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/2026-10-19-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AntiCorruptedGlitchsterEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AntiGlitchSwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AntiGlitchsterEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorClientHooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorClientHooksImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorClientHooksImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorTestArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorTestArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorTestArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ArmorTestArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloySwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyTntBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyTntEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonAlloyTntEntityRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesFabric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesFabric.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesFabricClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesFabricClient.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesFabricDataGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonTechnologiesForge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/AxonToolItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CompressedStickItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptedGlitchsterEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptedGlitchsterIIEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptedGlitchsterIIIEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteAxonAlloyArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteAxonAlloyArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteAxonAlloyArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteAxonAlloyArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptiniteSwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/CorruptionBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkEssenceZombieEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkEssenceZombieModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkEssenceZombieRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumAxonAlloyArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumAxonAlloyArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumAxonAlloyArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumAxonAlloyArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/DarkThunderaniumSwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ExampleMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GXFluid$Flowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GXFluid$Still.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GXFluid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GXFluidBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GeneticallyModifiedRedEssenceZombieEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GeneticallyModifiedRedEssenceZombieModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GeneticallyModifiedRedEssenceZombieRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterIIEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterIIIEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterIVEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterVEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/GlitchsterXEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidCorruptionFluid$Flowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidCorruptionFluid$Still.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidCorruptionFluid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidCorruptionFluidBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidThunderFluid$Flowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidThunderFluid$Still.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidThunderFluid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LiquidThunderFluidBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LostMinerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LostMinerModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/LostMinerRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModAdvancementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModAdvancements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModArmorMaterials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModAxeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModBiomes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModBlockTagProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModBlockTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModBlocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModConfiguredFeatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModDimensions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModEffects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModEntities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModEntityGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModFluids.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModFuels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModHoeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModItemGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModLootTableGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModLootTableGenerator.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModLootTableModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModLootTableModifiers.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModModelProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModModelProvider.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModMultiTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModOreGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModOrePlacement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModPickaxeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModPlacedFeatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModPortalsFabric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModPortalsFabric.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModPotions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModRecipeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModRecipeGenerator.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModStrippableBlockRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModSwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModTags$Blocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModTags$Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModToolMaterials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModTreeGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModWorldGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ModWorldGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/NeutralizedGlitchsterEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/OverdoseEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RazzorSwordItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedEssenceZombieEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedEssenceZombieModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedEssenceZombieRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumTntBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumTntEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/RedThunderaniumTntEntityRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderPoisoningEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumArmorItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumArmorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumArmorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumTntBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumTntEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderaniumTntEntityRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/ThunderedSaplingGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/UnkillableEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-0c6ac5fc-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-0c6ac5fc-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-fabric-0c6ac5fc-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-fabric-0c6ac5fc-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-forge-c202a452-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-forge-c202a452-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/architectury-transformer-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-1.7.0-beta-dev-shadow.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-1.7.0-beta-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-1.7.0-beta-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-1.7.0-beta-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-1.7.0-beta.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-1-dev-shadow.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-1-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-dev-shadow.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/axontechnologies-fabric-A18-BETA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities4.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities5.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/capabilities8.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/customportalapi-0.0.1-beta64-1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/customportalapi-0c6ac5fc-0.0.1-beta64-1.20-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/customportalapi-0c6ac5fc-0.0.1-beta64-1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-1.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-1.log2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-1.log3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-2.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-2.log2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-3.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-4.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/debug-5.log1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-0c6ac5fc-0.92.12+1.20.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-0c6ac5fc-0.92.12+1.20.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-base-0c6ac5fc-0.4.32+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-base-0c6ac5fc-0.4.32+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-api-lookup-api-v1-0c6ac5fc-1.6.37+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-biome-api-v1-0c6ac5fc-13.0.15+93aa238b77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-block-api-v1-0c6ac5fc-1.0.12+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-block-view-api-v2-0c6ac5fc-1.0.3+924f046a77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-blockrenderlayer-v1-0c6ac5fc-1.1.42+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-client-tags-api-v1-0c6ac5fc-1.2.0+238242b777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-command-api-v1-0c6ac5fc-1.2.35+f71b366f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-command-api-v2-0c6ac5fc-2.2.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-commands-v0-0c6ac5fc-0.2.52+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-containers-v0-0c6ac5fc-0.1.68+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-content-registries-v0-0c6ac5fc-4.0.13+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-convention-tags-v1-0c6ac5fc-1.5.6+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-crash-report-info-v1-0c6ac5fc-0.2.20+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-data-attachment-api-v1-0c6ac5fc-1.0.2+de0fd6d177.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-data-generation-api-v1-0c6ac5fc-12.4.0+238242b777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-dimensions-v1-0c6ac5fc-2.1.55+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-entity-events-v1-0c6ac5fc-1.6.1+1c78457f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-events-interaction-v0-0c6ac5fc-0.6.6+13a40c6677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-events-lifecycle-v0-0c6ac5fc-0.2.64+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-game-rule-api-v1-0c6ac5fc-1.0.41+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-gametest-api-v1-0c6ac5fc-1.2.15+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-item-api-v1-0c6ac5fc-2.1.29+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-item-group-api-v1-0c6ac5fc-4.0.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-key-binding-api-v1-0c6ac5fc-1.0.38+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-keybindings-v0-0c6ac5fc-0.2.36+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-lifecycle-events-v1-0c6ac5fc-2.2.23+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-loot-api-v2-0c6ac5fc-1.2.3+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-loot-tables-v1-0c6ac5fc-1.1.47+9e7660c677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-message-api-v1-0c6ac5fc-5.1.10+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-mining-level-api-v1-0c6ac5fc-2.1.52+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-model-loading-api-v1-0c6ac5fc-1.0.4+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-models-v0-0c6ac5fc-0.4.3+9386d8a777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-networking-api-v1-0c6ac5fc-1.3.15+0caff8d077.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-networking-v0-0c6ac5fc-0.3.55+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-object-builder-api-v1-0c6ac5fc-11.1.5+e35120df77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-particles-v1-0c6ac5fc-1.1.3+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-recipe-api-v1-0c6ac5fc-1.0.25+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-registry-sync-v0-0c6ac5fc-2.4.1+4c0a70e677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-api-v1-0c6ac5fc-3.2.2+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-indigo-0c6ac5fc-1.5.3+85287f9f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-renderer-registries-v1-0c6ac5fc-3.2.48+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-data-attachment-v1-0c6ac5fc-0.3.39+92a0d36777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-fluids-v1-0c6ac5fc-3.0.29+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-v0-0c6ac5fc-1.1.51+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-rendering-v1-0c6ac5fc-3.0.10+54550fb677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-resource-conditions-api-v1-0c6ac5fc-2.3.9+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-resource-loader-v0-0c6ac5fc-0.11.12+fb82e9d777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-screen-api-v1-0c6ac5fc-2.0.9+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-screen-handler-api-v1-0c6ac5fc-1.3.34+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-sound-api-v1-0c6ac5fc-1.0.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-tag-api-v1-0c6ac5fc-1.3.0+238242b777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-transfer-api-v1-0c6ac5fc-3.3.6+8dd72ea377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabric-transitive-access-wideners-v1-0c6ac5fc-4.3.2+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fabricDefaultResourcePacks.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/geckolib-forge-1.20.1-c202a452-4.4.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/geckolib-forge-1.20.1-c202a452-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/previous-compilation-data1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.-1.-11.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.-1.01.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.0.-11.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/r.0.01.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids4.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids5.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.dev.architectury-architectury-forge-c202a452-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.dev.architectury-architectury-forge-c202a452-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.software.bernie.geckolib-geckolib-fabric-1.20.1-0c6ac5fc-4.4.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.software.bernie.geckolib-geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.software.bernie.geckolib-geckolib-forge-1.20.1-c202a452-4.4.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/remapped.software.bernie.geckolib-geckolib-forge-1.20.1-c202a452-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_19_2026_7_55_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/ModBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.8-beta.2-transformProductionFabric.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.8-beta.2-transformProductionFabric.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.8-beta.2-transformProductionForge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/axontechnologies-common-1.8-beta.2-transformProductionForge.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/.architectury-transformer/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-20-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-21-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-22-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-23-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-24-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-24-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-25-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/2026-10-25-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/datagen/logs/latest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/argFiles/runDatagen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesFabric.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesFabricClient.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesFabricDataGenerator.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModBlockTagProvider.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModItemTagProvider.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModLootTableGenerator.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModLootTableModifiers.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModModelProvider.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModPortalsFabric.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeGenerator.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/compileTransaction/stash-dir/ModStrippableBlockRegistry.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-config-11.1.136-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-config-11.1.136-64b5720b4b825f21.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/error_notifier-1.0.9-d33217c64d792fec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/error_notifier-1.0.9-d33217c64d792fec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/roughlyenoughitems-12.1.785-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/roughlyenoughitems-12.1.785-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/hints.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/hints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/pinyin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/pinyin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/pinyin_double.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/roughlyenoughitems/pinyin_double.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
@@ -49,11 +616,31 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/rei.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/rei.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesForge.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologiesForgeClient.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod code.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +648,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1677" />
+    <option name="cachedIndexableFilesCount" value="1827" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -89,6 +676,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="architectury" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
                 <item name="fabric" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -102,7 +695,7 @@
                 <item name="axontechnologies" type="f1a62948:ProjectNode" />
                 <item name="fabric" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="loom" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -114,6 +707,13 @@
                 <item name="axontechnologies" type="f1a62948:ProjectNode" />
                 <item name="forge" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="axontechnologies" type="f1a62948:ProjectNode" />
+                <item name="forge" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -160,61 +760,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.0249645020062741E-101" />
-      <entry key="S5" value="5.821130887480847E-41" />
-      <entry key="S10" value="1.1555302384317124E-20" />
-      <entry key="S30" value="7.240807696627323E-7" />
-      <entry key="S60" value="0.0031458386743937186" />
-      <entry key="M2" value="0.24380954047233744" />
-      <entry key="M5" value="3.6701414682410536" />
-      <entry key="M10" value="10.773437162095485" />
-      <entry key="M15" value="17.648896966742118" />
-      <entry key="M30" value="36.55017334559743" />
-      <entry key="H1" value="75.13622484111971" />
-      <entry key="H2" value="146.69791547653287" />
-      <entry key="H4" value="234.8179433092611" />
-      <entry key="D1" value="495.00184606585003" />
-      <entry key="W1" value="731.1612486040234" />
+      <entry key="MS100" value="1.0117949404910989" />
+      <entry key="MS500" value="1.594338708251307" />
+      <entry key="S2" value="3.7520184273634225" />
+      <entry key="S5" value="6.400716662570692" />
+      <entry key="S10" value="8.439720128353333" />
+      <entry key="S30" value="10.572502583350744" />
+      <entry key="S60" value="11.249966565923172" />
+      <entry key="M2" value="11.615362381245117" />
+      <entry key="M5" value="11.84376840140843" />
+      <entry key="M10" value="11.92676615879002" />
+      <entry key="M15" value="11.99701924170349" />
+      <entry key="M30" value="12.72769059795989" />
+      <entry key="H1" value="20.288235589784446" />
+      <entry key="H2" value="58.99651108672787" />
+      <entry key="H4" value="144.6529958050469" />
+      <entry key="D1" value="464.14959251241356" />
+      <entry key="W1" value="736.8637601462581" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000010206332" />
-      <entry key="S2" value="1.0110244090987082" />
-      <entry key="S5" value="1.280764766866629" />
-      <entry key="S10" value="2.1418409122776554" />
-      <entry key="S30" value="4.597591047322318" />
-      <entry key="S60" value="5.975302187188827" />
-      <entry key="M2" value="6.8901548698034" />
-      <entry key="M5" value="7.8154687476274365" />
-      <entry key="M10" value="10.873330654364642" />
-      <entry key="M15" value="15.772728907703433" />
-      <entry key="M30" value="30.3322115856006" />
-      <entry key="H1" value="51.67972352181328" />
-      <entry key="H2" value="83.76483492175947" />
-      <entry key="H4" value="122.44253110876093" />
-      <entry key="D1" value="199.40967297202883" />
-      <entry key="W1" value="246.02386945701122" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="6.264771591565578E-124" />
+      <entry key="S60" value="6.975050000674133E-62" />
+      <entry key="M2" value="7.444280165321763E-31" />
+      <entry key="M5" value="3.2091685030426733E-12" />
+      <entry key="M10" value="6.967569993180464E-6" />
+      <entry key="M15" value="0.0011723375322392007" />
+      <entry key="M30" value="0.2615031904696878" />
+      <entry key="H1" value="4.798512595540677" />
+      <entry key="H2" value="25.524366133269023" />
+      <entry key="H4" value="67.58945009453572" />
+      <entry key="D1" value="180.60814150014374" />
+      <entry key="W1" value="242.56778169574997" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8347140465947911E-34" />
-      <entry key="MS500" value="1.7955617060340685E-7" />
-      <entry key="S2" value="0.025918668103721457" />
-      <entry key="S5" value="0.4107392058715252" />
-      <entry key="S10" value="1.3867045685829014" />
-      <entry key="S30" value="4.086993448891752" />
-      <entry key="S60" value="5.650599055405715" />
-      <entry key="M2" value="6.945799564817527" />
-      <entry key="M5" value="11.400929062991565" />
-      <entry key="M10" value="21.587921723384508" />
-      <entry key="M15" value="33.36428968706762" />
-      <entry key="M30" value="66.82708709103932" />
-      <entry key="H1" value="126.76883945628697" />
-      <entry key="H2" value="230.42403238997514" />
-      <entry key="H4" value="357.2316574114618" />
-      <entry key="D1" value="694.4025664286108" />
-      <entry key="W1" value="977.1833420586677" />
+      <entry key="MS100" value="0.9708156139485806" />
+      <entry key="MS500" value="1.5828651410804522" />
+      <entry key="S2" value="3.74552916851812" />
+      <entry key="S5" value="6.396323511905904" />
+      <entry key="S10" value="8.436833240620702" />
+      <entry key="S30" value="10.571300017663416" />
+      <entry key="S60" value="11.249327159921723" />
+      <entry key="M2" value="11.61503240049785" />
+      <entry key="M5" value="11.843633839628515" />
+      <entry key="M10" value="11.926705297566423" />
+      <entry key="M15" value="11.998141629664886" />
+      <entry key="M30" value="12.988692350639583" />
+      <entry key="H1" value="25.082359668845545" />
+      <entry key="H2" value="84.50907094220786" />
+      <entry key="H4" value="212.22653404390655" />
+      <entry key="D1" value="644.7496246675424" />
+      <entry key="W1" value="979.4297906662523" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -226,48 +826,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Minecraft Client (:fabric).executor": "Run",
-    "Application.Minecraft Client (:forge).executor": "Run",
-    "Gradle.Build axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [build].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [runClient].executor": "Run",
-    "Gradle.axontechnologies 1.20.1 fabric-forge-neoforge.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Mod Making/axontechnologies 1.20.1 fabric-forge-neoforge/forge/run/mods",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Client (:forge).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build axontechnologies 1.20.1 fabric-forge-neoforge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.axontechnologies 1.20.1 fabric-forge-neoforge.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mod Making/axontechnologies 1.20.1 fabric-forge-neoforge/forge/run/mods&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\forge\run\mods" />
@@ -315,6 +917,56 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -340,7 +992,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [:forge:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -351,7 +1003,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":forge:runClient" />
+            <option value=":forge:build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -365,7 +1017,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -376,57 +1028,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanEclipse" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="genEclipseRuns" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="axontechnologies 1.20.1 fabric-forge-neoforge [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runClient" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,11 +1044,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:build]" />
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:build]" />
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:clean]" />
+        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [build]" />
         <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:fabric:runDatagen]" />
-        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [:forge:runClient]" />
-        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [cleanEclipse]" />
-        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [genEclipseRuns]" />
-        <item itemvalue="Gradle.axontechnologies 1.20.1 fabric-forge-neoforge [runClient]" />
       </list>
     </recent_temporary>
   </component>
@@ -496,6 +1098,7 @@
     <MESSAGE value="Fixed Thunder Wood Set Recipes not working. Added Corrupted Wood and its spawning the the Corruptionalands. Made Thundered Stone, Corrupted Stone, Fakestone, Fakeslate, and Dreadstone stone crafting recipe substitues (similar to deepslate)." />
     <MESSAGE value="Made it so that changes in the Thunderlands are mirrored into the Corruptionlands. Added Thundered Leaves into the Leaves Block Tag. Made Corruptionlands return portal go to the Thunderlands." />
     <MESSAGE value="Added a Universal Igniter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Universal Igniter." />
+    <MESSAGE value="Thundered Tree Woodset Expansion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thundered Tree Woodset Expansion" />
   </component>
 </project>
