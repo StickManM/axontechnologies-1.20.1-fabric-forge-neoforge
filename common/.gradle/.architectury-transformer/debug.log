@@ -1,0 +1,364 @@
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@2f7b990c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@24feaba1
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@754ae043
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=dev.architectury.plugin.transformers.AddRefmapName$$Lambda/0x0000021bd0c35910@49fbe8e4)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3a3bbb2e
+[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/PortalDef with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModWorldGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModTreeGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModOreGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModEntityGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/dimension/ModDimensions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/biome/ModBiomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModPlacedFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModOrePlacement with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModConfiguredFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags$Items with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags$Blocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModPotions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModAdvancements with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/mixin/ExampleMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RazzorSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModPickaxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModMultiTool with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModHoeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModAxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CompressedStickItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonToolItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ArmorTestArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ArmorTestArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/AxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorTestArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorClientHooks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModToolMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItemTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItemGroup with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModFuels with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModArmorMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid$Still with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/ModFluids with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/event/ModRespawnHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/LostMinerEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/ModEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/UnkillableEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/OverdoseEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/ModEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/GXFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CustomPortalBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CustomPortalBlock$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CorruptionBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/ModBlockTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologiesConstants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologies with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 211.6 ms
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionForge.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 7 transformer(s) from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionForge.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@7aad185d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@79df7c83
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=dev.architectury.plugin.ModLoader$$Lambda/0x0000021bd0c361e8@21230b28)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1e3aa965
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@cc7250f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@e7e7b70
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@37bd5bdc
+[Architectury Transformer DEBUG] Transforming from D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\devlibs\axontechnologies-common-1.8-beta.2-dev.jar to D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionForge.jar with 7 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000021bd12172c0@447c0860
+[Architectury Transformer DEBUG] Provided 59 classpath jar(s):
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.20.1\7c7f9831e9f27b303d5d08decb5f4258a9f03296\fabric-loader-0.20.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.2\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.11\2a2c870691d2220eb93492c88fdcd3711ab0fadb\asm-9.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.11\f35f7706e93e0de19c256b3e7e7f43e792a8d571\asm-analysis-9.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.11\7ddfa7d6cee28f627af0bd246ef046e24e1b02a\asm-commons-9.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.11\2e0298e7c0986f94e161de26d108c78d20547935\asm-tree-9.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.11\1d4e8839681014f2530b85a1969eb5b0d8af3dd7\asm-util-9.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.17.5+mixin.0.8.7\cef8519a91129d0c21fa03bb9378f0e8ca810e5\sponge-mixin-0.17.5+mixin.0.8.7.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.5.5\d1055b99c0ab08a8403fe2da3d79ca28e6340a76\mixinextras-fabric-0.5.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.fabricmc\yarn\1.20.1+build.1\ba83fb873125a42ad578402fb8386fb0de4d9c03\yarn-1.20.1+build.1-constants.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+[Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-merged-bdabb3aae4\1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2\minecraft-merged-bdabb3aae4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.1-v2.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
+[Architectury Transformer DEBUG]  - C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
+[Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\remapped_mods\remapped\dev\architectury\architectury-0c6ac5fc\9.2.14\architectury-0c6ac5fc-9.2.14.jar
+[Architectury Transformer DEBUG]  - D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\.gradle\loom-cache\remapped_mods\remapped\software\bernie\geckolib\geckolib-fabric-1.20.1-0c6ac5fc\4.4.4\geckolib-fabric-1.20.1-0c6ac5fc-4.4.4.jar
+[Architectury Transformer] Read classpath in 987.9 ms
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologiesConstants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/AxonTechnologies with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModConfiguredFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModPlacedFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/ModOrePlacement with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/CorruptedSaplingGenerator with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/tree/ThunderedSaplingGenerator with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/ModPortals$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/portal/PortalDef with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModEntityGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModTreeGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModOreGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/gen/ModWorldGeneration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/dimension/ModDimensions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/world/biome/ModBiomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModPotions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags$Blocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModAdvancements with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags$Items with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/util/ModTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/mixin/ExampleMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItemGroup with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModFuels with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModToolMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModItemTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/ModArmorMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloySwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CompressedStickItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModMultiTool with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ArmorTestArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModHoeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModPickaxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AntiGlitchSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ArmorTestArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/DarkThunderaniumAxonAlloyArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/AxonToolItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/CorruptiniteAxonAlloyArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RazzorSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModSwordItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/RedThunderaniumArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/custom/ModAxeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorTestArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorClientHooks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/RedThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ArmorTestArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/AxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ThunderaniumArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/DarkThunderaniumAxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/ThunderaniumArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/AxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/item/client/CorruptiniteAxonAlloyArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/ModFluids with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid$Still with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LavaLikeFluids with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/GXFluid$Flowing with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidThunderFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/fluid/custom/LiquidCorruptionFluid$Source with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/event/ModRespawnHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/ModEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/LostMinerEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/ThunderaniumTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/AxonAlloyTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/RedThunderaniumTntEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/DarkEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/custom/GeneticallyModifiedRedEssenceZombieEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/GeneticallyModifiedRedEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/AxonAlloyTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/LostMinerRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/ThunderaniumTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/RedThunderaniumTntEntityRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/entity/client/DarkEssenceZombieModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/ModEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiCorruptedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/NeutralizedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterXEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/OverdoseEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/AntiGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIVEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/UnkillableEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/CorruptedGlitchsterIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/ThunderPoisoningEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterIIIEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/effect/custom/GlitchsterVEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/ModBlockTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/AxonAlloyTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CustomPortalBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/ThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/RedThunderaniumTntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/GXFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CustomPortalBlock$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidCorruptionFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/LiquidThunderFluidBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/stickmanm/axontechnologies/block/custom/CorruptionBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Injecting MixinConfigs into /META-INF/MANIFEST.MF
+[Architectury Transformer DEBUG] Closed File Systems for D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2-transformProductionForge.jar
+[Architectury Transformer] Transformed jar with 7 transformer(s) in 1.645 s
+[Architectury Transformer DEBUG] Closed File Systems for D:\Mod Making\axontechnologies 1.20.1 fabric-forge-neoforge\common\build\libs\axontechnologies-common-1.8-beta.2.jar
