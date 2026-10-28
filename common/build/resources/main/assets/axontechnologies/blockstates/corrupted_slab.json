@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "axontechnologies:block/corrupted_slab"
+    },
+    "type=double": {
+      "model": "axontechnologies:block/corrupted_planks"
+    },
+    "type=top": {
+      "model": "axontechnologies:block/corrupted_slab_top"
+    }
+  }
+}

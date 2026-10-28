@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "axontechnologies:block/corrupted_planks",
+    "side": "axontechnologies:block/corrupted_planks",
+    "top": "axontechnologies:block/corrupted_planks"
+  }
+}

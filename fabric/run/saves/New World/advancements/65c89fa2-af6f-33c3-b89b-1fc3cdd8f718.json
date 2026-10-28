@@ -1,0 +1,81 @@
+{
+  "axontechnologies:recipes/building_blocks/corrupted_button": {
+    "criteria": {
+      "has_corrupted_planks": "2026-10-27 20:19:16 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/universal_igniter": {
+    "criteria": {
+      "has_corruption_gateway": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/corruption_portal_frame": {
+    "criteria": {
+      "has_corruption_block": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-27 20:18:04 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_stairs": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_fence": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_button": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/corrupted_door": {
+    "criteria": {
+      "has_corrupted_planks": "2026-10-27 20:18:28 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_pressure_plate": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_trapdoor": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_door": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-27 20:18:04 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/corruption_gateway": {
+    "criteria": {
+      "has_corruption_block": "2026-10-27 20:17:39 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
