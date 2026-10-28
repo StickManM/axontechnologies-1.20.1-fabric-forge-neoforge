@@ -23,6 +23,7 @@ public class ModBlockTags {
 
     public static final TagKey<Block> REINFORCED_DREADSTONE = TagKey.of(RegistryKeys.BLOCK, new Identifier(AxonTechnologiesConstants.MOD_ID, "reinforced_dreadstone"));
 
+    public static final TagKey<Block> CORRUPTION_REPLACEABLE = TagKey.of(RegistryKeys.BLOCK, new Identifier(AxonTechnologiesConstants.MOD_ID, "corruption_replaceable"));
     public static final TagKey<Block> CORRUPTION = TagKey.of(RegistryKeys.BLOCK, new Identifier(AxonTechnologiesConstants.MOD_ID, "corruption"));
 
     public static final TagKey<Block> THUNDERED_PLANKS_CONVERTIBLE = TagKey.of(RegistryKeys.BLOCK, new Identifier(AxonTechnologiesConstants.MOD_ID, "thundered_planks_convertible"));

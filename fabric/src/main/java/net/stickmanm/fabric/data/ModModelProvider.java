@@ -46,7 +46,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.CORRUPTED_LOG.get()).log(ModBlocks.CORRUPTED_LOG.get()).wood(ModBlocks.CORRUPTED_WOOD.get());
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CORRUPTED_LOG.get()).log(ModBlocks.STRIPPED_CORRUPTED_LOG.get()).wood(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
 
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_PLANKS.get());
+        BlockStateModelGenerator.BlockTexturePool corruptedPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_PLANKS.get());
+        blockStateModelGenerator.registerDoor(ModBlocks.CORRUPTED_DOOR.get());
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.CORRUPTED_TRAPDOOR.get());
+        corruptedPlanksPool.fence(ModBlocks.CORRUPTED_FENCE.get());
+        corruptedPlanksPool.fenceGate(ModBlocks.CORRUPTED_FENCE_GATE.get());
+        corruptedPlanksPool.stairs(ModBlocks.CORRUPTED_STAIRS.get());
+        corruptedPlanksPool.slab(ModBlocks.CORRUPTED_SLAB.get());
+        corruptedPlanksPool.button(ModBlocks.CORRUPTED_BUTTON.get());
+        corruptedPlanksPool.pressurePlate(ModBlocks.CORRUPTED_PRESSURE_PLATE.get());
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.CORRUPTED_SAPLING.get(), BlockStateModelGenerator.TintType.NOT_TINTED);
 

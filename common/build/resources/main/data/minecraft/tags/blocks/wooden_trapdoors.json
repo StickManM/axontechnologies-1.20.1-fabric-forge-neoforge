@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "axontechnologies:thundered_trapdoor"
+    "axontechnologies:thundered_trapdoor",
+    "axontechnologies:corrupted_trapdoor"
   ]
 }

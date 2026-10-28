@@ -13,10 +13,19 @@
     "axontechnologies:thundered_stairs",
     "axontechnologies:thundered_slab",
     "axontechnologies:thundered_door",
+    "axontechnologies:thundered_button",
     "axontechnologies:corrupted_log",
     "axontechnologies:corrupted_planks",
     "axontechnologies:corrupted_wood",
     "axontechnologies:stripped_corrupted_log",
-    "axontechnologies:stripped_corrupted_wood"
+    "axontechnologies:stripped_corrupted_wood",
+    "axontechnologies:corrupted_fence",
+    "axontechnologies:corrupted_fence_gate",
+    "axontechnologies:corrupted_pressure_plate",
+    "axontechnologies:corrupted_trapdoor",
+    "axontechnologies:corrupted_stairs",
+    "axontechnologies:corrupted_slab",
+    "axontechnologies:corrupted_door",
+    "axontechnologies:corrupted_button"
   ]
 }

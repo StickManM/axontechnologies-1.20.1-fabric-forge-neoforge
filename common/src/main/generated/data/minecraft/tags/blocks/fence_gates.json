@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "axontechnologies:thundered_fence_gate"
+    "axontechnologies:thundered_fence_gate",
+    "axontechnologies:corrupted_fence_gate"
   ]
 }

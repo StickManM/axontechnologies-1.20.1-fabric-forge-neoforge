@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "axontechnologies:thundered_pressure_plate"
+    "axontechnologies:thundered_pressure_plate",
+    "axontechnologies:corrupted_pressure_plate"
   ]
 }

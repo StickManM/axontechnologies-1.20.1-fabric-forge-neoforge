@@ -111,6 +111,30 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> CORRUPTED_PLANKS = registerBlock("corrupted_planks",
             () -> new Block(Block.Settings.copy(Blocks.OAK_PLANKS).strength(2.0f)));
 
+    public static final RegistrySupplier<Block> CORRUPTED_SLAB = registerBlock("corrupted_slab",
+            () -> new SlabBlock(Block.Settings.copy(CORRUPTED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> CORRUPTED_STAIRS = registerBlock("corrupted_stairs",
+            () -> new StairsBlock(CORRUPTED_PLANKS.get().getDefaultState(), Block.Settings.copy(THUNDERED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> CORRUPTED_FENCE = registerBlock("corrupted_fence",
+            () -> new FenceBlock(Block.Settings.copy(CORRUPTED_PLANKS.get())));
+
+    public static final RegistrySupplier<Block> CORRUPTED_FENCE_GATE = registerBlock("corrupted_fence_gate",
+            () -> new FenceGateBlock(Block.Settings.copy(CORRUPTED_PLANKS.get()), WoodType.CRIMSON));
+
+    public static final RegistrySupplier<Block> CORRUPTED_DOOR = registerBlock("corrupted_door",
+            () -> new DoorBlock(Block.Settings.copy(CORRUPTED_PLANKS.get()), BlockSetType.CRIMSON));
+
+    public static final RegistrySupplier<Block> CORRUPTED_TRAPDOOR = registerBlock("corrupted_trapdoor",
+            () -> new TrapdoorBlock(Block.Settings.copy(CORRUPTED_PLANKS.get()), BlockSetType.CRIMSON));
+
+    public static final RegistrySupplier<Block> CORRUPTED_BUTTON = registerBlock("corrupted_button",
+            () -> new ButtonBlock(Block.Settings.copy(CORRUPTED_PLANKS.get()), BlockSetType.CRIMSON, 30,true));
+
+    public static final RegistrySupplier<Block> CORRUPTED_PRESSURE_PLATE = registerBlock("corrupted_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, Block.Settings.copy(CORRUPTED_PLANKS.get()), BlockSetType.CRIMSON));
+
     public static final RegistrySupplier<Block> CORRUPTED_SAPLING = registerBlock("corrupted_sapling",
             () -> new SaplingBlock(new CorruptedSaplingGenerator(), Block.Settings.copy(Blocks.OAK_SAPLING)));
 

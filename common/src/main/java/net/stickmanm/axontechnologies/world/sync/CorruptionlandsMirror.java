@@ -16,6 +16,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.BlockRotation;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
@@ -25,24 +26,16 @@ import net.stickmanm.axontechnologies.block.ModBlocks;
 import net.stickmanm.axontechnologies.block.custom.CustomPortalBlock;
 import net.stickmanm.axontechnologies.fluid.ModFluids;
 import net.stickmanm.axontechnologies.world.dimension.ModDimensions;
+import net.minecraft.state.property.Properties;
+import net.minecraft.state.property.Property;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-/**
- * The Corruptionlands is a "future version" of the Thunderlands: block changes made in the Thunderlands are
- * copied (converted to their corrupted equivalents) to the same X/Y/Z in the Corruptionlands.
- *
- * How it works: events (player place/break, bucket use, explosions) only mark positions as "dirty".
- * At the end of the Thunderlands' tick every dirty position is re-read and its final state is copied over.
- * Nothing is mixed into vanilla code, so this works the same on Fabric and Forge.
- *
- * Note: writing to a Corruptionlands chunk that isn't generated yet generates it first, so nothing is lost.
- */
+
 public class CorruptionlandsMirror {
-    /** Max positions copied per tick, so big explosions are spread over a few ticks instead of lagging. */
     private static final int POSITIONS_PER_TICK = 2048;
 
     private static final Set<Long> DIRTY = new LinkedHashSet<>();
@@ -131,8 +124,22 @@ public class CorruptionlandsMirror {
         if (mapped == null) return; // nothing to copy for this position
 
         if (target.getBlockState(pos) != mapped) {
-            target.setBlockState(pos, mapped, Block.NOTIFY_LISTENERS);
+            target.setBlockState(pos, mapped, Block.NOTIFY_LISTENERS | Block.FORCE_STATE);
         }
+    }
+
+    //Default state of `target`, with every property that both blocks share copied from `from`.
+    private static BlockState withSharedProperties(BlockState from, Block target) {
+        BlockState out = target.getDefaultState();
+        for (Property<?> p : from.getProperties()) {
+            out = copyProperty(from, out, p);
+        }
+        return out;
+    }
+
+    private static <T extends Comparable<T>> BlockState copyProperty(BlockState from, BlockState to, Property<T> p) {
+        if (p == Properties.WATERLOGGED) return to; // don't carry water into the Corruptionlands
+        return to.contains(p) ? to.with(p, from.get(p)) : to;
     }
 
     /**
@@ -183,6 +190,7 @@ public class CorruptionlandsMirror {
         // Already-corrupted blocks are copied exactly
         if (keepAsIs().contains(block)) return state;
 
+
         // Everything else
         return ModBlocks.CORRUPTION_BLOCK.get().getDefaultState();
     }
@@ -192,20 +200,27 @@ public class CorruptionlandsMirror {
         if (state.isIn(BlockTags.LOGS)) {
             String path = Registries.BLOCK.getId(state.getBlock()).getPath();
             boolean stripped = path.startsWith("stripped_");
-            boolean bark = path.endsWith("_wood") || path.endsWith("_hyphae"); // all-sides-bark block
+            boolean bark = path.endsWith("_wood") || path.endsWith("_hyphae");
 
             Block result;
             if (stripped) result = bark ? ModBlocks.STRIPPED_CORRUPTED_WOOD.get() : ModBlocks.STRIPPED_CORRUPTED_LOG.get();
             else          result = bark ? ModBlocks.CORRUPTED_WOOD.get()          : ModBlocks.CORRUPTED_LOG.get();
-
-            BlockState out = result.getDefaultState();
-            if (state.contains(PillarBlock.AXIS)) out = out.with(PillarBlock.AXIS, state.get(PillarBlock.AXIS));
-            return out;
+            return withSharedProperties(state, result);
         }
-        if (state.isIn(BlockTags.PLANKS)) return ModBlocks.CORRUPTED_PLANKS.get().getDefaultState();
-        if (state.isIn(BlockTags.SAPLINGS)) return ModBlocks.CORRUPTED_SAPLING.get().getDefaultState();
+        if (state.isIn(BlockTags.PLANKS))                 return withSharedProperties(state, ModBlocks.CORRUPTED_PLANKS.get());
+        if (state.isIn(BlockTags.SAPLINGS))               return withSharedProperties(state, ModBlocks.CORRUPTED_SAPLING.get());
+        if (state.isIn(BlockTags.WOODEN_BUTTONS))         return withSharedProperties(state, ModBlocks.CORRUPTED_BUTTON.get());
+        if (state.isIn(BlockTags.WOODEN_PRESSURE_PLATES)) return withSharedProperties(state, ModBlocks.CORRUPTED_PRESSURE_PLATE.get());
+        if (state.isIn(BlockTags.WOODEN_SLABS))           return withSharedProperties(state, ModBlocks.CORRUPTED_SLAB.get());
+        if (state.isIn(BlockTags.WOODEN_STAIRS))          return withSharedProperties(state, ModBlocks.CORRUPTED_STAIRS.get());
+        if (state.isIn(BlockTags.WOODEN_FENCES))          return withSharedProperties(state, ModBlocks.CORRUPTED_FENCE.get());
+        if (state.isIn(BlockTags.FENCE_GATES))            return withSharedProperties(state, ModBlocks.CORRUPTED_FENCE_GATE.get());
+        if (state.isIn(BlockTags.WOODEN_DOORS))           return withSharedProperties(state, ModBlocks.CORRUPTED_DOOR.get());
+        if (state.isIn(BlockTags.WOODEN_TRAPDOORS))       return withSharedProperties(state, ModBlocks.CORRUPTED_TRAPDOOR.get());
         return null;
     }
+
+
 
     private static boolean isPortalBlock(Block block) {
         if (block == Blocks.NETHER_PORTAL || block == Blocks.END_PORTAL || block == Blocks.END_GATEWAY) return true;

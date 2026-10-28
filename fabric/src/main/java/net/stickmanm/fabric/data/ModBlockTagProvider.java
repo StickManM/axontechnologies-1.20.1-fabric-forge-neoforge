@@ -74,11 +74,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.THUNDERED_STAIRS.get())
                     .add(ModBlocks.THUNDERED_SLAB.get())
                     .add(ModBlocks.THUNDERED_DOOR.get())
+                    .add(ModBlocks.THUNDERED_BUTTON.get())
+
                     .add(ModBlocks.CORRUPTED_LOG.get())
                     .add(ModBlocks.CORRUPTED_PLANKS.get())
                     .add(ModBlocks.CORRUPTED_WOOD.get())
                     .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
-                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
+                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get())
+                    .add(ModBlocks.CORRUPTED_FENCE.get())
+                    .add(ModBlocks.CORRUPTED_FENCE_GATE.get())
+                    .add(ModBlocks.CORRUPTED_PRESSURE_PLATE.get())
+                    .add(ModBlocks.CORRUPTED_TRAPDOOR.get())
+                    .add(ModBlocks.CORRUPTED_STAIRS.get())
+                    .add(ModBlocks.CORRUPTED_SLAB.get())
+                    .add(ModBlocks.CORRUPTED_DOOR.get())
+                    .add(ModBlocks.CORRUPTED_BUTTON.get());
 
             getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                     .add(ModBlocks.CHARGED_DIRT.get())
@@ -159,28 +169,36 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.CORRUPTED_PLANKS.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
-                    .add(ModBlocks.THUNDERED_BUTTON.get());
+                    .add(ModBlocks.THUNDERED_BUTTON.get())
+                    .add(ModBlocks.CORRUPTED_BUTTON.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
-                    .add(ModBlocks.THUNDERED_DOOR.get());
+                    .add(ModBlocks.THUNDERED_DOOR.get())
+                    .add(ModBlocks.CORRUPTED_DOOR.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
-                    .add(ModBlocks.THUNDERED_FENCE.get());
+                    .add(ModBlocks.THUNDERED_FENCE.get())
+                    .add(ModBlocks.CORRUPTED_FENCE.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
-                    .add(ModBlocks.THUNDERED_SLAB.get());
+                    .add(ModBlocks.THUNDERED_SLAB.get())
+                    .add(ModBlocks.CORRUPTED_SLAB.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
-                    .add(ModBlocks.THUNDERED_STAIRS.get());
+                    .add(ModBlocks.THUNDERED_STAIRS.get())
+                    .add(ModBlocks.CORRUPTED_STAIRS.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS)
-                    .add(ModBlocks.THUNDERED_TRAPDOOR.get());
+                    .add(ModBlocks.THUNDERED_TRAPDOOR.get())
+                    .add(ModBlocks.CORRUPTED_TRAPDOOR.get());
 
             getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
-                    .add(ModBlocks.THUNDERED_PRESSURE_PLATE.get());
+                    .add(ModBlocks.THUNDERED_PRESSURE_PLATE.get())
+                    .add(ModBlocks.CORRUPTED_PRESSURE_PLATE.get());
 
             getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                    .add(ModBlocks.THUNDERED_FENCE_GATE.get());
+                    .add(ModBlocks.THUNDERED_FENCE_GATE.get())
+                    .add(ModBlocks.CORRUPTED_FENCE_GATE.get());
 
             getOrCreateTagBuilder(ModBlockTags.REINFORCED_DREADSTONE)
                     .add(ModBlocks.REINFORCED_DREADSTONE.get())
@@ -209,7 +227,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             getOrCreateTagBuilder(BlockTags.DRAGON_IMMUNE)
                     .addTag(ModBlockTags.REINFORCED_DREADSTONE);
 
-            getOrCreateTagBuilder(ModBlockTags.CORRUPTION)
+            getOrCreateTagBuilder(ModBlockTags.CORRUPTION_REPLACEABLE)
                     .add(ModBlocks.CORRUPTION_BLOCK.get())
                     .add(ModBlocks.CORRUPTED_DIRT.get())
                     .add(ModBlocks.CORRUPTED_STONE.get())
@@ -217,6 +235,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                     .add(ModBlocks.DENDERIUM_ORE.get())
                     .add(ModBlocks.CLDC_ORE.get());
+
+            getOrCreateTagBuilder(ModBlockTags.CORRUPTION)
+                    .add(ModBlocks.CORRUPTION_BLOCK.get())
+                    .add(ModBlocks.CORRUPTED_DIRT.get())
+                    .add(ModBlocks.CORRUPTED_STONE.get())
+                    .add(ModBlocks.CORRUPTINITE_ORE.get())
+                    .add(ModBlocks.CORRUPTED_LOG.get())
+                    .add(ModBlocks.CORRUPTED_PLANKS.get())
+                    .add(ModBlocks.CORRUPTED_WOOD.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_LOG.get())
+                    .add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get())
+                    .add(ModBlocks.CORRUPTED_FENCE.get())
+                    .add(ModBlocks.CORRUPTED_FENCE_GATE.get())
+                    .add(ModBlocks.CORRUPTED_PRESSURE_PLATE.get())
+                    .add(ModBlocks.CORRUPTED_TRAPDOOR.get())
+                    .add(ModBlocks.CORRUPTED_STAIRS.get())
+                    .add(ModBlocks.CORRUPTED_SLAB.get())
+                    .add(ModBlocks.CORRUPTED_DOOR.get())
+                    .add(ModBlocks.CORRUPTED_BUTTON.get());
 
         }
     }

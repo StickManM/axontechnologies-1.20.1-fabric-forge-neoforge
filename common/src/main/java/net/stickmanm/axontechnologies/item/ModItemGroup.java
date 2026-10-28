@@ -196,6 +196,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STRIPPED_CORRUPTED_LOG.get());
                         entries.add(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
                         entries.add(ModBlocks.CORRUPTED_PLANKS.get());
+                        entries.add(ModBlocks.CORRUPTED_SLAB.get());
+                        entries.add(ModBlocks.CORRUPTED_STAIRS.get());
+                        entries.add(ModBlocks.CORRUPTED_DOOR.get());
+                        entries.add(ModBlocks.CORRUPTED_TRAPDOOR.get());
+                        entries.add(ModBlocks.CORRUPTED_FENCE.get());
+                        entries.add(ModBlocks.CORRUPTED_FENCE_GATE.get());
+                        entries.add(ModBlocks.CORRUPTED_PRESSURE_PLATE.get());
+                        entries.add(ModBlocks.CORRUPTED_BUTTON.get());
                         entries.add(ModBlocks.CORRUPTED_SAPLING.get());
 
                         entries.add(ModBlocks.VOIDSTONE.get());

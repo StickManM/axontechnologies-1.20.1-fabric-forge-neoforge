@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "axontechnologies:thundered_slab"
+    "axontechnologies:thundered_slab",
+    "axontechnologies:corrupted_slab"
   ]
 }

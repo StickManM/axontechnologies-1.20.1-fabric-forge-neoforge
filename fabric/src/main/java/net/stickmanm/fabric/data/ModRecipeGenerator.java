@@ -311,6 +311,71 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromTag(ModItemTags.CORRUPTED_PLANKS_CONVERTIBLE))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_PLANKS.get())));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_BUTTON.get(), 4)
+                .input(ModBlocks.CORRUPTED_PLANKS.get())
+                .group("button")
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_BUTTON.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_BUTTON.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_SLAB.get(), 6)
+                .pattern("###")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_SLAB.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_SLAB.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_STAIRS.get(), 6)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_STAIRS.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_STAIRS.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_DOOR.get(), 3)
+                .pattern("##")
+                .pattern("##")
+                .pattern("##")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_DOOR.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_DOOR.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_TRAPDOOR.get(),6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_TRAPDOOR.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_TRAPDOOR.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_PRESSURE_PLATE.get(),2)
+                .pattern("##")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_PRESSURE_PLATE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_PRESSURE_PLATE.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_FENCE.get(),4)
+                .pattern("#S#")
+                .pattern("#S#")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_FENCE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_FENCE.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_FENCE_GATE.get(),2)
+                .pattern("S#S")
+                .pattern("S#S")
+                .input('#', ModBlocks.CORRUPTED_PLANKS.get())
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_FENCE_GATE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_FENCE_GATE.get())));
+
 
         //IGNITERS
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MIMICARIUM_IGNITER.get())

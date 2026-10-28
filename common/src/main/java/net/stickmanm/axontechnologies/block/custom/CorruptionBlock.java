@@ -2,10 +2,8 @@ package net.stickmanm.axontechnologies.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -47,10 +45,8 @@ public class CorruptionBlock extends Block {
             world.setBlockState(targetPos, ModBlocks.CORRUPTINITE_ORE.get().getDefaultState(), 3);
         } else if (targetState.getBlock().equals(ModFluids.LIQUID_THUNDER_BLOCK.get())) {
             world.setBlockState(targetPos, ModFluids.LIQUID_CORRUPTION_BLOCK.get().getDefaultState(), 3);
-        } else if (targetState.getBlock().equals(ModBlocks.RENDERIUM_ORE)) {
-            world.setBlockState(targetPos, ModBlocks.DENDERIUM_ORE.get().getDefaultState(), 3);
         }
-        else if (!targetState.isIn(ModBlockTags.CORRUPTION)){
+        else if (!targetState.isIn(ModBlockTags.CORRUPTION_REPLACEABLE)){
             // Place the custom block at the target position
             world.setBlockState(targetPos, this.getDefaultState(), 3);
         }

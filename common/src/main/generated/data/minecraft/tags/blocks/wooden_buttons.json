@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "axontechnologies:thundered_button"
+    "axontechnologies:thundered_button",
+    "axontechnologies:corrupted_button"
   ]
 }

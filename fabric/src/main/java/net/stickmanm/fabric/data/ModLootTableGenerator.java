@@ -50,6 +50,14 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CORRUPTED_LOG.get());
         addDrop(ModBlocks.CORRUPTED_WOOD.get());
         addDrop(ModBlocks.CORRUPTED_PLANKS.get());
+        addDrop(ModBlocks.CORRUPTED_SLAB.get());
+        addDrop(ModBlocks.CORRUPTED_STAIRS.get());
+        addDrop(ModBlocks.CORRUPTED_FENCE.get());
+        addDrop(ModBlocks.CORRUPTED_FENCE_GATE.get());
+        addDrop(ModBlocks.CORRUPTED_DOOR.get());
+        addDrop(ModBlocks.CORRUPTED_TRAPDOOR.get());
+        addDrop(ModBlocks.CORRUPTED_BUTTON.get());
+        addDrop(ModBlocks.CORRUPTED_PRESSURE_PLATE.get());
         addDrop(ModBlocks.STRIPPED_CORRUPTED_LOG.get());
         addDrop(ModBlocks.STRIPPED_CORRUPTED_WOOD.get());
         addDrop(ModBlocks.CORRUPTED_SAPLING.get());
