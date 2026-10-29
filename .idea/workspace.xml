@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Sync">
+    <list default="true" id="e5320263-5dea-4bdb-a090-c8aee69fcfed" name="Changes" comment="Added Corrupted Wood Blocks and Mirroring for Wood Blocks into the Corrupted Counterparts.">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/sync/DawnOfTimeTeleport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" afterDir="false" />
@@ -12,64 +13,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/block/ModBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/item/ModItemGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/7148be50986cdefab2d818904a535f8adeb74171" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/7148be50986cdefab2d818904a535f8adeb74171" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/tags/blocks/corruption.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/axontechnologies/tags/blocks/corruption.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/fence_gates.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/fence_gates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_buttons.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_buttons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_doors.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_doors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_fences.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_fences.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_pressure_plates.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_pressure_plates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_slabs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_trapdoors.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/data/minecraft/tags/blocks/wooden_trapdoors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModItemGroup.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/AxonTechnologies.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/3bab07581ed19675bc7cfaf3a54e60abb671edc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/402164c7a4a01ee0ec76eb8c8f4f684ef2d82f93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/7148be50986cdefab2d818904a535f8adeb74171" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/7148be50986cdefab2d818904a535f8adeb74171" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/bb4ed76acdf2b6f3c3729b31882a9a3551ead2e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/c018fd41ba3210090351639ba18779e9f223b2a3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/d4f2c44184495b696119cc990407d48a11c7ebe5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/.cache/feda346c048d6af4d215fbbff86d606d982b3a64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/tags/blocks/corruption.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/axontechnologies/tags/blocks/corruption.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/fence_gates.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/fence_gates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_buttons.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_buttons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_doors.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_doors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_fences.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_fences.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_pressure_plates.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_pressure_plates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_slabs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_trapdoors.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/generated/data/minecraft/tags/blocks/wooden_trapdoors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlockTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/block/custom/CorruptionBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/item/ModItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/sync/CorruptionlandsMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/axontechnologies/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModBlockTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModBlockTagProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModLootTableGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModLootTableGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModModelProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModRecipeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/net/stickmanm/fabric/data/ModRecipeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/AxonTechnologies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/stickmanm/axontechnologies/world/dimension/ModDimensions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" afterDir="false" />
@@ -90,40 +38,30 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/rei.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/rei.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/customportalapi.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/customportalapi.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/corruptionlands/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dawn_of_time/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/dreadcaverns/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/mimicworld_old/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/dimensions/axontechnologies/thunderlands/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModLootTableGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/stickmanm/fabric/data/ModRecipeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +69,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1466" />
+    <option name="cachedIndexableFilesCount" value="1566" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -244,60 +182,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000002" />
-      <entry key="S2" value="1.0001326929576966" />
-      <entry key="S5" value="1.0309534247578758" />
-      <entry key="S10" value="1.2789464388981573" />
-      <entry key="S30" value="3.367752969011957" />
-      <entry key="S60" value="5.854563468188632" />
-      <entry key="M2" value="8.507964632159805" />
-      <entry key="M5" value="13.591105946024532" />
-      <entry key="M10" value="20.805577241783375" />
-      <entry key="M15" value="26.76519672055482" />
-      <entry key="M30" value="38.98991936188022" />
-      <entry key="H1" value="54.090364564793596" />
-      <entry key="H2" value="91.06995580996552" />
-      <entry key="H4" value="174.13283617947548" />
-      <entry key="D1" value="506.31963241274906" />
-      <entry key="W1" value="789.7402866309525" />
+      <entry key="MS500" value="1.0000020527651305" />
+      <entry key="S2" value="1.0378516499827075" />
+      <entry key="S5" value="1.2699192920640696" />
+      <entry key="S10" value="1.5195375752186453" />
+      <entry key="S30" value="1.8039067113790823" />
+      <entry key="S60" value="1.8966087978156323" />
+      <entry key="M2" value="1.9479160647022133" />
+      <entry key="M5" value="2.107819178078018" />
+      <entry key="M10" value="3.4332768140615397" />
+      <entry key="M15" value="7.695850891859808" />
+      <entry key="M30" value="32.23593950669641" />
+      <entry key="H1" value="80.56945058680482" />
+      <entry key="H2" value="147.87251490744458" />
+      <entry key="H4" value="250.0986982921447" />
+      <entry key="D1" value="627.8001730821713" />
+      <entry key="W1" value="936.0044745142995" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1373574152335099E-60" />
-      <entry key="MS500" value="1.026075676652173E-12" />
-      <entry key="S2" value="0.0010073437808805028" />
-      <entry key="S5" value="0.06706034466780039" />
-      <entry key="S10" value="0.3156187735796558" />
-      <entry key="S30" value="1.1618531896119253" />
-      <entry key="S60" value="1.7927450128104028" />
-      <entry key="M2" value="2.3388569656677927" />
-      <entry key="M5" value="3.6188081718390395" />
-      <entry key="M10" value="6.284904144420923" />
-      <entry key="M15" value="8.583142891887556" />
-      <entry key="M30" value="12.984778716060783" />
-      <entry key="H1" value="18.973579543819163" />
-      <entry key="H2" value="37.05643371994536" />
-      <entry key="H4" value="77.25783855077069" />
-      <entry key="D1" value="197.18971868407056" />
-      <entry key="W1" value="263.5290077092733" />
+      <entry key="MS100" value="6.799481614171633E-8" />
+      <entry key="MS500" value="0.03747728053404312" />
+      <entry key="S2" value="0.654194920780853" />
+      <entry key="S5" value="1.5179741953669847" />
+      <entry key="S10" value="2.1060493202572874" />
+      <entry key="S30" value="2.658342951368232" />
+      <entry key="S60" value="2.8229559346001643" />
+      <entry key="M2" value="2.9105565528673445" />
+      <entry key="M5" value="3.049422053773589" />
+      <entry key="M10" value="3.6531880465824598" />
+      <entry key="M15" value="4.970014914716887" />
+      <entry key="M30" value="11.275437242854748" />
+      <entry key="H1" value="23.528771802962595" />
+      <entry key="H2" value="44.947830014426636" />
+      <entry key="H4" value="86.34669012626925" />
+      <entry key="D1" value="221.95493807767525" />
+      <entry key="W1" value="297.38878179927787" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3527682941571856E-29" />
-      <entry key="MS500" value="1.6836223534914995E-6" />
-      <entry key="S2" value="0.036158613149822216" />
-      <entry key="S5" value="0.30180951198912914" />
-      <entry key="S10" value="0.8939185120528449" />
-      <entry key="S30" value="3.9336926868216398" />
-      <entry key="S60" value="7.17469686607371" />
-      <entry key="M2" value="10.52494397247134" />
-      <entry key="M5" value="17.028049913078107" />
-      <entry key="M10" value="26.95678369220076" />
-      <entry key="M15" value="35.23536445495943" />
-      <entry key="M30" value="51.89659621823428" />
-      <entry key="H1" value="73.01417726137699" />
-      <entry key="H2" value="128.09149505021279" />
-      <entry key="H4" value="251.36323519085866" />
-      <entry key="D1" value="703.4990106822859" />
-      <entry key="W1" value="1053.2671956191753" />
+      <entry key="MS100" value="0.015625000000010037" />
+      <entry key="MS500" value="0.4369554736196754" />
+      <entry key="S2" value="1.176392445038357" />
+      <entry key="S5" value="2.3520818848629177" />
+      <entry key="S10" value="3.32394226308979" />
+      <entry key="S30" value="4.334424694562345" />
+      <entry key="S60" value="4.651499781440151" />
+      <entry key="M2" value="4.823320144254666" />
+      <entry key="M5" value="5.1420968096773105" />
+      <entry key="M10" value="7.075582484369952" />
+      <entry key="M15" value="12.652515190656818" />
+      <entry key="M30" value="43.486231645310056" />
+      <entry key="H1" value="104.06483950430439" />
+      <entry key="H2" value="192.78761643180067" />
+      <entry key="H4" value="336.4167499071918" />
+      <entry key="D1" value="849.7435992256721" />
+      <entry key="W1" value="1233.3909228136492" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -583,6 +521,7 @@
     <MESSAGE value="Added a Universal Igniter." />
     <MESSAGE value="Thundered Tree Woodset Expansion" />
     <MESSAGE value="Sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sync" />
+    <MESSAGE value="Added Corrupted Wood Blocks and Mirroring for Wood Blocks into the Corrupted Counterparts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Corrupted Wood Blocks and Mirroring for Wood Blocks into the Corrupted Counterparts." />
   </component>
 </project>

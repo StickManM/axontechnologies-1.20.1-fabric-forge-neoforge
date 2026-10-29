@@ -5,6 +5,7 @@ import net.stickmanm.axontechnologies.event.ModRespawnHandler;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroup;
 import net.stickmanm.axontechnologies.world.sync.CorruptionlandsMirror;
+import net.stickmanm.axontechnologies.world.sync.DawnOfTimeTeleport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,7 @@ public class AxonTechnologies {
 		ModItemGroup.initItemGroups();
 		ModRespawnHandler.register();
 		CorruptionlandsMirror.register();
+		DawnOfTimeTeleport.register();
 		LOGGER.info("Axon Technologies initialized!");
 	}
 }

@@ -29,12 +29,12 @@ public class ModDimensions {
             new Identifier(AxonTechnologiesConstants.MOD_ID, "corruptionlands"));
     public static final RegistryKey<DimensionType> CORRUPTIONLANDS_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, CORRUPTIONLANDS_DIMENSION_KEY.getValue());
 
-    public static final RegistryKey<World> DAWN_OF_TIME_KEY = RegistryKey.of(RegistryKeys.WORLD,
+    public static final RegistryKey<World> DAWN_OF_TIME_DIMENSION_KEY = RegistryKey.of(RegistryKeys.WORLD,
             new Identifier(AxonTechnologiesConstants.MOD_ID, "dawn_of_time"));
-    public static final RegistryKey<DimensionType> DAWN_OF_TIME_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, DAWN_OF_TIME_KEY.getValue());
+    public static final RegistryKey<DimensionType> DAWN_OF_TIME_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, DAWN_OF_TIME_DIMENSION_KEY.getValue());
 
     public static void registerModDimensions() {
-        // Portal registration moved to platform-specific modulees
+        // Portal registration moved to platform-specific modules
 
     }
 }
