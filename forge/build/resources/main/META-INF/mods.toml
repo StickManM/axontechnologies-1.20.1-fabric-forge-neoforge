@@ -5,7 +5,7 @@ license = "Apache 2.0"
 
 [[mods]]
 modId = "axontechnologies"
-version = "1.8-beta.2"
+version = "1.8"
 displayName = "Axon T.e.c.h.n.o.l.o.g.i.e.s."
 displayURL="https://modrinth.com/mod/axontechnologies"
 authors = "StickManM"
