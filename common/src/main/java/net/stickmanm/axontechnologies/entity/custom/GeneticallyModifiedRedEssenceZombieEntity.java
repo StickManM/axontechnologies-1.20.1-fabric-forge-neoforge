@@ -10,6 +10,7 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.*;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -56,6 +57,8 @@ public class GeneticallyModifiedRedEssenceZombieEntity extends PathAwareEntity i
         this.goalSelector.add(3, new WanderAroundFarGoal(this, 0.75f, 1));
         this.goalSelector.add(1, new LongDoorInteractGoal(this, false));
         this.targetSelector.add(1, new RevengeGoal(this, new Class[0]).setGroupRevenge(ZombifiedPiglinEntity.class));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, ThunderaniumGolemEntity.class, false));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, IronGolemEntity.class, false));
 
 
 

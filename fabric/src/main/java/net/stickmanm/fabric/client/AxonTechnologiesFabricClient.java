@@ -27,11 +27,14 @@ public class AxonTechnologiesFabricClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_SAPLING.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.REINFORCED_DREADSTONE_GLASS.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_LANTERN.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_LANTERN.get(), RenderLayer.getCutout());
 
         EntityRendererRegistry.register(ModEntities.RED_ESSENCE_ZOMBIE.get(), RedEssenceZombieRenderer::new);
         EntityRendererRegistry.register(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), GeneticallyModifiedRedEssenceZombieRenderer::new);
         EntityRendererRegistry.register(ModEntities.DARK_ESSENCE_ZOMBIE.get(), DarkEssenceZombieRenderer::new);
         EntityRendererRegistry.register(ModEntities.LOST_MINER.get(), LostMinerRenderer::new);
+        EntityRendererRegistry.register(ModEntities.THUNDERANIUM_GOLEM.get(), ThunderaniumGolemRenderer::new);
         EntityRendererRegistry.register(ModEntities.THUNDERANIUM_TNT_ENTITY_TYPE.get(), ThunderaniumTntEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.RED_THUNDERANIUM_TNT_ENTITY_TYPE.get(), RedThunderaniumTntEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.AXON_ALLOY_TNT_ENTITY_TYPE.get(), AxonAlloyTntEntityRenderer::new);

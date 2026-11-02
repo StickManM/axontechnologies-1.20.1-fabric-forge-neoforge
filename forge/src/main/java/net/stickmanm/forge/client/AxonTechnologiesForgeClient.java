@@ -25,6 +25,7 @@ public class AxonTechnologiesForgeClient {
         event.registerEntityRenderer(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), GeneticallyModifiedRedEssenceZombieRenderer::new);
         event.registerEntityRenderer(ModEntities.DARK_ESSENCE_ZOMBIE.get(), DarkEssenceZombieRenderer::new);
         event.registerEntityRenderer(ModEntities.LOST_MINER.get(), LostMinerRenderer::new);
+        event.registerEntityRenderer(ModEntities.THUNDERANIUM_GOLEM.get(), ThunderaniumGolemRenderer::new);             // Forge
         event.registerEntityRenderer(ModEntities.THUNDERANIUM_TNT_ENTITY_TYPE.get(), ThunderaniumTntEntityRenderer::new);
         event.registerEntityRenderer(ModEntities.RED_THUNDERANIUM_TNT_ENTITY_TYPE.get(), RedThunderaniumTntEntityRenderer::new);
         event.registerEntityRenderer(ModEntities.AXON_ALLOY_TNT_ENTITY_TYPE.get(), AxonAlloyTntEntityRenderer::new);
@@ -43,6 +44,8 @@ public class AxonTechnologiesForgeClient {
             RenderLayers.setRenderLayer(ModBlocks.THUNDERED_SAPLING.get(), RenderLayer.getCutout());
             RenderLayers.setRenderLayer(ModBlocks.REINFORCED_DREADSTONE_GLASS.get(), RenderLayer.getCutout());
             RenderLayers.setRenderLayer(ModBlocks.THUNDERED_LEAVES.get(), RenderLayer.getCutoutMipped());
+            RenderLayers.setRenderLayer(ModBlocks.THUNDERED_LANTERN.get(), RenderLayer.getCutoutMipped());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_LANTERN  .get(), RenderLayer.getCutoutMipped());
         });
     }
 }

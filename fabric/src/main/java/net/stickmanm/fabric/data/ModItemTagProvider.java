@@ -39,5 +39,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.FAKESLATE.get().asItem())
                 .add(ModBlocks.DREADSTONE.get().asItem());
 
+
     }
 }

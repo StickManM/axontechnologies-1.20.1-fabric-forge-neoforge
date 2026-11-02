@@ -95,9 +95,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHARGED_DIRT.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_STONE.get());
+        blockStateModelGenerator.registerLantern(ModBlocks.THUNDERED_LANTERN.get());
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_STONE.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_DIRT.get());
+        blockStateModelGenerator.registerLantern(ModBlocks.CORRUPTED_LANTERN.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTION_BLOCK.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTINITE_ORE.get());
 
@@ -113,6 +115,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerParentedItemModel(ModItems.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE_SPAWN_EGG.get(), ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
         blockStateModelGenerator.registerParentedItemModel(ModItems.DARK_ESSENCE_ZOMBIE_SPAWN_EGG.get(), ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
         blockStateModelGenerator.registerParentedItemModel(ModItems.LOST_MINER_SPAWN_EGG.get(), ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
+        blockStateModelGenerator.registerParentedItemModel(ModItems.THUNDERANIUM_GOLEM_SPAWN_EGG.get(), ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
 
     }
 
@@ -169,6 +172,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.REFINED_THUNDERANIUM.get(), Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_CLUSTER.get(), Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_INGOT.get(), Models.GENERATED);
+        itemModelGenerator.register(ModItems.THUNDERANIUM_NUGGET.get(), Models.GENERATED);
 
         //Red Thunderanium
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_INGOT.get(), Models.GENERATED);

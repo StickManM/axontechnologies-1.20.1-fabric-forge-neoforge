@@ -3,6 +3,7 @@
   "item.axontechnologies.raw_netherite": "Raw Netherite",
 
   "item.axontechnologies.thunderanium_ingot": "Thunderanium Ingot",
+  "item.axontechnologies.thunderanium_nugget": "Thunderanium Nugget",
   "item.axontechnologies.raw_thunderanium": "Raw Thunderanium",
   "item.axontechnologies.refined_thunderanium": "Refined Thunderanium",
   "item.axontechnologies.thunderanium_cluster": "Thunderanium Cluster",
@@ -110,6 +111,7 @@
   "item.axontechnologies.genetically_modified_red_essence_zombie_spawn_egg": "Genetically Modified Red Essence Zombie Spawn Egg",
   "item.axontechnologies.dark_essence_zombie_spawn_egg": "Dark Essence Zombie Spawn Egg",
   "item.axontechnologies.lost_miner_spawn_egg": "Lost Miner Spawn Egg",
+  "item.axontechnologies.thunderanium_golem_spawn_egg": "Thunderanium Golem Spawn Egg",
 
   "item.axontechnologies.thunderanium_sword": "Thunderanium Sword",
   "item.axontechnologies.thunderanium_axe": "Thunderanium Axe",
@@ -195,10 +197,12 @@
 
   "block.axontechnologies.charged_dirt": "Charged Dirt",
   "block.axontechnologies.thundered_stone": "Thundered Stone",
+  "block.axontechnologies.thundered_lantern": "Thundered Lantern",
 
   "block.axontechnologies.corrupted_dirt": "Corrupted Dirt",
   "block.axontechnologies.corrupted_stone": "Corrupted Stone",
   "block.axontechnologies.corruption_block": "Corruption Block",
+  "block.axontechnologies.corrupted_lantern": "Corrupted Lantern",
 
   "block.axontechnologies.thunderanium_portal_frame": "Thunderanium Portal Frame",
   "block.axontechnologies.mimicarium_portal_frame": "Mimicarium Portal Frame",
@@ -267,6 +271,7 @@
   "entity.axontechnologies.genetically_modified_red_essence_zombie": "Genetically Modified Red Essence Zombie",
   "entity.axontechnologies.dark_essence_zombie": "Dark Essence Zombie",
   "entity.axontechnologies.lost_miner": "Lost Miner",
+  "entity.axontechnologies.thunderanium_golem": "Thunderanium Golem",
 
   "entity.axontechnologies.primed_thunderanium_tnt": "Primed Thunderanium Tnt",
   "entity.axontechnologies.primed_red_thunderanium_tnt": "Primed Red Thunderanium Tnt",

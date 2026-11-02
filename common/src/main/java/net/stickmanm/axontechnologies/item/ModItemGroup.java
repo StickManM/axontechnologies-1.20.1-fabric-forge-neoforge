@@ -43,6 +43,7 @@ public class ModItemGroup {
                         entries.add(ModItems.THUNDERANIUM_CLUSTER.get());
                         entries.add(ModItems.REFINED_THUNDERANIUM.get());
                         entries.add(ModItems.THUNDERANIUM_INGOT.get());
+                        entries.add(ModItems.THUNDERANIUM_NUGGET.get());
 
                         entries.add(ModItems.RED_THUNDERANIUM_INGOT.get());
                         entries.add(ModItems.RED_THUNDERANIUM_CLUSTER.get());
@@ -51,6 +52,7 @@ public class ModItemGroup {
                         entries.add(ModItems.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE_SPAWN_EGG.get());
                         entries.add(ModItems.DARK_ESSENCE_ZOMBIE_SPAWN_EGG.get());
                         entries.add(ModItems.LOST_MINER_SPAWN_EGG.get());
+                        entries.add(ModItems.THUNDERANIUM_GOLEM_SPAWN_EGG.get());
 
                         entries.add(ModItems.MIMICARIUM_IGNITER.get());
                         entries.add(ModItems.DREADED_IGNITER.get());
@@ -234,11 +236,13 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.CHARGED_DIRT.get());
                         entries.add(ModBlocks.THUNDERED_STONE.get());
+                        entries.add(ModBlocks.THUNDERED_LANTERN.get());
                         entries.add(ModBlocks.THUNDERANIUM_ORE.get());
                         entries.add(ModBlocks.RENDERIUM_ORE.get());
 
                         entries.add(ModBlocks.CORRUPTED_DIRT.get());
                         entries.add(ModBlocks.CORRUPTED_STONE.get());
+                        entries.add(ModBlocks.CORRUPTED_LANTERN.get());
                         entries.add(ModBlocks.CORRUPTION_BLOCK.get());
                         entries.add(ModBlocks.CORRUPTINITE_ORE.get());
                         entries.add(ModBlocks.DENDERIUM_ORE.get());

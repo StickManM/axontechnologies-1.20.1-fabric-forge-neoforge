@@ -1,5 +1,8 @@
 {
-	"favorites": [],
+	"favorites": [
+		"{data:{Count:1b,id:\"axontechnologies:stripped_thundered_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:stripped_cherry_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
 	"hiddenFavorites": [],
 	"displays": []
 }

@@ -2,6 +2,7 @@ package net.stickmanm.axontechnologies;
 
 import net.stickmanm.axontechnologies.entity.ModEntities;
 import net.stickmanm.axontechnologies.event.ModRespawnHandler;
+import net.stickmanm.axontechnologies.event.ThunderaniumGolemBuilder;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroup;
 import net.stickmanm.axontechnologies.world.sync.CorruptionlandsMirror;
@@ -21,6 +22,7 @@ public class AxonTechnologies {
 		ModRespawnHandler.register();
 		CorruptionlandsMirror.register();
 		DawnOfTimeTeleport.register();
+		ThunderaniumGolemBuilder.register();
 		LOGGER.info("Axon Technologies initialized!");
 	}
 }

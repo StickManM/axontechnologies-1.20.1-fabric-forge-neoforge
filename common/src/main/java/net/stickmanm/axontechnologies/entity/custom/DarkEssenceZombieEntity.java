@@ -9,10 +9,8 @@ import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.mob.PathAwareEntity;
-import net.minecraft.entity.mob.WardenEntity;
-import net.minecraft.entity.mob.ZombifiedPiglinEntity;
+import net.minecraft.entity.mob.*;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,6 +18,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.World;
 import net.stickmanm.axontechnologies.effect.ModEffects;
 import net.stickmanm.axontechnologies.entity.ModEntities;
+import net.stickmanm.axontechnologies.entity.ai.FleeLightGoal;
 import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
@@ -52,11 +51,14 @@ public class DarkEssenceZombieEntity extends PathAwareEntity implements GeoEntit
 
     @Override
     protected void initGoals() {
+        this.goalSelector.add(1, new FleeLightGoal(this, 1.4D, 20, 0, 32));
         this.goalSelector.add(1, new SwimGoal(this));
         this.goalSelector.add(2, new MeleeAttackGoal(this, 5D, false));
         this.goalSelector.add(3, new WanderAroundFarGoal(this, 0.75f, 1));
         this.goalSelector.add(1, new LongDoorInteractGoal(this, false));
         this.targetSelector.add(1, new RevengeGoal(this, new Class[0]).setGroupRevenge(ZombifiedPiglinEntity.class));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, ThunderaniumGolemEntity.class, false));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, IronGolemEntity.class, false));
 
 
 
@@ -68,6 +70,10 @@ public class DarkEssenceZombieEntity extends PathAwareEntity implements GeoEntit
         this.targetSelector.add(2, new ActiveTargetGoal<>(this, LostMinerEntity.class, false));
         this.targetSelector.add(2, new ActiveTargetGoal<>(this, MerchantEntity.class, false));
         this.targetSelector.add(3, new ActiveTargetGoal<>(this, VillagerEntity.class, false));
+        this.targetSelector.add(2, new ActiveTargetGoal<>(this, VindicatorEntity.class, false));
+        this.targetSelector.add(2, new ActiveTargetGoal<>(this, EvokerEntity.class, false));
+        this.targetSelector.add(2, new ActiveTargetGoal<>(this, PillagerEntity.class, false));
+        this.targetSelector.add(2, new ActiveTargetGoal<>(this, VexEntity.class, false));
         this.targetSelector.add(3, new ActiveTargetGoal<>(this, WardenEntity.class, false));
         this.addStatusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, -1, 2,false, false, false));
 

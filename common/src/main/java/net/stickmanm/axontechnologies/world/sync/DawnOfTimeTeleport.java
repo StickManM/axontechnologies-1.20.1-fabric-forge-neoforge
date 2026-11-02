@@ -58,13 +58,13 @@ public class DawnOfTimeTeleport {
                     //&& sp.isSprinting()
                     && speed >= SPEED_THRESHOLD;
 
-            if (sp.age % 10 == 0) {
-                System.out.println("[DawnDebug] effect=" + (sp.hasStatusEffect(ModEffects.GLITCHSTERX.get()))
+            /*if (sp.age % 10 == 0) {
+                /*System.out.println("[DawnDebug] effect=" + (sp.hasStatusEffect(ModEffects.GLITCHSTERX.get()))
                         + " sprint=" + sp.isSprinting()
                         + " flying=" + flying
                         + " mode=" + sp.interactionManager.getGameMode()
                         + " speed=" + speed);
-            }
+            }*/
 
             if (!qualifies) {
                 FAST_TICKS.remove(id);

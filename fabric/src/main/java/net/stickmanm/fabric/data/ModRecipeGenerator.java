@@ -292,6 +292,24 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_FENCE_GATE.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_FENCE_GATE.get())));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_LANTERN.get(),16)
+                .pattern(" # ")
+                .pattern("#T#")
+                .pattern(" # ")
+                .input('#', ModItems.THUNDERANIUM_NUGGET.get())
+                .input('T', Blocks.TORCH)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_NUGGET.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_LANTERN.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_LANTERN.get())));
+
+        /*ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_LANTERN.get(),16)
+                .pattern("#L#")
+                .input('#', ModItems.THUNDERANIUM_NUGGET.get())
+                .input('L', Blocks.LANTERN)
+                .criterion("has_lantern_and_thunderanium_ingot",
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_NUGGET.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_LANTERN.get())));*/
+
 
         //Corrupted Wood
 
@@ -375,6 +393,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_PLANKS.get()),
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_FENCE_GATE.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_FENCE_GATE.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_LANTERN.get(),16)
+                .pattern(" # ")
+                .pattern("#T#")
+                .pattern(" # ")
+                .input('#', ModBlocks.CORRUPTION_BLOCK.get())
+                .input('T', ModBlocks.THUNDERED_LANTERN.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_LANTERN.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_LANTERN.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_LANTERN.get())));
 
 
         //IGNITERS
@@ -491,6 +519,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModItems.REFINED_THUNDERANIUM.get()),
                         FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_CLUSTER.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_CLUSTER.get())));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THUNDERANIUM_NUGGET.get(), 9)
+                .input(ModItems.THUNDERANIUM_INGOT.get())
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_INGOT.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_NUGGET.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_NUGGET.get())));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DARK_THUNDERANIUM_CLUSTER.get())
                 .pattern(" ##")

@@ -11,6 +11,7 @@ import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.mob.PathAwareEntity;
 import net.minecraft.entity.mob.WardenEntity;
 import net.minecraft.entity.mob.ZombifiedPiglinEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -59,6 +60,8 @@ public class LostMinerEntity extends PathAwareEntity implements GeoEntity {
         this.goalSelector.add(3, new WanderAroundFarGoal(this, 0.75f, 1));
         this.goalSelector.add(1, new LongDoorInteractGoal(this, false));
         this.targetSelector.add(1, new RevengeGoal(this, new Class[0]).setGroupRevenge(ZombifiedPiglinEntity.class));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, ThunderaniumGolemEntity.class, false));
+        this.targetSelector.add(1, new ActiveTargetGoal<>(this, IronGolemEntity.class, false));
 
 
 

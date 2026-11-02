@@ -47,6 +47,9 @@ public class ModItems {
     public static final RegistrySupplier<Item> THUNDERANIUM_INGOT = registerItem("thunderanium_ingot",
             () -> new Item(new Item.Settings().fireproof()));
 
+    public static final RegistrySupplier<Item> THUNDERANIUM_NUGGET = registerItem("thunderanium_nugget",
+            () -> new Item(new Item.Settings().fireproof()));
+
     public static final RegistrySupplier<Item> RED_ESSENCE = registerItem("red_essence",
             () -> new Item(new Item.Settings().fireproof()));
 
@@ -159,6 +162,9 @@ public class ModItems {
     public static final RegistrySupplier<Item> LOST_MINER_SPAWN_EGG = registerItem("lost_miner_spawn_egg",
             () -> new ArchitecturySpawnEggItem(ModEntities.LOST_MINER, 0x301934, 0xFFD700,
                     new Item.Settings()));
+
+    public static final RegistrySupplier<Item> THUNDERANIUM_GOLEM_SPAWN_EGG = registerItem("thunderanium_golem_spawn_egg",
+            () -> new ArchitecturySpawnEggItem(ModEntities.THUNDERANIUM_GOLEM, 0xA8A9AD, 0xFFD700, new Item.Settings()));
 
     //Lighters
     public static final RegistrySupplier<Item> MIMICARIUM_IGNITER = registerItem("mimicarium_igniter",

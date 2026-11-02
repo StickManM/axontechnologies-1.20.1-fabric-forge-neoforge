@@ -87,10 +87,12 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FAKESTONE.get());
         addDrop(ModBlocks.FAKESLATE.get());
         addDrop(ModBlocks.CHARGED_DIRT.get());
+        addDrop(ModBlocks.THUNDERED_LANTERN.get());
         addDrop(ModBlocks.THUNDERANIUM_PORTAL_FRAME.get());
         addDrop(ModBlocks.THUNDERED_STONE.get());
         addDrop(ModBlocks.CORRUPTED_DIRT.get());
         addDrop(ModBlocks.CORRUPTED_STONE.get());
+        addDrop(ModBlocks.CORRUPTED_LANTERN.get());
         addDrop(ModBlocks.CORRUPTION_PORTAL_FRAME.get());
         addDrop(ModBlocks.CORRUPTION_BLOCK.get());
 

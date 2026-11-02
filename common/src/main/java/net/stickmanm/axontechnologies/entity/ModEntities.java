@@ -40,6 +40,12 @@ public class ModEntities {
                     .setDimensions(0.6f,2f)
                     .build("genetically_modified_red_essence_zombie"));
 
+    public static final RegistrySupplier<EntityType<ThunderaniumGolemEntity>> THUNDERANIUM_GOLEM = registerEntity("thunderanium_golem",
+            () -> EntityType.Builder.create(ThunderaniumGolemEntity::new, SpawnGroup.MISC)
+                    .setDimensions(1.4f, 2.7f)
+                    .maxTrackingRange(10)
+                    .build("thunderanium_golem"));
+
     public static final RegistrySupplier<EntityType<ThunderaniumTntEntity>> THUNDERANIUM_TNT_ENTITY_TYPE = registerEntity("primed_thunderanium_tnt",
             () -> EntityType.Builder.<ThunderaniumTntEntity>create(ThunderaniumTntEntity::new, SpawnGroup.MISC)
                     .setDimensions(0.98F, 0.98F)
@@ -68,6 +74,7 @@ public class ModEntities {
         EntityAttributeRegistry.register(GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE, GeneticallyModifiedRedEssenceZombieEntity::setAttributes);
         EntityAttributeRegistry.register(DARK_ESSENCE_ZOMBIE, DarkEssenceZombieEntity::setAttributes);
         EntityAttributeRegistry.register(LOST_MINER, LostMinerEntity::setAttributes);
+        EntityAttributeRegistry.register(THUNDERANIUM_GOLEM, ThunderaniumGolemEntity::setAttributes);
     }
 }
 
