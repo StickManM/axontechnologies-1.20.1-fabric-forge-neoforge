@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "axontechnologies:thunderanium_nugget"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#T#",
+    " # "
+  ],
+  "result": {
+    "count": 16,
+    "item": "axontechnologies:thundered_lantern"
+  },
+  "show_notification": true
+}

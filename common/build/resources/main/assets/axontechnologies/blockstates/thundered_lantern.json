@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "axontechnologies:block/thundered_lantern"
+    },
+    "hanging=true": {
+      "model": "axontechnologies:block/thundered_lantern_hanging"
+    }
+  }
+}

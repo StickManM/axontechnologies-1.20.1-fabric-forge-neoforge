@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axontechnologies:thunderanium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "axontechnologies:thunderanium_nugget"
+  }
+}

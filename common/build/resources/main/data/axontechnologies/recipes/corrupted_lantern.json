@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "axontechnologies:corruption_block"
+    },
+    "T": {
+      "item": "axontechnologies:thundered_lantern"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#T#",
+    " # "
+  ],
+  "result": {
+    "count": 16,
+    "item": "axontechnologies:corrupted_lantern"
+  },
+  "show_notification": true
+}

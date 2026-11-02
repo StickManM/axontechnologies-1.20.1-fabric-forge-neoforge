@@ -1,0 +1,93 @@
+{
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/refined_thunderanium_from_smelting_thunderanium_ore": {
+    "criteria": {
+      "has_thunderanium_ore": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:axontechnologies/got_red_essence": {
+    "criteria": {
+      "got_red_essence": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/thunderanium_nugget": {
+    "criteria": {
+      "has_thunderanium_ingot": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_stairs": {
+    "criteria": {
+      "has_thundered_planks": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/misc/red_essence": {
+    "criteria": {
+      "has_renderium": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "axontechnologies:recipes/building_blocks/thundered_lantern": {
+    "criteria": {
+      "has_thunderanium_nugget": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-10-31 11:06:56 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
