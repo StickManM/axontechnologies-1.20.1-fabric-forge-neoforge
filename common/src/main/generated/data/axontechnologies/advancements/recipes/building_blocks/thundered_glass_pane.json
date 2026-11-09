@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thundered_glass_pane"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thundered_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:thundered_glass_pane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thundered_glass",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thundered_glass_pane"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 75,
+  "experience": 5.0,
+  "group": "corrupted_glass",
+  "ingredient": {
+    "item": "axontechnologies:corrupted_sand"
+  },
+  "result": "axontechnologies:corrupted_glass"
+}

@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-11-08 20:13:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2026-11-08 20:13:40 -0600",
+      "minecraft:plains": "2026-11-08 20:14:09 -0600"
+    },
+    "done": false
+  },
+  "axontechnologies:recipes/building_blocks/corrupted_planks": {
+    "criteria": {
+      "has_thundered_planks_convertible": "2026-11-08 20:14:33 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "axontechnologies:void_coal_ore",
+    "axontechnologies:dreadstone_thunderanium_ore",
+    "axontechnologies:thunderanium_tnt",
+    "axontechnologies:void_coal_block"
+  ]
+}

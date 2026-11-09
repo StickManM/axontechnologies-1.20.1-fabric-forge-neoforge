@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "axontechnologies:block/corrupted_burnt_torch"
+  }
+}

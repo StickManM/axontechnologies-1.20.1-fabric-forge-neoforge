@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "axontechnologies:block/corrupted_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "axontechnologies:block/corrupted_ladder"
+    },
+    "facing=south": {
+      "model": "axontechnologies:block/corrupted_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "axontechnologies:block/corrupted_ladder",
+      "y": 270
+    }
+  }
+}

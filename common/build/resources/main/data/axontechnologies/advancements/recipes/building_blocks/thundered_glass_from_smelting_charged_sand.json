@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_charged_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "axontechnologies:charged_sand"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thundered_glass_from_smelting_charged_sand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_charged_sand",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thundered_glass_from_smelting_charged_sand"
+    ]
+  },
+  "sends_telemetry_event": false
+}
