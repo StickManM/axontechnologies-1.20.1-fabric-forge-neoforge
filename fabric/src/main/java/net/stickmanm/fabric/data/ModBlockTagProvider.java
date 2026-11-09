@@ -88,7 +88,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.CORRUPTED_STAIRS.get())
                     .add(ModBlocks.CORRUPTED_SLAB.get())
                     .add(ModBlocks.CORRUPTED_DOOR.get())
-                    .add(ModBlocks.CORRUPTED_BUTTON.get());
+                    .add(ModBlocks.CORRUPTED_BUTTON.get())
+                    .add(ModBlocks.CORRUPTED_LADDER.get());
 
             getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                     .add(ModBlocks.CHARGED_DIRT.get())
@@ -119,6 +120,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.DREADSTONE_DIAMOND_ORE.get())
                     .add(ModBlocks.THUNDERANIUM_PORTAL_FRAME.get());
 
+
+            //Fabric Tags
             getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                     .add(ModBlocks.VOID_COAL_ORE.get())
                     .add(ModBlocks.DREADSTONE_THUNDERANIUM_ORE.get())
@@ -144,12 +147,69 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.CLDC_ORE.get())
                     .add(ModBlocks.DCDC_ORE.get());
 
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "ladder")))
+                    .add(ModBlocks.CORRUPTED_LADDER.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "glass")))
+                    .add(ModBlocks.CORRUPTED_GLASS.get())
+                    .add(ModBlocks.THUNDERED_GLASS.get())
+                    .add(ModBlocks.REINFORCED_DREADSTONE_GLASS.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "glass_pane")))
+                    .add(ModBlocks.THUNDERED_GLASS_PANE.get())
+                    .add(ModBlocks.CORRUPTED_GLASS_PANE.get());
+
+            //Forge Tags
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "needs_tool_level_4")))
+                    .add(ModBlocks.VOID_COAL_ORE.get())
+                    .add(ModBlocks.DREADSTONE_THUNDERANIUM_ORE.get())
+                    .add(ModBlocks.THUNDERANIUM_TNT.get())
+                    .add(ModBlocks.VOID_COAL_BLOCK.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "needs_tool_level_5")))
+                    .add(ModBlocks.THUNDERANIUM_ORE.get())
+                    .add(ModBlocks.RED_THUNDERANIUM_TNT.get())
+                    .add(ModBlocks.RENDERIUM_ORE.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "needs_tool_level_6")))
+                    .add(ModBlocks.CORRUPTINITE_ORE.get())
+                    .add(ModBlocks.DENDERIUM_ORE.get())
+                    .add(ModBlocks.CORRUPTION_PORTAL_FRAME.get())
+                    .add(ModBlocks.CORRUPTION_BLOCK.get())
+                    .addTag(ModBlockTags.REINFORCED_DREADSTONE);
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "needs_tool_level_10")))
+                    .add(ModBlocks.AXON_ALLOY_TNT.get())
+                    .add(ModBlocks.TLDC_ORE.get())
+                    .add(ModBlocks.MWDC_ORE.get())
+                    .add(ModBlocks.CLDC_ORE.get())
+                    .add(ModBlocks.DCDC_ORE.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "ladder")))
+                    .add(ModBlocks.CORRUPTED_LADDER.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "glass")))
+                    .add(ModBlocks.CORRUPTED_GLASS.get())
+                    .add(ModBlocks.THUNDERED_GLASS.get())
+                    .add(ModBlocks.REINFORCED_DREADSTONE_GLASS.get());
+
+            getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("forge", "glass_pane")))
+                    .add(ModBlocks.THUNDERED_GLASS_PANE.get())
+                    .add(ModBlocks.CORRUPTED_GLASS_PANE.get());
+
             getOrCreateTagBuilder(BlockTags.WALLS)
                     .add(ModBlocks.REINFORCED_DREADSTONE_WALL.get());
+
+            getOrCreateTagBuilder(BlockTags.CLIMBABLE)
+                    .add(ModBlocks.CORRUPTED_LADDER.get());
 
             getOrCreateTagBuilder(BlockTags.DIRT)
                     .add(ModBlocks.CHARGED_DIRT.get())
                     .add(ModBlocks.CORRUPTED_DIRT.get());
+
+            getOrCreateTagBuilder(BlockTags.SAND)
+                .add(ModBlocks.CHARGED_SAND.get())
+                .add(ModBlocks.CORRUPTED_SAND.get());
 
             getOrCreateTagBuilder(BlockTags.LOGS)
                     .add(ModBlocks.THUNDERED_LOG.get())

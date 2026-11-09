@@ -5,11 +5,16 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.VerticallyAttachableBlockItem;
+import net.minecraft.particle.ParticleEffect;
+import net.minecraft.particle.ParticleType;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.stickmanm.axontechnologies.AxonTechnologiesConstants;
 import net.stickmanm.axontechnologies.block.custom.AxonAlloyTntBlock;
@@ -137,6 +142,9 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> CHARGED_DIRT = registerBlock("charged_dirt",
             () -> new Block(Block.Settings.copy(Blocks.DIRT).strength(0.6f)));
 
+    public static final RegistrySupplier<Block> CHARGED_SAND = registerBlock("charged_sand",
+            () -> new SandBlock(0, Block.Settings.copy(Blocks.SAND).strength(0.4f)));
+
     public static final RegistrySupplier<Block> THUNDERED_STONE = registerBlock("thundered_stone",
             () -> new Block(Block.Settings.copy(Blocks.STONE).strength(2.1f).requiresTool()));
 
@@ -148,16 +156,25 @@ public class ModBlocks {
             () -> new ExperienceDroppingBlock(Block.Settings.copy(THUNDERED_STONE.get()).strength(2.5f).requiresTool().luminance(state -> 10),
                     UniformIntProvider.create(15, 25)));
 
+    public static final RegistrySupplier<Block> THUNDERED_GLASS = registerBlock("thundered_glass",
+            () -> new GlassBlock(Block.Settings.copy(Blocks.GLASS)));
+
+    public static final RegistrySupplier<Block> THUNDERED_GLASS_PANE = registerBlock("thundered_glass_pane",
+            () -> new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE)));
+
     public static final RegistrySupplier<Block> THUNDERED_LANTERN = registerBlock("thundered_lantern",
             () -> new LanternBlock(Block.Settings.copy(Blocks.LANTERN)));
 
     //Thundered Tree
     public static final RegistrySupplier<Block> THUNDERED_LOG = registerBlock("thundered_log",
             () -> new PillarBlock(Block.Settings.copy(Blocks.OAK_LOG).strength(2.0f)));
+
     public static final RegistrySupplier<Block> THUNDERED_WOOD = registerBlock("thundered_wood",
             () -> new PillarBlock(Block.Settings.copy(Blocks.OAK_WOOD).strength(2.0f)));
+
     public static final RegistrySupplier<Block> STRIPPED_THUNDERED_LOG = registerBlock("stripped_thundered_log",
             () -> new PillarBlock(Block.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)));
+
     public static final RegistrySupplier<Block> STRIPPED_THUNDERED_WOOD = registerBlock("stripped_thundered_wood",
             () -> new PillarBlock(Block.Settings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)));
 
@@ -199,8 +216,12 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> CORRUPTED_DIRT = registerBlock("corrupted_dirt",
             () -> new Block(Block.Settings.copy(CHARGED_DIRT.get()).strength(0.8f)));
 
+    public static final RegistrySupplier<Block> CORRUPTED_SAND = registerBlock("corrupted_sand",
+            () -> new SandBlock(0, Block.Settings.copy(ModBlocks.CHARGED_SAND.get()).strength(0.6f)));
+
     public static final RegistrySupplier<Block> CORRUPTED_STONE = registerBlock("corrupted_stone",
             () -> new Block(Block.Settings.copy(THUNDERED_STONE.get()).strength(2.3f).requiresTool()));
+
     public static final RegistrySupplier<Block> CORRUPTION_BLOCK = registerBlock("corruption_block",
             () -> new CorruptionBlock(Block.Settings.copy(THUNDERED_STONE.get()).strength(2.3f).requiresTool()));
 
@@ -214,6 +235,26 @@ public class ModBlocks {
 
     public static final RegistrySupplier<Block> CORRUPTED_LANTERN = registerBlock("corrupted_lantern",
             () -> new LanternBlock(Block.Settings.copy(Blocks.SOUL_LANTERN)));
+
+    public static final RegistrySupplier<Block> CORRUPTED_BURNT_TORCH = BLOCKS.register("corrupted_burnt_torch",
+            () -> new TorchBlock(Block.Settings.copy(Blocks.TORCH).luminance(state -> 0), ParticleTypes.ASH));
+
+    public static final RegistrySupplier<Block> CORRUPTED_BURNT_TORCH_WALL = BLOCKS.register("corrupted_burnt_torch_wall",
+            () -> new WallTorchBlock(Block.Settings.copy(Blocks.WALL_TORCH).luminance(state -> 0)
+                    .dropsLike(CORRUPTED_BURNT_TORCH.get()), ParticleTypes.ASH));
+
+    public static final RegistrySupplier<Item> CORRUPTED_BURNT_TORCH_ITEM = ModItems.ITEMS.register("corrupted_burnt_torch",
+            () -> new VerticallyAttachableBlockItem(CORRUPTED_BURNT_TORCH.get(), CORRUPTED_BURNT_TORCH_WALL.get(),
+                    new Item.Settings(), Direction.DOWN));
+
+    public static final RegistrySupplier<Block> CORRUPTED_GLASS = registerBlock("corrupted_glass",
+            () -> new GlassBlock(Block.Settings.copy(Blocks.GLASS)));
+
+    public static final RegistrySupplier<Block> CORRUPTED_GLASS_PANE = registerBlock("corrupted_glass_pane",
+            () -> new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE)));
+
+    public static final RegistrySupplier<Block> CORRUPTED_LADDER = registerBlock("corrupted_ladder",
+            () -> new LadderBlock(Block.Settings.copy(Blocks.LADDER)));
 
 
     //Corrupted Tree

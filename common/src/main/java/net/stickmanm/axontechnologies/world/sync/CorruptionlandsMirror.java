@@ -7,11 +7,7 @@ import dev.architectury.event.events.common.ExplosionEvent;
 import dev.architectury.event.events.common.InteractionEvent;
 import dev.architectury.event.events.common.TickEvent;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FluidBlock;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -182,6 +178,37 @@ public class CorruptionlandsMirror {
         if (state.isOf(ModBlocks.THUNDERANIUM_PORTAL_FRAME.get())) {
             return ModBlocks.CORRUPTION_PORTAL_FRAME.get().getDefaultState();
         }
+
+        //Lantern
+        if (state.isOf(Blocks.LANTERN) || state.isOf(Blocks.SOUL_LANTERN) || state.isOf(ModBlocks.THUNDERED_LANTERN.get()) || state.isOf(ModBlocks.CORRUPTED_LANTERN.get())) {
+            return ModBlocks.CORRUPTED_LANTERN.get().getDefaultState();
+        }
+
+        if (state.isOf(Blocks.TORCH) || state.isOf(Blocks.SOUL_TORCH) || state.isOf(Blocks.REDSTONE_TORCH) || state.isOf(ModBlocks.CORRUPTED_BURNT_TORCH.get())) {
+            return ModBlocks.CORRUPTED_BURNT_TORCH.get().getDefaultState();
+        }
+
+        if (state.isOf(Blocks.WALL_TORCH) || state.isOf(Blocks.SOUL_WALL_TORCH) || state.isOf(Blocks.REDSTONE_WALL_TORCH)
+                || state.isOf(ModBlocks.CORRUPTED_BURNT_TORCH_WALL.get())) {
+            return ModBlocks.CORRUPTED_BURNT_TORCH_WALL.get().getDefaultState()
+                    .with(WallTorchBlock.FACING, state.get(WallTorchBlock.FACING));
+        }
+
+        //Glass
+        if (state.isOf(Blocks.GLASS) || state.isOf(Blocks.TINTED_GLASS) || state.isOf(ModBlocks.THUNDERED_GLASS.get()) || state.isOf(ModBlocks.CORRUPTED_GLASS.get())) {
+            return ModBlocks.CORRUPTED_GLASS.get().getDefaultState();
+        }
+
+        if (state.isOf(Blocks.GLASS_PANE) || state.isOf(Blocks.GRAY_STAINED_GLASS_PANE) || state.isOf(ModBlocks.THUNDERED_GLASS_PANE.get()) || state.isOf(ModBlocks.CORRUPTED_GLASS_PANE.get())) {
+            return ModBlocks.CORRUPTED_GLASS_PANE.get().getDefaultState();
+        }
+
+        //Ladder
+        if (state.isOf(Blocks.LADDER) ||  state.isOf(ModBlocks.CORRUPTED_LADDER.get())) {
+            return ModBlocks.CORRUPTED_LADDER.get().getDefaultState();
+        }
+
+
 
         // Every wood set (vanilla, modded, thundered, corrupted) -> the corrupted wood set
         BlockState wood = convertWood(state);

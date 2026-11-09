@@ -76,6 +76,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerSmelting(exporter, List.of(ModBlocks.DENDERIUM_ORE.get()), RecipeCategory.MISC, ModItems.DENDERIUM.get(),
                 5f, 75, "denderium");
 
+        offerSmelting(exporter, List.of(ModBlocks.CHARGED_SAND.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_GLASS.get(),
+                5f, 75, "thundered_glass");
+
+        offerSmelting(exporter, List.of(ModBlocks.CORRUPTED_SAND.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_GLASS.get(),
+                5f, 75, "corrupted_glass");
+
 
         offerBlasting(exporter, List.of(ModItems.RAW_THUNDERANIUM.get()), RecipeCategory.MISC, ModItems.REFINED_THUNDERANIUM.get(),
                 5f, 75, "thunderanium");
@@ -100,6 +106,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerBlasting(exporter, List.of(ModBlocks.CLDC_ORE.get()), RecipeCategory.MISC, ModItems.CLDC.get(),
                 2000f, 250, "dimension_core");
+
+        offerBlasting(exporter, List.of(ModBlocks.CHARGED_SAND.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_GLASS.get(),
+                5f, 75, "thundered_glass");
+
+        offerBlasting(exporter, List.of(ModBlocks.CORRUPTED_SAND.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_GLASS.get(),
+                5f, 75, "corrupted_glass");
 
         //BLAST FURNACE +
         offerBlasting(exporter, List.of(Blocks.SAND), RecipeCategory.BUILDING_BLOCKS, Blocks.GLASS,
@@ -302,6 +314,14 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_LANTERN.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_LANTERN.get())));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_GLASS_PANE.get(),16)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.THUNDERED_GLASS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_GLASS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.THUNDERED_GLASS_PANE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.THUNDERED_GLASS_PANE.get())));
+
         /*ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.THUNDERED_LANTERN.get(),16)
                 .pattern("#L#")
                 .input('#', ModItems.THUNDERANIUM_NUGGET.get())
@@ -403,6 +423,14 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.THUNDERED_LANTERN.get()),
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_LANTERN.get()))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_LANTERN.get())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORRUPTED_GLASS_PANE.get(),16)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModBlocks.CORRUPTED_GLASS.get())
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CORRUPTED_GLASS.get()),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CORRUPTED_GLASS_PANE.get()))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.CORRUPTED_GLASS_PANE.get())));
 
 
         //IGNITERS

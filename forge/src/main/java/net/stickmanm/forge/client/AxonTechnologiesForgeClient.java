@@ -43,9 +43,16 @@ public class AxonTechnologiesForgeClient {
         event.enqueueWork(() -> {
             RenderLayers.setRenderLayer(ModBlocks.THUNDERED_SAPLING.get(), RenderLayer.getCutout());
             RenderLayers.setRenderLayer(ModBlocks.REINFORCED_DREADSTONE_GLASS.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.THUNDERED_GLASS.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.THUNDERED_GLASS_PANE.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_GLASS.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_GLASS_PANE.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_LADDER.get(), RenderLayer.getCutout());
             RenderLayers.setRenderLayer(ModBlocks.THUNDERED_LEAVES.get(), RenderLayer.getCutoutMipped());
             RenderLayers.setRenderLayer(ModBlocks.THUNDERED_LANTERN.get(), RenderLayer.getCutoutMipped());
             RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_LANTERN  .get(), RenderLayer.getCutoutMipped());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_BURNT_TORCH.get(), RenderLayer.getCutout());
+            RenderLayers.setRenderLayer(ModBlocks.CORRUPTED_BURNT_TORCH_WALL.get(), RenderLayer.getCutout());
         });
     }
 }

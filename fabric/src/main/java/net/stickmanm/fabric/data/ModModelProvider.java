@@ -94,12 +94,23 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FAKESLATE.get());
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHARGED_DIRT.get());
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHARGED_SAND.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THUNDERED_STONE.get());
         blockStateModelGenerator.registerLantern(ModBlocks.THUNDERED_LANTERN.get());
+        blockStateModelGenerator.registerGlassPane(ModBlocks.THUNDERED_GLASS.get(), ModBlocks.THUNDERED_GLASS_PANE.get());
+
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_STONE.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_DIRT.get());
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_SAND.get());
         blockStateModelGenerator.registerLantern(ModBlocks.CORRUPTED_LANTERN.get());
+        blockStateModelGenerator.registerTorch(ModBlocks.CORRUPTED_BURNT_TORCH.get(),ModBlocks.CORRUPTED_BURNT_TORCH_WALL.get());
+
+        //blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CORRUPTED_LADDER.get());
+        blockStateModelGenerator.excludeFromSimpleItemModelGeneration(ModBlocks.CORRUPTED_LADDER.get());
+
+        //blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTED_GLASS.get());
+        blockStateModelGenerator.registerGlassPane(ModBlocks.CORRUPTED_GLASS.get(), ModBlocks.CORRUPTED_GLASS_PANE.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTION_BLOCK.get());
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUPTINITE_ORE.get());
 

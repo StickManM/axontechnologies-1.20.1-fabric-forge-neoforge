@@ -196,13 +196,21 @@
   "block.axontechnologies.axon_alloy_tnt": "Axon Alloy TNT",
 
   "block.axontechnologies.charged_dirt": "Charged Dirt",
+  "block.axontechnologies.charged_sand": "Charged Sand",
   "block.axontechnologies.thundered_stone": "Thundered Stone",
   "block.axontechnologies.thundered_lantern": "Thundered Lantern",
+  "block.axontechnologies.thundered_glass": "Thundered Glass",
+  "block.axontechnologies.thundered_glass_pane": "Thundered Glass Pane",
 
   "block.axontechnologies.corrupted_dirt": "Corrupted Dirt",
+  "block.axontechnologies.corrupted_sand": "Corrupted Sand",
   "block.axontechnologies.corrupted_stone": "Corrupted Stone",
   "block.axontechnologies.corruption_block": "Corruption Block",
   "block.axontechnologies.corrupted_lantern": "Corrupted Lantern",
+  "block.axontechnologies.corrupted_burnt_torch": "Corrupted Burnt Torch",
+  "block.axontechnologies.corrupted_ladder": "Corrupted Ladder",
+  "block.axontechnologies.corrupted_glass": "Corrupted Glass",
+  "block.axontechnologies.corrupted_glass_pane": "Corrupted Glass Pane",
 
   "block.axontechnologies.thunderanium_portal_frame": "Thunderanium Portal Frame",
   "block.axontechnologies.mimicarium_portal_frame": "Mimicarium Portal Frame",

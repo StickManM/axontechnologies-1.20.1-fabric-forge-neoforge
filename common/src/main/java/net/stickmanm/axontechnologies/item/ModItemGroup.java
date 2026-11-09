@@ -235,14 +235,22 @@ public class ModItemGroup {
                         entries.add(ModBlocks.AXON_ALLOY_TNT.get());
 
                         entries.add(ModBlocks.CHARGED_DIRT.get());
+                        entries.add(ModBlocks.CHARGED_SAND.get());
                         entries.add(ModBlocks.THUNDERED_STONE.get());
                         entries.add(ModBlocks.THUNDERED_LANTERN.get());
+                        entries.add(ModBlocks.THUNDERED_GLASS.get());
+                        entries.add(ModBlocks.THUNDERED_GLASS_PANE.get());
                         entries.add(ModBlocks.THUNDERANIUM_ORE.get());
                         entries.add(ModBlocks.RENDERIUM_ORE.get());
 
                         entries.add(ModBlocks.CORRUPTED_DIRT.get());
+                        entries.add(ModBlocks.CORRUPTED_SAND.get());
                         entries.add(ModBlocks.CORRUPTED_STONE.get());
                         entries.add(ModBlocks.CORRUPTED_LANTERN.get());
+                        entries.add(ModBlocks.CORRUPTED_BURNT_TORCH.get());
+                        entries.add(ModBlocks.CORRUPTED_GLASS.get());
+                        entries.add(ModBlocks.CORRUPTED_GLASS_PANE.get());
+                        entries.add(ModBlocks.CORRUPTED_LADDER.get());
                         entries.add(ModBlocks.CORRUPTION_BLOCK.get());
                         entries.add(ModBlocks.CORRUPTINITE_ORE.get());
                         entries.add(ModBlocks.DENDERIUM_ORE.get());

@@ -27,8 +27,16 @@ public class AxonTechnologiesFabricClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_SAPLING.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.REINFORCED_DREADSTONE_GLASS.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_GLASS.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_GLASS_PANE.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_GLASS.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_GLASS_PANE.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_LADDER.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THUNDERED_LANTERN.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_LANTERN.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_BURNT_TORCH.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORRUPTED_BURNT_TORCH_WALL.get(), RenderLayer.getCutout());
+
 
         EntityRendererRegistry.register(ModEntities.RED_ESSENCE_ZOMBIE.get(), RedEssenceZombieRenderer::new);
         EntityRendererRegistry.register(ModEntities.GENETICALLY_MODIFIED_RED_ESSENCE_ZOMBIE.get(), GeneticallyModifiedRedEssenceZombieRenderer::new);
